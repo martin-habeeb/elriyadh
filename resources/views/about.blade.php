@@ -6440,15 +6440,15 @@
                                                                     <div data-id="319" data-type="events" class="has-title no-description state-closed vamtam-project hover-animation-1 cbp-item post-319 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-events" style="width: 20%">
                                                                         <div class="portfolio-item-wrapper">
                                                                             <div class="portfolio_details">
-                                                                                <a href="/portfolio/maintain/" class="project-title " target="_self">
+                                                                                <a href="/portfolio/somerset/" class="project-title " target="_self">
                                                                                             <span class="text-wrapper">
-                                                                                                <span class="title">Maintain </span>
+                                                                                                <span class="title">Checking </span>
                                                                                             </span>
                                                                                 </a>
-                                                                                <a href="/portfolio/maintain/" class="link-read-more">Case study →</a>
+                                                                                <a href="/portfolio/somerset/" class="link-read-more">Case study →</a>
                                                                             </div>
                                                                             <div class="portfolio-image">
-                                                                                <a href="/portfolio/maintain/" class="meta " target="_self">
+                                                                                <a href="/portfolio/somerset/" class="meta " target="_self">
                                                                                     <div class="vamtam-responsive-wrapper">
                                                                                         <img width="292" height="225" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20292%20225'%3E%3C/svg%3E" class="attachment-theme-loop-4 size-theme-loop-4 wp-post-image" alt="" decoding="async" data-lazy-srcset="/wp-content/uploads/2017/09/checking-conditioner.jpg 292w, /wp-content/uploads/2017/09/checking-conditioner.jpg 615w, /wp-content/uploads/2017/09/checking-conditioner.jpg 400w, /wp-content/uploads/2017/09/checking-conditioner.jpg 800w, /wp-content/uploads/2017/09/checking-conditioner.jpg 585w" data-lazy-sizes="(min-width: 900px) 50vw, 100vw" data-attachment-id="14807" data-permalink="/portfolio/maintain/gallery1-r/" data-orig-file="/wp-content/uploads/2017/09/checking.jpg" data-orig-size="1200,732" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="gallery1-r" data-image-description="" data-image-caption="" data-medium-file="/wp-content/uploads/2017/09/checking.jpg" data-large-file="/wp-content/uploads/2017/09/checking.jpg" data-lazy-src="/wp-content/uploads/2017/09/checking.jpg"/>
                                                                                         <noscript>
@@ -6462,15 +6462,15 @@
                                                                     <div data-id="10027" data-type="gardens" class="has-title no-description state-closed vamtam-project hover-animation-1 cbp-item post-10027 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-gardens" style="width: 20%">
                                                                         <div class="portfolio-item-wrapper">
                                                                             <div class="portfolio_details">
-                                                                                <a href="/portfolio/wimbledon/" class="project-title " target="_self">
+                                                                                <a href="/portfolio/ac/" class="project-title " target="_self">
                                                                                             <span class="text-wrapper">
-                                                                                                <span class="title">Wimbledon </span>
+                                                                                                <span class="title">Checking </span>
                                                                                             </span>
                                                                                 </a>
-                                                                                <a href="/portfolio/wimbledon/" class="link-read-more">Case study →</a>
+                                                                                <a href="/portfolio/ac/" class="link-read-more">Case study →</a>
                                                                             </div>
                                                                             <div class="portfolio-image">
-                                                                                <a href="/portfolio/wimbledon/" class="meta " target="_self">
+                                                                                <a href="/portfolio/ac/" class="meta " target="_self">
                                                                                     <div class="vamtam-responsive-wrapper">
                                                                                         <img width="315" height="242" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20315%20242'%3E%3C/svg%3E" class="attachment-theme-loop-4 size-theme-loop-4 wp-post-image" alt="" decoding="async" data-lazy-srcset="/wp-content/uploads/2017/09/checking.jpg 327w, /wp-content/uploads/2017/09/checking.jpg 685w, /wp-content/uploads/2017/09/checking.jpg 446w, /wp-content/uploads/2017/09/checking.jpg 893w, /wp-content/uploads/2017/09/checking.jpg 655w" data-lazy-sizes="(min-width: 900px) 50vw, 100vw" data-attachment-id="13831" data-permalink="/portfolio/wimbledon/gallery2/" data-orig-file="/wp-content/uploads/2017/09/checking.jpg" data-orig-size="1200,811" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="gallery2" data-image-description="" data-image-caption="" data-medium-file="/wp-content/uploads/2015/02/gallery2-600x406.jpg" data-large-file="/wp-content/uploads/2015/02/gallery2.jpg" data-lazy-src="/wp-content/uploads/2017/09/checking.jpg"/>
                                                                                         <noscript>
@@ -6484,15 +6484,15 @@
                                                                     <div data-id="9898" data-type="interiors" class="has-title no-description state-closed vamtam-project hover-animation-1 cbp-item post-9898 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-interiors" style="width: 20%">
                                                                         <div class="portfolio-item-wrapper">
                                                                             <div class="portfolio_details">
-                                                                                <a href="/portfolio/holly/" class="project-title " target="_self">
+                                                                                <a href="/portfolio/maintain/" class="project-title " target="_self">
                                                                                             <span class="text-wrapper">
-                                                                                                <span class="title">Holly </span>
+                                                                                                <span class="title">AC </span>
                                                                                             </span>
                                                                                 </a>
-                                                                                <a href="/portfolio/holly/" class="link-read-more">Case study →</a>
+                                                                                <a href="/portfolio/maintain/" class="link-read-more">Case study →</a>
                                                                             </div>
                                                                             <div class="portfolio-image">
-                                                                                <a href="/portfolio/holly/" class="meta " target="_self">
+                                                                                <a href="/portfolio/maintain/" class="meta " target="_self">
                                                                                     <div class="vamtam-responsive-wrapper">
                                                                                         <img width="292" height="225" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20292%20225'%3E%3C/svg%3E" class="attachment-theme-loop-4 size-theme-loop-4 wp-post-image" alt="" decoding="async" data-lazy-srcset="/wp-content/uploads/maintance2.jpg 292w, /wp-content/uploads/2015/01/gallery3-r-615x473.jpg 615w, /wp-content/uploads/2015/01/gallery3-r-400x307.jpg 400w, /wp-content/uploads/maintance2.jpg 800w, /wp-content/uploads/maintance2.jpg 585w" data-lazy-sizes="(min-width: 900px) 50vw, 100vw" data-attachment-id="14809" data-permalink="/portfolio/holly/gallery3-r/" data-orig-file="/wp-content/uploads/maintance2.jpg" data-orig-size="1200,801" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="gallery3-r" data-image-description="" data-image-caption="" data-medium-file="/wp-content/uploads/maintance2.jpg" data-large-file="/wp-content/uploads/maintance2.jpg" data-lazy-src="/wp-content/uploads/maintance2.jpg"/>
                                                                                         <noscript>
@@ -6504,6 +6504,28 @@
                                                                         </div>
                                                                     </div>
 
+                                                                    <div data-id="9898" data-type="interiors" class="has-title no-description state-closed vamtam-project hover-animation-1 cbp-item post-9898 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-interiors" style="width: 20%">
+                                                                        <div class="portfolio-item-wrapper">
+                                                                            <div class="portfolio_details">
+                                                                                <a href="/portfolio/sf/" class="project-title " target="_self">
+                                                                                            <span class="text-wrapper">
+                                                                                                <span class="title">AC </span>
+                                                                                            </span>
+                                                                                </a>
+                                                                                <a href="/portfolio/sf/" class="link-read-more">Case study →</a>
+                                                                            </div>
+                                                                            <div class="portfolio-image">
+                                                                                <a href="/portfolio/sf/" class="meta " target="_self">
+                                                                                    <div class="vamtam-responsive-wrapper">
+                                                                                        <img width="292" height="225" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20292%20225'%3E%3C/svg%3E" class="attachment-theme-loop-4 size-theme-loop-4 wp-post-image" alt="" decoding="async" data-lazy-srcset="/wp-content/uploads/sf1.jpg 292w, /wp-content/uploads/sf1.jpg 615w, /wp-content/uploads/sf1.jpg 400w, /wp-content/uploads/sf1.jpg 800w, /wp-content/uploads/sf1.jpg 585w" data-lazy-sizes="(min-width: 900px) 50vw, 100vw" data-attachment-id="14809" data-permalink="/portfolio/maintain/gallery3-r/" data-orig-file="/wp-content/uploads/sf1.jpg" data-orig-size="1200,801" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="gallery3-r" data-image-description="" data-image-caption="" data-medium-file="/wp-content/uploads/sf1.jpg" data-large-file="/wp-content/uploads/sf1.jpg" data-lazy-src="/wp-content/uploads/sf1.jpg"/>
+                                                                                        <noscript>
+                                                                                            <img width="292" height="225" src="/wp-content/uploads/sf1.jpg" class="attachment-theme-loop-4 size-theme-loop-4 wp-post-image" alt="" decoding="async" srcset="/wp-content/uploads/sf1.jpg 292w, /wp-content/uploads/sf1.jpg 615w, /wp-content/uploads/2015/01/gallery3-r-400x307.jpg 400w, /wp-content/uploads/maintance2.jpg 800w,/wp-content/uploads/maintance2.jpg  585w" sizes="(min-width: 900px) 50vw, 100vw" data-attachment-id="14809" data-permalink="/portfolio/holly/gallery3-r/" data-orig-file="/wp-content/uploads/maintance2.jpg" data-orig-size="1200,801" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="gallery3-r" data-image-description="" data-image-caption="" data-medium-file="/wp-content/uploads/sf1.jpg" data-large-file="/wp-content/uploads/sf1.jpg"/>
+                                                                                        </noscript>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
 
                                                                 </div>
                                                             </section>
@@ -6617,7 +6639,7 @@
                                                         <div class="fl-module-content fl-node-content">
                                                             <div class="fl-photo fl-photo-align-center" itemscope itemtype="http://schema.org/ImageObject">
                                                                 <div class="fl-photo-content fl-photo-img-jpg">
-                                                                    <a href="/gardens/" target="_self" itemprop="url" title="pic1">
+                                                                    <a  target="_self" itemprop="url" title="pic1">
                                                                         <img decoding="async" class="fl-photo-img wp-image-13322 size-full vamtam-lazyload-noparent" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20400%20460'%3E%3C/svg%3E" alt="pic1" itemprop="image" height="460" width="400" data-link-type="url" title="pic1" data-lazy-sizes="(max-width: 768px) 100vw, (min-width: 1260px) 315px,25vw" data-lazy-srcset="/wp-content/uploads/2017/09/checking.jpg 400w, /wp-content/uploads/2016/12/pic1-4-315x362.jpg 315w, /wp-content/uploads/2017/09/checking-327x376.jpg 327w" data-lazy-src="/wp-content/uploads/2017/09/checking.jpg"/>
                                                                         <noscript>
                                                                             <img decoding="async" class="fl-photo-img wp-image-13322 size-full vamtam-lazyload-noparent" src="/wp-content/uploads/2017/09/checking.jpg" alt="pic1" itemprop="image" height="460" width="400" data-link-type="url" title="pic1" sizes="(max-width: 768px) 100vw, (min-width: 1260px) 315px,25vw" srcset="/wp-content/uploads/2017/09/checking.jpg 400w, /wp-content/uploads/2017/09/checking.jpg 315w, /wp-content/uploads/2016/12/pic1-4-327x376.jpg 327w"/>
@@ -6631,20 +6653,12 @@
                                                         <div class="fl-col fl-node-596fec2155cbd" data-node="596fec2155cbd">
                                                             <div class="fl-col-content fl-node-content">
                                                                 <div class="fl-module fl-module-vamtam-icon fl-node-596fec2155d38" data-node="596fec2155d38">
-                                                                    <div class="fl-module-content fl-node-content">
-                                                                                <span class="fl-icon-wrap">
-                                                                                    <span class="fl-icon">
-                                                                                        <a href="/gardens/" target="_self">
-                                                                                            <img src="/wp-content/uploads/icon-1.png" ></img>
-                                                                                        </a>
-                                                                                    </span>
-                                                                                </span>
-                                                                    </div>
+
                                                                 </div>
                                                                 <div class="fl-module fl-module-vamtam-heading fl-node-596fec2155cfb" data-node="596fec2155cfb">
                                                                     <div class="fl-module-content fl-node-content">
                                                                         <h3 class="vamtam-heading ">
-                                                                            <a href="/gardens/" title="Gardens" target="_self">
+                                                                            <a  title="Gardens" target="_self">
                                                                                 <span class="vamtam-heading-text">Installing ACs</span>
                                                                             </a>
                                                                         </h3>
@@ -6661,7 +6675,7 @@
                                                         <div class="fl-module-content fl-node-content">
                                                             <div class="fl-photo fl-photo-align-center" itemscope itemtype="http://schema.org/ImageObject">
                                                                 <div class="fl-photo-content fl-photo-img-jpg">
-                                                                    <a href="/urban/" target="_self" itemprop="url" title="pic2">
+                                                                    <a target="_self" itemprop="url" title="pic2">
                                                                         <img decoding="async" class="fl-photo-img wp-image-13323 size-full vamtam-lazyload-noparent" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20400%20460'%3E%3C/svg%3E" alt="pic2" itemprop="image" height="460" width="400" data-link-type="url" title="pic2" data-lazy-sizes="(max-width: 768px) 100vw, (min-width: 1260px) 315px,25vw" data-lazy-srcset="/wp-content/uploads/2017/09/checking-conditioner.jpg 400w, /wp-content/uploads/2016/12/pic2-5-315x362.jpg 315w, /wp-content/uploads/2016/12/pic2-5-327x376.jpg 327w" data-lazy-src="/wp-content/uploads/2017/09/checking-conditioner.jpg"/>
                                                                         <noscript>
                                                                             <img decoding="async" class="fl-photo-img wp-image-13323 size-full vamtam-lazyload-noparent" src="/wp-content/uploads/2017/09/checking-conditioner.jpg" alt="pic2" itemprop="image" height="460" width="400" data-link-type="url" title="pic2" sizes="(max-width: 768px) 100vw, (min-width: 1260px) 315px,25vw" srcset="/wp-content/uploads/2017/09/checking-conditioner.jpg 400w, /wp-content/uploads/2016/12/pic2-5-315x362.jpg 315w, /wp-content/uploads/2016/12/pic2-5-327x376.jpg 327w"/>
@@ -6675,20 +6689,12 @@
                                                         <div class="fl-col fl-node-596fec2155dfa" data-node="596fec2155dfa">
                                                             <div class="fl-col-content fl-node-content">
                                                                 <div class="fl-module fl-module-vamtam-icon fl-node-596fec2155ea5" data-node="596fec2155ea5">
-                                                                    <div class="fl-module-content fl-node-content">
-                                                                                <span class="fl-icon-wrap">
-                                                                                    <span class="fl-icon">
-                                                                                        <a href="/urban/" target="_self">
-                                                                                        <img src="/wp-content/uploads/2017/09/repair.png" class="size: 10px;" ></img>
-                                                                                        </a>
-                                                                                    </span>
-                                                                                </span>
-                                                                    </div>
+
                                                                 </div>
                                                                 <div class="fl-module fl-module-vamtam-heading fl-node-596fec2155e4c" data-node="596fec2155e4c">
                                                                     <div class="fl-module-content fl-node-content">
                                                                         <h3 class="vamtam-heading ">
-                                                                            <a href="/urban/" title="Urban" target="_self">
+                                                                            <a  title="Urban" target="_self">
                                                                                 <span class="vamtam-heading-text">Maintenance</span>
                                                                             </a>
                                                                         </h3>
@@ -6705,7 +6711,7 @@
                                                         <div class="fl-module-content fl-node-content">
                                                             <div class="fl-photo fl-photo-align-center" itemscope itemtype="http://schema.org/ImageObject">
                                                                 <div class="fl-photo-content fl-photo-img-jpg">
-                                                                    <a href="/maintenance/" target="_self" itemprop="url" title="pic3">
+                                                                    <a  target="_self" itemprop="url" title="pic3">
                                                                         <img decoding="async" class="fl-photo-img wp-image-13324 size-full vamtam-lazyload-noparent" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20400%20460'%3E%3C/svg%3E" alt="pic3" itemprop="image" height="460" width="400" data-link-type="url" title="pic3" data-lazy-sizes="(max-width: 768px) 100vw, (min-width: 1260px) 315px,25vw" data-lazy-srcset="/wp-content/uploads/transport.jpg 400w, /wp-content/uploads/2016/12/pic3-3-315x362.jpg 315w, /wp-content/uploads/2016/12/pic3-3-327x376.jpg 327w" data-lazy-src="/wp-content/uploads/transport.jpg"/>
                                                                         <noscript>
                                                                             <img decoding="async" class="fl-photo-img wp-image-13324 size-full vamtam-lazyload-noparent" src="/wp-content/uploads/transport.jpg" alt="pic3" itemprop="image" height="460" width="400" data-link-type="url" title="pic3" sizes="(max-width: 768px) 100vw, (min-width: 1260px) 315px,25vw" srcset="/wp-content/uploads/transport.jpg 400w, /wp-content/uploads/2016/12/pic3-3-315x362.jpg 315w, /wp-content/uploads/2016/12/pic3-3-327x376.jpg 327w"/>
@@ -6719,20 +6725,12 @@
                                                         <div class="fl-col fl-node-596fec2155f6f" data-node="596fec2155f6f">
                                                             <div class="fl-col-content fl-node-content">
                                                                 <div class="fl-module fl-module-vamtam-icon fl-node-596fec2156010" data-node="596fec2156010">
-                                                                    <div class="fl-module-content fl-node-content">
-                                                                                <span class="fl-icon-wrap">
-                                                                                    <span class="fl-icon">
-                                                                                        <a href="/maintenance/" target="_self">
-                                                                                        <img src="/wp-content/uploads/icon-1.png" ></img>
-                                                                                        </a>
-                                                                                    </span>
-                                                                                </span>
-                                                                    </div>
+
                                                                 </div>
                                                                 <div class="fl-module fl-module-vamtam-heading fl-node-596fec2155fab" data-node="596fec2155fab">
                                                                     <div class="fl-module-content fl-node-content">
                                                                         <h3 class="vamtam-heading ">
-                                                                            <a href="/maintenance/" title="Maintenance" target="_self">
+                                                                            <a title="Maintenance" target="_self">
                                                                                 <span class="vamtam-heading-text">Shipping</span>
                                                                             </a>
                                                                         </h3>
@@ -6749,7 +6747,7 @@
                                                         <div class="fl-module-content fl-node-content">
                                                             <div class="fl-photo fl-photo-align-center" itemscope itemtype="http://schema.org/ImageObject">
                                                                 <div class="fl-photo-content fl-photo-img-jpg">
-                                                                    <a href="/events/" target="_self" itemprop="url" title="pic4">
+                                                                    <a  target="_self" itemprop="url" title="pic4">
                                                                         <img decoding="async" class="fl-photo-img wp-image-13321 size-full vamtam-lazyload-noparent" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20400%20460'%3E%3C/svg%3E" alt="pic4" itemprop="image" height="460" width="400" data-link-type="url" title="pic4" data-lazy-sizes="(max-width: 768px) 100vw, (min-width: 1260px) 315px,25vw" data-lazy-srcset="/wp-content/uploads/shipping2.jpg 400w, /wp-content/uploads/2016/12/pic4-2-315x362.jpg 315w, /wp-content/uploads/2016/12/pic4-2-327x376.jpg 327w" data-lazy-src="/wp-content/uploads/shipping2.jpg"/>
                                                                         <noscript>
                                                                             <img decoding="async" class="fl-photo-img wp-image-13321 size-full vamtam-lazyload-noparent" src="/wp-content/uploads/shipping2.jpg" alt="pic4" itemprop="image" height="460" width="400" data-link-type="url" title="pic4" sizes="(max-width: 768px) 100vw, (min-width: 1260px) 315px,25vw" srcset="/wp-content/uploads/shipping2.jpg 400w, /wp-content/uploads/2016/12/pic4-2-315x362.jpg 315w, /wp-content/uploads/2016/12/pic4-2-327x376.jpg 327w"/>
@@ -6763,20 +6761,13 @@
                                                         <div class="fl-col fl-node-596fec21560fe" data-node="596fec21560fe">
                                                             <div class="fl-col-content fl-node-content">
                                                                 <div class="fl-module fl-module-vamtam-icon fl-node-596fec2156181" data-node="596fec2156181">
-                                                                    <div class="fl-module-content fl-node-content">
-                                                                                <span class="fl-icon-wrap">
-                                                                                    <span class="fl-icon">
-                                                                                        <a href="/events/" target="_self">
-                                                                                        <img src="/wp-content/uploads/icon-2.png" ></img>                                                                                        </a>
-                                                                                    </span>
-                                                                                </span>
-                                                                    </div>
+
                                                                 </div>
                                                                 <div class="fl-module fl-module-vamtam-heading fl-node-596fec2156142" data-node="596fec2156142">
                                                                     <div class="fl-module-content fl-node-content">
                                                                         <h3 class="vamtam-heading ">
-                                                                            <a href="/events/" title="Events" target="_self">
-                                                                                <span class="vamtam-heading-text">Events</span>
+                                                                            <a  title="Events" target="_self">
+                                                                                <span class="vamtam-heading-text">Transporting</span>
                                                                             </a>
                                                                         </h3>
                                                                     </div>
@@ -6803,7 +6794,7 @@
                                                                 <div class="fl-module fl-module-vamtam-button fl-node-596fec215637c" data-node="596fec215637c">
                                                                     <div class="fl-module-content fl-node-content">
                                                                         <div class="vamtam-button-wrap vamtam-button-width-auto" style="text-align:left">
-                                                                            <a href="/services" target="_self" class="vamtam-button accent1 hover-accent2 button-underline icon-animation-disable" role="button" style="font-size:14px;line-height:16px;padding:1px 0px;">
+                                                                            <a href="/services"target="_self" class="vamtam-button accent1 hover-accent2 button-underline icon-animation-disable" role="button" style="font-size:14px;line-height:16px;padding:1px 0px;">
                                                                                 <span class="vamtam-button-text">View all service</span>
                                                                             </a>
                                                                         </div>
@@ -6999,17 +6990,11 @@
                                                                 <div class="fl-module fl-module-vamtam-heading fl-node-597119bf42870" data-node="597119bf42870">
                                                                     <div class="fl-module-content fl-node-content">
                                                                         <h2 class="vamtam-heading ">
-                                                                            <span class="vamtam-heading-text">Bring nature in your home.</span>
+                                                                            <span class="vamtam-heading-text">We Handle Eveything For You.</span>
                                                                         </h2>
                                                                     </div>
                                                                 </div>
-                                                                <div class="fl-module fl-module-vamtam-heading fl-node-597119bf428ea" data-node="597119bf428ea">
-                                                                    <div class="fl-module-content fl-node-content">
-                                                                        <h4 class="vamtam-heading ">
-                                                                            <span class="vamtam-heading-text">We don’t cut corners to maximize our profit.</span>
-                                                                        </h4>
-                                                                    </div>
-                                                                </div>
+
                                                                 <div
                                                                     class="fl-module fl-module-vamtam-ninja-form fl-node-597119bf428ad"
                                                                     data-node="597119bf428ad">
@@ -7025,39 +7010,30 @@
                                                                              role="form">
                                                                             <div class="nf-loading-spinner"></div>
                                                                         </div>
-                                                                        <form action="" method="post"
-                                                                              action="{{ route('contact.store') }}">
+                                                                        <form action="" method="post" action="{{ route('contact.store') }}">
                                                                             <!-- CROSS Site Request Forgery Protection -->
                                                                             @csrf
                                                                             <div class="form-group">
-                                                                                <label>Name</label>
-                                                                                <input type="text" class="form-control"
-                                                                                       name="name" id="name">
+
+                                                                                <input type="text" class="form-control" name="name" placeholder="Name" id="name">
                                                                             </div>
                                                                             <div class="form-group">
-                                                                                <label>Email</label>
-                                                                                <input type="email" class="form-control"
-                                                                                       name="email" id="email">
+
+                                                                                <input type="email" class="form-control" name="email" placeholder="Email" id="email">
                                                                             </div>
                                                                             <div class="form-group">
-                                                                                <label>Phone</label>
-                                                                                <input type="text" class="form-control"
-                                                                                       name="phone" id="phone">
+
+                                                                                <input type="text" class="form-control" name="phone" placeholder="Phone" id="phone">
                                                                             </div>
                                                                             <div class="form-group">
-                                                                                <label>Subject</label>
-                                                                                <input type="text" class="form-control"
-                                                                                       name="subject" id="subject">
+
+                                                                                <input type="text" class="form-control" name="subject" placeholder="Subject" id="subject">
                                                                             </div>
                                                                             <div class="form-group">
-                                                                                <label>Message</label>
-                                                                                <textarea class="form-control"
-                                                                                          name="message" id="message"
-                                                                                          rows="4"></textarea>
+
+                                                                                <textarea class="form-control" name="message" placeholder="Message" id="message" rows="4"></textarea>
                                                                             </div>
-                                                                            <input type="submit" name="send"
-                                                                                   value="Submit"
-                                                                                   class="btn btn-dark btn-block">
+                                                                            <input type="submit" name="send" value="Submit" class="btn btn-dark btn-block">
                                                                         </form>
                                                                     </div>
                                                                 </div>

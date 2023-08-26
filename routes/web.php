@@ -31,6 +31,21 @@ Route::get('/services', function () {
     return view('services');
 });
 
+Route::get('/portfolio/somerset', function () {
+    return view('portfolio/somerset/index');
+});
+
+Route::get('/portfolio/ac', function () {
+    return view('portfolio/ac/index');
+});
+
+Route::get('/portfolio/sf', function () {
+    return view('portfolio/sf/index');
+});
+
+Route::get('/portfolio/maintain', function () {
+    return view('portfolio/maintain/index');
+});
 
 Route::get('/reviews', [CommentController::class, 'show']);
 Route::post('/reviews/store', [CommentController::class, 'store']);

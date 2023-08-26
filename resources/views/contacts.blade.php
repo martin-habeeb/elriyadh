@@ -6373,17 +6373,11 @@
                                                                 <div class="fl-module fl-module-vamtam-heading fl-node-5972231b53833" data-node="5972231b53833">
                                                                     <div class="fl-module-content fl-node-content">
                                                                         <h4 class="vamtam-heading ">
-                                                                            <span class="vamtam-heading-text">Bring nature in your home.</span>
+                                                                            <span class="vamtam-heading-text">We Made It Easy For You.</span>
                                                                         </h4>
                                                                     </div>
                                                                 </div>
-                                                                <div class="fl-module fl-module-vamtam-heading fl-node-5972231b538ae" data-node="5972231b538ae">
-                                                                    <div class="fl-module-content fl-node-content">
-                                                                        <h4 class="vamtam-heading ">
-                                                                            <span class="vamtam-heading-text">We don’t cut corners to maximize our profit.</span>
-                                                                        </h4>
-                                                                    </div>
-                                                                </div>
+
                                                                 <div class="fl-module fl-module-vamtam-ninja-form fl-node-597119bf428ad" data-node="597119bf428ad">
                                                                     <div class="fl-module-content fl-node-content">
                                                                         <noscript class="ninja-forms-noscript-message">Notice: JavaScript is required for this content.</noscript>
@@ -6394,24 +6388,24 @@
                                                                             <!-- CROSS Site Request Forgery Protection -->
                                                                             @csrf
                                                                             <div class="form-group">
-                                                                                <label>Name</label>
-                                                                                <input type="text" class="form-control" name="name" id="name">
+
+                                                                                <input type="text" class="form-control" name="name" placeholder="Name" id="name">
                                                                             </div>
                                                                             <div class="form-group">
-                                                                                <label>Email</label>
-                                                                                <input type="email" class="form-control" name="email" id="email">
+
+                                                                                <input type="email" class="form-control" name="email" placeholder="Email" id="email">
                                                                             </div>
                                                                             <div class="form-group">
-                                                                                <label>Phone</label>
-                                                                                <input type="text" class="form-control" name="phone" id="phone">
+
+                                                                                <input type="text" class="form-control" name="phone" placeholder="Phone" id="phone">
                                                                             </div>
                                                                             <div class="form-group">
-                                                                                <label>Subject</label>
-                                                                                <input type="text" class="form-control" name="subject" id="subject">
+
+                                                                                <input type="text" class="form-control" name="subject" placeholder="Subject" id="subject">
                                                                             </div>
                                                                             <div class="form-group">
-                                                                                <label>Message</label>
-                                                                                <textarea class="form-control" name="message" id="message" rows="4"></textarea>
+
+                                                                                <textarea class="form-control" name="message" placeholder="Message" id="message" rows="4"></textarea>
                                                                             </div>
                                                                             <input type="submit" name="send" value="Submit" class="btn btn-dark btn-block">
                                                                         </form>
