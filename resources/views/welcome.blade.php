@@ -6401,7 +6401,7 @@
                                               data-frame_0="tp:600;" data-frame_1="tp:600;sR:10;"
                                               data-frame_999="o:0;tp:600;st:w;sR:8690;sA:9000;" style="z-index:5;">
                                         <rs-layer id="slider-72-slide-227-layer-4" data-type="image" data-rsp_ch="on"
-                                                  data-xy="x:c;xo:-7px,-95px,-81px,98px;y:b;yo:-15px,17px,17px,63px;"
+                                                  data-xy="x:c;xo:-7px,-2px,-2px,140px;y:b;yo:-15px,17px,17px,40px;"
                                                   data-pos="a" data-text="l:22;a:inherit;"
                                                   data-dim="w:['99','99','99','99'];h:['100','100','100','100'];"
                                                   data-frame_0="sX:0.8;sY:0.8;tp:600;"
@@ -6624,7 +6624,7 @@
                                                                         <div class="fl-module-content fl-node-content">
                                                                                 <span class="fl-icon-wrap">
                                                                                     <span class="fl-icon">
-                                                                                        <a href="/gardens/"
+                                                                                        <a
                                                                                            target="_self">
                                                                                             <img
                                                                                                 src="{{ asset('wp-content/uploads/fastandeasy.png')}}">
@@ -6638,7 +6638,7 @@
                                                                         data-node="59aafad21a64a">
                                                                         <div class="fl-module-content fl-node-content">
                                                                             <h3 class="vamtam-heading ">
-                                                                                <a href="/gardens/" title="Gardens"
+                                                                                <a  title="Gardens"
                                                                                    target="_self">
                                                                                     <span class="vamtam-heading-text">Fast and Easy</span>
                                                                                 </a>
@@ -6655,7 +6655,7 @@
                                                                     <div class="fl-module fl-module-vamtam-button fl-node-59aafad21ac04" data-node="59aafad21ac04">
                                                                         <div class="fl-module-content fl-node-content">
                                                                             <div class="vamtam-button-wrap vamtam-button-width-auto" style="text-align:center">
-                                                                                <a href="/gardens/" target="_self" class="vamtam-button accent1 hover-accent2 button-underline icon-animation-disable" role="button" style="font-size:14px;line-height:16px;padding:1px 0px;">
+                                                                                <a  target="_self" class="vamtam-button accent1 hover-accent2 button-underline icon-animation-disable" role="button" style="font-size:14px;line-height:16px;padding:1px 0px;">
                                                                                 </a>
                                                                             </div>
                                                                         </div>
@@ -6671,7 +6671,7 @@
                                                                         <div class="fl-module-content fl-node-content">
                                                                                 <span class="fl-icon-wrap">
                                                                                     <span class="fl-icon">
-                                                                                        <a href="/urban/"
+                                                                                        <a
                                                                                            target="_self">
                                                                                             <img
                                                                                                 src="{{ asset('wp-content/uploads/trustworthy.png')}}">
@@ -6685,7 +6685,7 @@
                                                                         data-node="59aafad21a7b5">
                                                                         <div class="fl-module-content fl-node-content">
                                                                             <h3 class="vamtam-heading ">
-                                                                                <a href="/urban/" title="Urban"
+                                                                                <a  title="Urban"
                                                                                    target="_self">
                                                                                     <span class="vamtam-heading-text">Trust worthy</span>
                                                                                 </a>
@@ -6702,7 +6702,7 @@
                                                                     <div class="fl-module fl-module-vamtam-button fl-node-59aafe7aad80c" data-node="59aafe7aad80c">
                                                                         <div class="fl-module-content fl-node-content">
                                                                             <div class="vamtam-button-wrap vamtam-button-width-auto" style="text-align:center">
-                                                                                <a href="/urban/" target="_self" class="vamtam-button accent1 hover-accent2 button-underline icon-animation-disable" role="button" style="font-size:14px;line-height:16px;padding:1px 0px;">
+                                                                                <a target="_self" class="vamtam-button accent1 hover-accent2 button-underline icon-animation-disable" role="button" style="font-size:14px;line-height:16px;padding:1px 0px;">
 
                                                                                 </a>
                                                                             </div>
@@ -6719,7 +6719,7 @@
                                                                         <div class="fl-module-content fl-node-content">
                                                                                 <span class="fl-icon-wrap">
                                                                                     <span class="fl-icon">
-                                                                                        <a href="/maintenance/"
+                                                                                        <a
                                                                                            target="_self">
                                                                                             <img
                                                                                                 src="{{ asset('wp-content/uploads/prices-1.png')}}">
@@ -6733,7 +6733,7 @@
                                                                         data-node="59aafad21a927">
                                                                         <div class="fl-module-content fl-node-content">
                                                                             <h3 class="vamtam-heading ">
-                                                                                <a href="/maintenance/"
+                                                                                <a
                                                                                    title="Maintenance" target="_self">
                                                                                     <span class="vamtam-heading-text">Great Prices</span>
                                                                                 </a>
@@ -6750,7 +6750,7 @@
                                                                     <div class="fl-module fl-module-vamtam-button fl-node-59aafea20f549" data-node="59aafea20f549">
                                                                         <div class="fl-module-content fl-node-content">
                                                                             <div class="vamtam-button-wrap vamtam-button-width-auto" style="text-align:center">
-                                                                                <a href="/urban/" target="_self" class="vamtam-button accent1 hover-accent2 button-underline icon-animation-disable" role="button" style="font-size:14px;line-height:16px;padding:1px 0px;">
+                                                                                <a target="_self" class="vamtam-button accent1 hover-accent2 button-underline icon-animation-disable" role="button" style="font-size:14px;line-height:16px;padding:1px 0px;">
 
                                                                                 </a>
                                                                             </div>
@@ -6767,7 +6767,7 @@
                                                                         <div class="fl-module-content fl-node-content">
                                                                                 <span class="fl-icon-wrap">
                                                                                     <span class="fl-icon">
-                                                                                        <a href="/services/events-decoration/"
+                                                                                        <a
                                                                                            target="_self">
                                                                                             <img
                                                                                                 src="{{ asset('wp-content/uploads/helpful.png')}}">
@@ -6781,7 +6781,7 @@
                                                                         data-node="59aafad21aa92">
                                                                         <div class="fl-module-content fl-node-content">
                                                                             <h3 class="vamtam-heading ">
-                                                                                <a href="" title="Events"
+                                                                                <a title="Events"
                                                                                    target="_self">
                                                                                     <span class="vamtam-heading-text">Helpful</span>
                                                                                 </a>
@@ -6978,19 +6978,19 @@
                                                                                             <span data-filter="*" class="cbp-filter-item-active cbp-filter-item">
                                                                                                 All <span class="cbp-filter-counter"></span>
                                                                                             </span>
-                                                                                            <span data-filter="[data-type~=&quot;events&quot;]" class="cbp-filter-item">
-                                                                                                <span data-text="Events">
+                                                                                            <span data-filter="[data-type~=&quot;AC&quot;]" class="cbp-filter-item">
+                                                                                                <span data-text="AC">
                                                                                                 Air conditioners <span class="cbp-filter-counter"></span>
                                                                                                 </span>
                                                                                             </span>
-                                                                                            <span data-filter="[data-type~=&quot;gardens&quot;]" class="cbp-filter-item">
-                                                                                                <span data-text="Gardens">
+                                                                                            <span data-filter="[data-type~=&quot;SF&quot;]" class="cbp-filter-item">
+                                                                                                <span data-text="SF">
                                                                                                     Shipping Furniture <span class="cbp-filter-counter"></span>
                                                                                                 </span>
                                                                                             </span>
-                                                                                            <span data-filter="[data-type~=&quot;maintance&quot;]" class="cbp-filter-item">
-                                                                                                <span data-text="Maintance">
-                                                                                                    Maintance <span class="cbp-filter-counter"></span>
+                                                                                            <span data-filter="[data-type~=&quot;Maintenance&quot;]" class="cbp-filter-item">
+                                                                                                <span data-text="Maintenance">
+                                                                                                    Maintenance <span class="cbp-filter-counter"></span>
                                                                                                 </span>
                                                                                             </span>
                                                                                         </span>
@@ -6999,13 +6999,13 @@
                                                                         </div>
                                                                     </nav>
                                                                     <div class="portfolio-items vamtam-cubeportfolio cbp portfolio-items" data-columns="3" data-options="{&quot;layoutMode&quot;:&quot;grid&quot;,&quot;defaultFilter&quot;:&quot;*&quot;,&quot;animationType&quot;:&quot;slideDelay&quot;,&quot;gapHorizontal&quot;:30,&quot;gapVertical&quot;:30,&quot;gridAdjustment&quot;:&quot;responsive&quot;,&quot;mediaQueries&quot;:[{&quot;width&quot;:855,&quot;cols&quot;:3},{&quot;width&quot;:570,&quot;cols&quot;:2},{&quot;width&quot;:285,&quot;cols&quot;:1}],&quot;displayType&quot;:&quot;bottomToTop&quot;,&quot;displayTypeSpeed&quot;:100,&quot;filters&quot;:&quot;#6499e38020523-filters&quot;}" data-hidden-by-filters="New items were loaded, but they are hidden because of your choice of filters">
-                                                                        <div data-id="319" data-type="events" class="has-title has-description state-closed vamtam-project hover-animation-2 cbp-item post-319 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-events" style="width: 33%">
+                                                                        <div data-id="319" data-type="Maintenance" class="has-title has-description state-closed vamtam-project hover-animation-2 cbp-item post-319 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-events" style="width: 33%">
                                                                             <div class="portfolio-item-wrapper">
                                                                                 <div class="portfolio_details">
                                                                                     <a href="/portfolio/somerset/" class="project-title " target="_self">
                                                                                             <span class="text-wrapper">
-                                                                                                <span class="title">Somerset </span>
-                                                                                                <span class="excerpt">Mirum est notare quam littera gothica, quam nunc.</span>
+                                                                                                <span class="title">Maintaining </span>
+                                                                                                <span class="excerpt">Fixing ACs fast and effeciently</span>
                                                                                             </span>
                                                                                     </a>
                                                                                     <a href="/portfolio/somerset/"
@@ -7025,7 +7025,7 @@
                                                                                                  data-lazy-srcset="'{{ asset('wp-content/uploads/2017/09/checking-conditioner.jpg')}}' 292w, {{ asset('wp-content/uploads/2017/09/checking-conditioner.jpg')}} 615w, {{ asset('wp-content/uploads/2017/09/checking-conditioner.jpg')}} 400w, {{ asset('wp-content/uploads/2017/09/checking-conditioner.jpg')}} 800w, {{ asset('wp-content/uploads/2017/09/checking-conditioner.jpg')}} 585w"
                                                                                                  data-lazy-sizes="(min-width: 900px) 50vw, 100vw"
                                                                                                  data-attachment-id="14807"
-                                                                                                 data-permalink="/portfolio/somerset/gallery1-r/"
+                                                                                                 data-permalink="/portfolio/somerset/"
                                                                                                  data-orig-file="{{ asset('wp-content/uploads/2017/09/checking-conditioner.jpg')}}"
                                                                                                  data-orig-size="1200,732"
                                                                                                  data-comments-opened="0"
@@ -7046,7 +7046,7 @@
                                                                                                      srcset="{{ asset('wp-content/uploads/2017/09/checking.jpg')}} 292w, {{ asset('wp-content/uploads/2017/09/checking.jpg')}} 615w, {{ asset('wp-content/uploads/2017/09/checking.jpg')}}, {{ asset('wp-content/uploads/2017/09/checking.jpg')}} 800w, {{ asset('wp-content/uploads/2017/09/checking.jpg')}}"
                                                                                                      sizes="(min-width: 900px) 50vw, 100vw"
                                                                                                      data-attachment-id="14807"
-                                                                                                     data-permalink="/portfolio/somerset/gallery1-r/"
+                                                                                                     data-permalink="/portfolio/somerset/"
                                                                                                      data-orig-file="{{ asset('wp-content/uploads/2017/09/checking.jpg')}}"
                                                                                                      data-orig-size="1200,732"
                                                                                                      data-comments-opened="0"
@@ -7065,15 +7065,15 @@
 
 
                                                                         <div data-id="315"
-                                                                             data-type="events interiors maintance"
+                                                                             data-type="Maintenance"
                                                                              class="has-title has-description state-closed vamtam-project hover-animation-2 cbp-item post-315 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-events jetpack-portfolio-type-interiors jetpack-portfolio-type-maintance"
                                                                              style="width: 33%">
                                                                             <div class="portfolio-item-wrapper">
                                                                                 <div class="portfolio_details">
-                                                                                    <a href="/" class="project-title " target="_self">
+                                                                                    <a href="{{ url('portfolio/ac/')}}" class="project-title " target="_self">
                                                                                             <span class="text-wrapper">
-                                                                                                <span class="title">Water </span>
-                                                                                                <span class="excerpt">Mirum est notare quam littera gothica, quam nunc.</span>
+                                                                                                <span class="title">Checking</span>
+                                                                                                <span class="excerpt">Checking if eveything is fine.</span>
                                                                                             </span>
                                                                                     </a>
                                                                                     <a href="/" class="link-read-more">Case
@@ -7129,25 +7129,93 @@
                                                                                 </div>
                                                                             </div>
                                                                         </div>
-                                                                        <div data-id="322" data-type="maintance"
+                                                                        <div data-id="322" data-type="AC"
                                                                              class="has-title has-description state-closed vamtam-project hover-animation-2 cbp-item post-322 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-maintance"
                                                                              style="width: 33%">
                                                                             <div class="portfolio-item-wrapper">
                                                                                 <div class="portfolio_details">
-                                                                                    <a href="/portfolio/garden/"
+                                                                                    <a href="/portfolio/sf/"
                                                                                        class="project-title "
                                                                                        target="_self">
                                                                                             <span class="text-wrapper">
-                                                                                                <span class="title">Stefan </span>
-                                                                                                <span class="excerpt">Mirum est notare quam littera gothica, quam nunc.</span>
+                                                                                                <span class="title">Shipping Furniture </span>
+                                                                                                <span class="excerpt">The best company when it comes to furniture transporting.</span>
                                                                                             </span>
                                                                                     </a>
-                                                                                    <a href="/portfolio/garden/"
+                                                                                    <a href="/portfolio/sf/"
                                                                                        class="link-read-more">Case study
                                                                                         →</a>
                                                                                 </div>
                                                                                 <div class="portfolio-image">
-                                                                                    <a href="/portfolio/garden/"
+                                                                                    <a href="/portfolio/sf/"
+                                                                                       class="meta " target="_self">
+                                                                                        <div
+                                                                                            class="vamtam-responsive-wrapper">
+                                                                                            <img width="292"
+                                                                                                 height="225"
+                                                                                                 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20292%20225'%3E%3C/svg%3E"
+                                                                                                 class="attachment-theme-loop-4 size-theme-loop-4 wp-post-image"
+                                                                                                 alt="" decoding="async"
+                                                                                                 data-lazy-srcset="{{ asset('wp-content/uploads/sf1.jpg')}} 292w, {{ asset('wp-content/uploads/sf1.jpg')}} 615w, {{ asset('wp-content/uploads/sf1.jpg')}} 400w, {{ asset('wp-content/uploads/sf1.jpg')}} 800w, {{ asset('wp-content/uploads/sf1.jpg')}} 585w"
+                                                                                                 data-lazy-sizes="(min-width: 900px) 50vw, 100vw"
+                                                                                                 data-attachment-id="14811"
+                                                                                                 data-permalink="/portfolio/garden/gallery4-r/"
+                                                                                                 data-orig-file="{{ asset('wp-content/uploads/sf1.jpg')}}"
+                                                                                                 data-orig-size="1200,788"
+                                                                                                 data-comments-opened="0"
+                                                                                                 data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}"
+                                                                                                 data-image-title="gallery4-r"
+                                                                                                 data-image-description=""
+                                                                                                 data-image-caption=""
+                                                                                                 data-medium-file="{{ asset('wp-content/uploads/sf1.jpg')}}"
+                                                                                                 data-large-file="{{ asset('wp-content/uploads/sf1.jpg')}}"
+                                                                                                 data-lazy-src="{{ asset('wp-content/uploads/sf1.jpg')}}"/>
+                                                                                            <noscript>
+                                                                                                <img width="292"
+                                                                                                     height="225"
+                                                                                                     src="{{ asset('wp-content/uploads/sf1.jpg')}}"
+                                                                                                     class="attachment-theme-loop-4 size-theme-loop-4 wp-post-image"
+                                                                                                     alt=""
+                                                                                                     decoding="async"
+                                                                                                     srcset="{{ asset('wp-content/uploads/sf1.jpg')}} 292w, {{ asset('wp-content/uploads/maintance2.jpg')}} 615w, {{ asset('wp-content/uploads/maintance2.jpg')}} 400w, {{ asset('wp-content/uploads/maintance2.jpg')}} 800w, {{ asset('wp-content/uploads/sf1.jpg')}} 585w"
+                                                                                                     sizes="(min-width: 900px) 50vw, 100vw"
+                                                                                                     data-attachment-id="14811"
+                                                                                                     data-permalink="/portfolio/garden/gallery4-r/"
+                                                                                                     data-orig-file="{{ asset('wp-content/uploads/sf1.jpg')}}"
+                                                                                                     data-orig-size="1200,788"
+                                                                                                     data-comments-opened="0"
+                                                                                                     data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}"
+                                                                                                     data-image-title="gallery4-r"
+                                                                                                     data-image-description=""
+                                                                                                     data-image-caption=""
+                                                                                                     data-medium-file="{{ asset('wp-content/uploads/sf1.jpg')}}"
+                                                                                                     data-large-file="{{ asset('wp-content/uploads/sf1.jpg')}}"/>
+                                                                                            </noscript>
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div data-id="322" data-type="SF"
+                                                                             class="has-title has-description state-closed vamtam-project hover-animation-2 cbp-item post-322 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-maintance"
+                                                                             style="width: 33%">
+                                                                            <div class="portfolio-item-wrapper">
+                                                                                <div class="portfolio_details">
+                                                                                    <a href="/portfolio/maintain/"
+                                                                                       class="project-title "
+                                                                                       target="_self">
+                                                                                            <span class="text-wrapper">
+                                                                                                <span class="title">AC </span>
+                                                                                                <span class="excerpt">Installing any AC.</span>
+                                                                                            </span>
+                                                                                    </a>
+                                                                                    <a href="/portfolio/maintain/"
+                                                                                       class="link-read-more">Case study
+                                                                                        →</a>
+                                                                                </div>
+                                                                                <div class="portfolio-image">
+                                                                                    <a href="/portfolio/maintain/"
                                                                                        class="meta " target="_self">
                                                                                         <div
                                                                                             class="vamtam-responsive-wrapper">
@@ -7196,24 +7264,7 @@
                                                                                 </div>
                                                                             </div>
                                                                         </div>
-                                                                        <div data-id="320" data-type="gardens"
-                                                                             class="has-title has-description state-closed vamtam-project hover-animation-2 cbp-item post-320 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-gardens"
-                                                                             style="width: 33%">
-                                                                            <div class="portfolio-item-wrapper">
-                                                                                <div class="portfolio_details">
-                                                                                    <a href="/portfolio/fairy/"
-                                                                                       class="project-title "
-                                                                                       target="_self">
-                                                                                            <span class="text-wrapper">
-                                                                                                <span class="title">Fairy </span>
-                                                                                                <span class="excerpt">Mirum est notare quam littera gothica, quam nunc.</span>
-                                                                                            </span>
-                                                                                    </a>
-                                                                                    <a href="/portfolio/fairy/" class="link-read-more">Case study →</a>
-                                                                                </div>
 
-                                                                            </div>
-                                                                        </div>
                                                                     </div>
                                                                     <div class="load-more clearboth vamtam-pagination-wrapper">
                                                                         <a href="/?paged=2" class="lm-btn vamtam-button" data-query="{&quot;paged&quot;:2,&quot;posts_per_page&quot;:&quot;6&quot;,&quot;post_type&quot;:&quot;jetpack-portfolio&quot;,&quot;orderby&quot;:&quot;date&quot;,&quot;order&quot;:&quot;DESC&quot;,&quot;tax_query&quot;:{&quot;relation&quot;:&quot;AND&quot;},&quot;ignore_sticky_posts&quot;:true,&quot;offset&quot;:0,&quot;fl_original_offset&quot;:0,&quot;fl_builder_loop&quot;:true,&quot;fields&quot;:&quot;&quot;,&quot;settings&quot;:{&quot;layout&quot;:&quot;grid&quot;,&quot;hover_animation&quot;:&quot;hover-animation-2&quot;,&quot;pagination&quot;:&quot;true&quot;,&quot;posts_per_page&quot;:&quot;6&quot;,&quot;type_filter&quot;:true,&quot;title_filter&quot;:false,&quot;lightbox_button&quot;:&quot;true&quot;,&quot;columns&quot;:3,&quot;gap&quot;:true,&quot;link_opens&quot;:&quot;single&quot;,&quot;show_title&quot;:true,&quot;description&quot;:true,&quot;responsive_display&quot;:&quot;&quot;,&quot;visibility_display&quot;:&quot;&quot;,&quot;visibility_user_capability&quot;:&quot;&quot;,&quot;animation&quot;:{&quot;style&quot;:&quot;&quot;,&quot;delay&quot;:&quot;0.0&quot;},&quot;vamtam_animation_style&quot;:&quot;&quot;,&quot;vamtam_animation_type&quot;:&quot;progressive&quot;,&quot;vamtam_animation_exit&quot;:&quot;1&quot;,&quot;vamtam_animation_delay&quot;:&quot;0&quot;,&quot;vamtam_animation_origin&quot;:&quot;center center&quot;,&quot;vamtam_animation_mobile&quot;:&quot;0&quot;,&quot;vamtam_animation_pin&quot;:&quot;0&quot;,&quot;vamtam_animation_pin_duration&quot;:300,&quot;vamtam_animation_pin_trigger&quot;:&quot;center&quot;,&quot;container_element&quot;:&quot;div&quot;,&quot;id&quot;:&quot;&quot;,&quot;class&quot;:&quot;&quot;,&quot;node_label&quot;:&quot;&quot;,&quot;export&quot;:&quot;&quot;,&quot;import&quot;:&quot;&quot;,&quot;margin_top&quot;:&quot;&quot;,&quot;margin_unit&quot;:&quot;px&quot;,&quot;margin_top_large&quot;:&quot;&quot;,&quot;margin_large_unit&quot;:&quot;px&quot;,&quot;margin_top_medium&quot;:&quot;&quot;,&quot;margin_medium_unit&quot;:&quot;px&quot;,&quot;margin_top_responsive&quot;:&quot;&quot;,&quot;margin_responsive_unit&quot;:&quot;px&quot;,&quot;margin_right&quot;:&quot;&quot;,&quot;margin_right_large&quot;:&quot;&quot;,&quot;margin_right_medium&quot;:&quot;&quot;,&quot;margin_right_responsive&quot;:&quot;&quot;,&quot;margin_bottom&quot;:&quot;&quot;,&quot;margin_bottom_large&quot;:&quot;&quot;,&quot;margin_bottom_medium&quot;:&quot;&quot;,&quot;margin_bottom_responsive&quot;:&quot;&quot;,&quot;margin_left&quot;:&quot;&quot;,&quot;margin_left_large&quot;:&quot;&quot;,&quot;margin_left_medium&quot;:&quot;&quot;,&quot;margin_left_responsive&quot;:&quot;&quot;,&quot;row_width&quot;:1280,&quot;row_width_unit&quot;:&quot;px&quot;,&quot;show_default_heading&quot;:&quot;0&quot;,&quot;css&quot;:&quot;&quot;,&quot;js&quot;:&quot;&quot;,&quot;type&quot;:&quot;vamtam-projects&quot;,&quot;order_by&quot;:&quot;date&quot;,&quot;order&quot;:&quot;DESC&quot;,&quot;posts_post&quot;:&quot;&quot;,&quot;tax_post_category&quot;:&quot;&quot;,&quot;tax_post_post_tag&quot;:&quot;&quot;,&quot;posts_page&quot;:&quot;&quot;,&quot;posts_jetpack-portfolio&quot;:&quot;&quot;,&quot;tax_jetpack-portfolio_jetpack-portfolio-type&quot;:&quot;&quot;,&quot;tax_jetpack-portfolio_jetpack-portfolio-tag&quot;:&quot;&quot;,&quot;posts_jetpack-testimonial&quot;:&quot;&quot;,&quot;users&quot;:&quot;&quot;,&quot;posts_product&quot;:&quot;&quot;,&quot;tax_product_product_cat&quot;:&quot;&quot;,&quot;tax_product_product_tag&quot;:&quot;&quot;,&quot;tax_product_pa_brand&quot;:&quot;&quot;,&quot;post_type&quot;:&quot;jetpack-portfolio&quot;}}" data-other-vars="{&quot;layout&quot;:&quot;grid&quot;,&quot;hover_animation&quot;:&quot;hover-animation-2&quot;,&quot;pagination&quot;:&quot;true&quot;,&quot;posts_per_page&quot;:&quot;6&quot;,&quot;type_filter&quot;:true,&quot;title_filter&quot;:false,&quot;lightbox_button&quot;:&quot;true&quot;,&quot;columns&quot;:3,&quot;gap&quot;:true,&quot;link_opens&quot;:&quot;single&quot;,&quot;show_title&quot;:true,&quot;description&quot;:true,&quot;responsive_display&quot;:&quot;&quot;,&quot;visibility_display&quot;:&quot;&quot;,&quot;visibility_user_capability&quot;:&quot;&quot;,&quot;animation&quot;:{&quot;style&quot;:&quot;&quot;,&quot;delay&quot;:&quot;0.0&quot;},&quot;vamtam_animation_style&quot;:&quot;&quot;,&quot;vamtam_animation_type&quot;:&quot;progressive&quot;,&quot;vamtam_animation_exit&quot;:&quot;1&quot;,&quot;vamtam_animation_delay&quot;:&quot;0&quot;,&quot;vamtam_animation_origin&quot;:&quot;center center&quot;,&quot;vamtam_animation_mobile&quot;:&quot;0&quot;,&quot;vamtam_animation_pin&quot;:&quot;0&quot;,&quot;vamtam_animation_pin_duration&quot;:300,&quot;vamtam_animation_pin_trigger&quot;:&quot;center&quot;,&quot;container_element&quot;:&quot;div&quot;,&quot;id&quot;:&quot;&quot;,&quot;class&quot;:&quot;&quot;,&quot;node_label&quot;:&quot;&quot;,&quot;export&quot;:&quot;&quot;,&quot;import&quot;:&quot;&quot;,&quot;margin_top&quot;:&quot;&quot;,&quot;margin_unit&quot;:&quot;px&quot;,&quot;margin_top_large&quot;:&quot;&quot;,&quot;margin_large_unit&quot;:&quot;px&quot;,&quot;margin_top_medium&quot;:&quot;&quot;,&quot;margin_medium_unit&quot;:&quot;px&quot;,&quot;margin_top_responsive&quot;:&quot;&quot;,&quot;margin_responsive_unit&quot;:&quot;px&quot;,&quot;margin_right&quot;:&quot;&quot;,&quot;margin_right_large&quot;:&quot;&quot;,&quot;margin_right_medium&quot;:&quot;&quot;,&quot;margin_right_responsive&quot;:&quot;&quot;,&quot;margin_bottom&quot;:&quot;&quot;,&quot;margin_bottom_large&quot;:&quot;&quot;,&quot;margin_bottom_medium&quot;:&quot;&quot;,&quot;margin_bottom_responsive&quot;:&quot;&quot;,&quot;margin_left&quot;:&quot;&quot;,&quot;margin_left_large&quot;:&quot;&quot;,&quot;margin_left_medium&quot;:&quot;&quot;,&quot;margin_left_responsive&quot;:&quot;&quot;,&quot;row_width&quot;:1280,&quot;row_width_unit&quot;:&quot;px&quot;,&quot;show_default_heading&quot;:&quot;0&quot;,&quot;css&quot;:&quot;&quot;,&quot;js&quot;:&quot;&quot;,&quot;type&quot;:&quot;vamtam-projects&quot;,&quot;order_by&quot;:&quot;date&quot;,&quot;order&quot;:&quot;DESC&quot;,&quot;posts_post&quot;:&quot;&quot;,&quot;tax_post_category&quot;:&quot;&quot;,&quot;tax_post_post_tag&quot;:&quot;&quot;,&quot;posts_page&quot;:&quot;&quot;,&quot;posts_jetpack-portfolio&quot;:&quot;&quot;,&quot;tax_jetpack-portfolio_jetpack-portfolio-type&quot;:&quot;&quot;,&quot;tax_jetpack-portfolio_jetpack-portfolio-tag&quot;:&quot;&quot;,&quot;posts_jetpack-testimonial&quot;:&quot;&quot;,&quot;users&quot;:&quot;&quot;,&quot;posts_product&quot;:&quot;&quot;,&quot;tax_product_product_cat&quot;:&quot;&quot;,&quot;tax_product_product_tag&quot;:&quot;&quot;,&quot;tax_product_pa_brand&quot;:&quot;&quot;,&quot;post_type&quot;:&quot;jetpack-portfolio&quot;}">
@@ -7379,7 +7430,7 @@
                                                                     <div class="fl-module fl-module-vamtam-button fl-node-59ad329f643a0" data-node="59ad329f643a0">
                                                                         <div class="fl-module-content fl-node-content">
                                                                             <div class="vamtam-button-wrap vamtam-button-width-auto" style="text-align:left">
-                                                                                <a href="/about/the-process/" target="_self" class="vamtam-button accent5 hover-accent2 button-border icon-animation-disable" role="button" style="font-size:14px;line-height:16px;padding:16px 32px;">
+                                                                                <a href="{{ url('/about')}}" target="_self" class="vamtam-button accent5 hover-accent2 button-border icon-animation-disable" role="button" style="font-size:14px;line-height:16px;padding:16px 32px;">
                                                                                     <span class="vamtam-button-text">How we works</span>
                                                                                 </a>
                                                                             </div>
@@ -7395,7 +7446,7 @@
                                                                  data-node="59ad3665aeba3">
                                                                 <div class="fl-node-content"></div>
                                                                 <img
-                                                                    src="{{ asset('wp-content/uploads/2017/09/checking.jpg')}}"></img>
+                                                                    src="{{ asset('wp-content/uploads/2017/09/checking.jpg')}}">
                                                             </div>
                                                             <div class="fl-col fl-node-59ad3665aebf2 fl-col-small"
                                                                  data-node="59ad3665aebf2">
