@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Comment;
 use Illuminate\Http\Request;
 use App\Models\Contact;
 use Mail;
@@ -24,7 +25,7 @@ class ContactUsFormController extends Controller
             'message' => 'required'
         ]);
         //  Store data in database
-        Contact::create($request->all());
+        Comment::create($request->all());
         //  Send mail to admin
         Mail::send('mail', array(
             'name' => $request->get('name'),
@@ -33,8 +34,8 @@ class ContactUsFormController extends Controller
             'subject' => $request->get('subject'),
             'message' => $request->get('message'),
         ), function($message) use ($request){
-            $message->from('admin@elriyadhtransport.com', 'Admin')->subject($request->get('subject'));
             $message->to($request->email);
+            $message->from('admin@elriyadhtransport.com', 'Admin')->subject($request->get('subject'));
         });
         return back()->with('success', 'We have received your message and would like to thank you for writing to us.');
     }

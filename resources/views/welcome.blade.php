@@ -212,15 +212,15 @@
                 --vamtam-overlay-color: white;
                 --vamtam-overlay-color-hc: #000000;
                 --vamtam-box-outer-padding: 60px;
-                --vamtam-loading-animation: url('/wp-content/themes/landscaping/vamtam/assets/images/loader-ring.gif');
-                --vamtam-accent-color-1-rgb: 42,125,46;
-                --vamtam-accent-color-2-rgb: 18,74,47;
-                --vamtam-accent-color-3-rgb: 11,61,44;
-                --vamtam-accent-color-4-rgb: 216,216,216;
-                --vamtam-accent-color-5-rgb: 255,255,255;
-                --vamtam-accent-color-6-rgb: 0,0,0;
-                --vamtam-accent-color-7-rgb: 237,237,237;
-                --vamtam-accent-color-8-rgb: 255,255,255;
+                --vamtam-loading-animation: url('{{ asset('wp-content/themes/landscaping/vamtam/assets/images/loader-ring.gif')}}');
+                --vamtam-accent-color-1-rgb: 42, 125, 46;
+                --vamtam-accent-color-2-rgb: 18, 74, 47;
+                --vamtam-accent-color-3-rgb: 11, 61, 44;
+                --vamtam-accent-color-4-rgb: 216, 216, 216;
+                --vamtam-accent-color-5-rgb: 255, 255, 255;
+                --vamtam-accent-color-6-rgb: 0, 0, 0;
+                --vamtam-accent-color-7-rgb: 237, 237, 237;
+                --vamtam-accent-color-8-rgb: 255, 255, 255;
             }
         </style>
         <meta name='robots' content='max-image-preview:large'/>
@@ -576,11 +576,13 @@
                 line-height: 1.6;
             }
         </style>
-        <link rel='stylesheet' id='fl-builder-layout-14013-css' href='{{ asset('wp-content/uploads/bb-plugin/cache/14013-layout.css?ver=228c672727894e50c80776664f1892ac')}}' type='text/css' media='all'/>
+        <link rel='stylesheet' id='fl-builder-layout-14013-css'
+              href='{{ asset('wp-content/uploads/bb-plugin/cache/14013-layout.css?ver=228c672727894e50c80776664f1892ac')}}'
+              type='text/css' media='all'/>
         <style>
             @font-face {
                 font-family: dashicons;
-                src: url(data:application/font-woff2;charset=utf-8;base64,d09GMgABAAAAAAHMAAsAAAAABAwAAAGDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAVBEIClBXATYCJAMUCwwABCAFgwYHIBtGA8gusG3YowATcOTIbUAdBLCHiYfv96Od+2RFPCSX5G0Xa6LTGZpXvNLJtOKhkzR/c1sL5UNf+Gxqlo/fhh4i6A6mBpOYuTllNJdrvH/imvylL5amD/TC0UAVXLXNIolHL7JKLOTdBPe2pTSahoHDU6CUWNADchEfVNLHFN5Ll/hlJdoRXfQ5fEh+H2aNhCwwBKjOgczalMFmyvbZlGITHdokSZj7fdhsGtA4Gj0OC1UPsXyiF1TQgYJuDKG54mS7nBEtwXx043/UG2yZOf7Kl9ffm727/9s6C/i5XlYpZPGAXL4GgqzJXJL/0AVqQWERDwCoUUDMELR7fAY3tP43SlrdUiAj60BBHmNVp2GsRavz4x0mvJIsSrvQo7UACXkIZGQPKMgTrBoxh7XocfHPO6z61Asn6dIVNBH5NcTqdF2aX3QNhKUjp5bMW9wYPfntC7QzLOQDzTGYcF15RN/6EI6wjap3rp4W5mYmR7mDm3oI/Bmq2aAW77jUaQycV5dkBA==) format('woff2'), url(/wp-includes/fonts/dashicons.ttf) format("truetype"), url(/wp-includes/fonts/dashicons.svg#dashicons) format("svg");
+                src: url(data:application/font-woff2;charset=utf-8;base64,d09GMgABAAAAAAHMAAsAAAAABAwAAAGDAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAVBEIClBXATYCJAMUCwwABCAFgwYHIBtGA8gusG3YowATcOTIbUAdBLCHiYfv96Od+2RFPCSX5G0Xa6LTGZpXvNLJtOKhkzR/c1sL5UNf+Gxqlo/fhh4i6A6mBpOYuTllNJdrvH/imvylL5amD/TC0UAVXLXNIolHL7JKLOTdBPe2pTSahoHDU6CUWNADchEfVNLHFN5Ll/hlJdoRXfQ5fEh+H2aNhCwwBKjOgczalMFmyvbZlGITHdokSZj7fdhsGtA4Gj0OC1UPsXyiF1TQgYJuDKG54mS7nBEtwXx043/UG2yZOf7Kl9ffm727/9s6C/i5XlYpZPGAXL4GgqzJXJL/0AVqQWERDwCoUUDMELR7fAY3tP43SlrdUiAj60BBHmNVp2GsRavz4x0mvJIsSrvQo7UACXkIZGQPKMgTrBoxh7XocfHPO6z61Asn6dIVNBH5NcTqdF2aX3QNhKUjp5bMW9wYPfntC7QzLOQDzTGYcF15RN/6EI6wjap3rp4W5mYmR7mDm3oI/Bmq2aAW77jUaQycV5dkBA==) format('woff2'), url({{ asset('wp-includes/fonts/dashicons.ttf')}}) format("truetype"), url({{ asset('wp-includes/fonts/dashicons.svg#dashicons')}}) format("svg");
                 font-weight: normal;
                 font-style: normal;
                 font-display: swap;
@@ -589,19 +591,23 @@
 
             @font-face {
                 font-family: dashicons;
-                src: url(/wp-includes/fonts/dashicons.woff) format("woff"), url(/wp-includes/fonts/dashicons.ttf) format("truetype"), url(/wp-includes/fonts/dashicons.svg#dashicons) format("svg");
+                src: url({{ asset('wp-includes/fonts/dashicons.woff')}}) format("woff"), url({{ asset('wp-includes/fonts/dashicons.ttf')}}) format("truetype"), url({{ asset('wp-includes/fonts/dashicons.svg#dashicons')}}) format("svg");
                 font-weight: normal;
                 font-style: normal;
                 font-display: swap;
                 unicode-range: U+F100-F10D, U+F110-F112, U+F115-F119, U+F11D-F120, U+F122-F130, U+F132-F136, U+F138-F139, U+F141-F142, U+F145, U+F147-F148, U+F153-F159, U+F160-F161, U+F163-F169, U+F171-F179, U+F180-F185, U+F200-F201, U+F203-F209, U+F210-F219, U+F220-F227, U+F229, U+F230-F239, U+F240, U+F242, U+F301, U+F303-F309, U+F310-F314, U+F316-F319, U+F320-F326, U+F328, U+F330-F339, U+F340-F348, U+F448-F449, U+F450-F457, U+F459, U+F460, U+F462-F466, U+F468-F469, U+F470-F476, U+F478-F479, U+F480-F484, U+F486-F489, U+F490-F493, U+F495-F499, U+F500-F504, U+F506-F509, U+F510-F519, U+F520-F529, U+F530-F531, U+F533-F538, U+F540-F542, U+F545-F547;
             }
         </style>
-        <link rel='stylesheet' id='vamtam-gfonts-css' href='https://fonts.googleapis.com/css?family=Montserrat%3Abold%2C500%2C300%2Cnormal%2C300italic%2C200%2C700i%7CPatrick+Hand%3Anormal%2Cbold%7CPoppins%3Abold&#038;subset=latin&#038;display=swap&#038;ver=1687460671' type='text/css' media='all'/>
-        <link rel='stylesheet' id='vamtam-front-all-css' href='{{ asset('wp-content/themes/landscaping/vamtam/assets/css/dist/all.css?ver=1687460671')}}' type='text/css' media='all'/>
+        <link rel='stylesheet' id='vamtam-gfonts-css'
+              href='https://fonts.googleapis.com/css?family=Montserrat%3Abold%2C500%2C300%2Cnormal%2C300italic%2C200%2C700i%7CPatrick+Hand%3Anormal%2Cbold%7CPoppins%3Abold&#038;subset=latin&#038;display=swap&#038;ver=1687460671'
+              type='text/css' media='all'/>
+        <link rel='stylesheet' id='vamtam-front-all-css'
+              href='{{ asset('wp-content/themes/landscaping/vamtam/assets/css/dist/all.css?ver=1687460671')}}'
+              type='text/css' media='all'/>
         <style id='vamtam-front-all-inline-css' type='text/css'>
             @font-face {
                 font-family: 'icomoon';
-                src: url(/wp-content/themes/landscaping/vamtam/assets/fonts/icons/icomoon.woff2) format('woff2'), url( /wp-content/themes/landscaping/vamtam/assets/fonts/icons/icomoon.woff) format('woff'), url(/wp-content/themes/landscaping/vamtam/assets/fonts/icons/icomoon.ttf) format('ttf');
+                src: url({{ asset('wp-content/themes/landscaping/vamtam/assets/fonts/icons/icomoon.woff2')}}) format('woff2'), url({{ asset('wp-content/themes/landscaping/vamtam/assets/fonts/icons/icomoon.woff')}}) format('woff'), url(/wp-content/themes/landscaping/vamtam/assets/fonts/icons/icomoon.ttf) format('ttf');
                 font-weight: normal;
                 font-style: normal;
                 font-display: swap;
@@ -609,7 +615,7 @@
 
             @font-face {
                 font-family: 'theme';
-                src: url(/wp-content/themes/landscaping/vamtam/assets/fonts/theme-icons/theme-icons.woff2) format('woff2'), url(/wp-content/themes/landscaping/vamtam/assets/fonts/theme-icons/theme-icons.woff) format('woff');
+                src: url({{ asset('wp-content/themes/landscaping/vamtam/assets/fonts/theme-icons/theme-icons.woff2')}}) format('woff2'), url({{ asset('wp-content/themes/landscaping/vamtam/assets/fonts/theme-icons/theme-icons.woff')}}) format('woff');
                 font-weight: normal;
                 font-style: normal;
                 font-display: swap;
@@ -617,9 +623,9 @@
 
             /* Make Beaver options play nice with the theme */
             :root {
-                --vamtam-beaver-global-module_margins_top: var( --vamtam-beaver-global-module_margins_top_large );
-                --vamtam-beaver-global-module_margins_right: var( --vamtam-beaver-global-module_margins_right_large );
-                --vamtam-beaver-global-module_margins_bottom: var( --vamtam-beaver-global-module_margins_bottom_large );
+                --vamtam-beaver-global-module_margins_top: var(--vamtam-beaver-global-module_margins_top_large);
+                --vamtam-beaver-global-module_margins_right: var(--vamtam-beaver-global-module_margins_right_large);
+                --vamtam-beaver-global-module_margins_bottom: var(--vamtam-beaver-global-module_margins_bottom_large);
                 --vamtam-beaver-global-module_margins_left: var( --vamtam-beaver-global-module_margins_left_large );
             }
 
@@ -740,21 +746,31 @@
         <noscript>
             <link rel='stylesheet' href='{{ asset('wp-content/themes/landscaping/vamtam/assets/css/dist/responsive/layout-below-max.css?ver=1687460671')}}' type='text/css' media='(max-width: 992px)'/>
         </noscript>
-        <link rel='stylesheet' id='vamtam-theme-layout-small-css' href='{{ asset('wp-content/themes/landscaping/vamtam/assets/css/dist/responsive/layout-small.css?ver=1687460671')}}' type='text/css' media="(max-width: 0px)" onload="media='(max-width: 768px)'"/>
+        <link rel='stylesheet' id='vamtam-theme-layout-small-css'
+              href='{{ asset('wp-content/themes/landscaping/vamtam/assets/css/dist/responsive/layout-small.css?ver=1687460671')}}'
+              type='text/css' media="(max-width: 0px)" onload="media='(max-width: 768px)'"/>
         <noscript>
-            <link rel='stylesheet' href='{{ asset('wp-content/themes/landscaping/vamtam/assets/css/dist/responsive/layout-small.css?ver=1687460671')}}' type='text/css' media='(max-width: 768px)'/>
+            <link rel='stylesheet'
+                  href='{{ asset('wp-content/themes/landscaping/vamtam/assets/css/dist/responsive/layout-small.css?ver=1687460671')}}'
+                  type='text/css' media='(max-width: 768px)'/>
         </noscript>
-        <link rel='stylesheet' id='fl-builder-google-fonts-7c40264d35c3d3ae8f068911f377fc44-css' href='https://fonts.googleapis.com/css?family=Montserrat%3A200&#038;ver=6.2.2' type='text/css' media='all'/>
-        <link rel='stylesheet' id='jetpack_css-css' href='{{ asset('wp-content/plugins/jetpack/css/jetpack.css?ver=12.3')}}' type='text/css' media='all'/>
-        <script type='text/javascript' src='{{ asset('wp-includes/js/jquery/jquery.min.js?ver=3.6.4')}}' id='jquery-core-js'></script>
-        <link rel="https://api.w.org/" href="/wp-json/"/>
+        <link rel='stylesheet' id='fl-builder-google-fonts-7c40264d35c3d3ae8f068911f377fc44-css'
+              href='https://fonts.googleapis.com/css?family=Montserrat%3A200&#038;ver=6.2.2' type='text/css'
+              media='all'/>
+        <link rel='stylesheet' id='jetpack_css-css'
+              href='{{ asset('wp-content/plugins/jetpack/css/jetpack.css?ver=12.3')}}' type='text/css' media='all'/>
+        <script type='text/javascript' src='{{ asset('wp-includes/js/jquery/jquery.min.js?ver=3.6.4')}}'
+                id='jquery-core-js'></script>
+        <link rel="https://api.w.org/" href="http://oursite.com/wp-json/"/>
         <link rel="alternate" type="application/json" href="/wp-json/wp/v2/pages/14013"/>
         <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd"/>
-        <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml"/>
+        <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="{{asset('wp-includes/wlwmanifest.xml')}}"/>
         <link rel="canonical" href="/"/>
         <link rel='shortlink' href='/'/>
-        <link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flandscaping.vamtam.com%2F"/>
-        <link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flandscaping.vamtam.com%2F&#038;format=xml"/>
+        <link rel="alternate" type="application/json+oembed"
+              href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flandscaping.vamtam.com%2F"/>
+        <link rel="alternate" type="text/xml+oembed"
+              href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flandscaping.vamtam.com%2F&#038;format=xml"/>
         <meta name="et-api-version" content="v1">
         <meta name="et-api-origin" content="">
         <link rel="https://theeventscalendar.com/" href="/wp-json/tribe/tickets/v1/"/>
@@ -762,14 +778,14 @@
         <meta property="og:title" content="Elriyadh Co."/>
         <meta property="og:url" content="/"/>
         <meta property="og:site_name" content="Elriyadh Co."/>
-        <meta property="og:image" content="/wp-content/uploads/2017/10/fav-icon.png"/>
+        <meta property="og:image" content="{{ asset('wp-content/uploads/2017/10/fav-icon.png')}}"/>
         <meta property="og:image:width" content="300"/>
         <meta property="og:image:height" content="300"/>
         <meta property="og:image:alt" content=""/>
         <meta property="og:locale" content="en_US"/>
         <meta name="twitter:site" content="@vamtam"/>
         <meta name="twitter:text:title" content="Landscaper"/>
-        <meta name="twitter:image" content="/wp-content/uploads/2017/10/fav-icon-292x292.png"/>
+        <meta name="twitter:image" content="/{{ asset('wp-content/uploads/2017/10/fav-icon-292x292.png')}}"/>
         <meta name="twitter:card" content="summary"/>
         <meta name="twitter:description" content="Visit the post for more."/>
         <link rel="icon" href="{{ asset('wp-content/uploads/2017/10/fav-icon-50x50.png')}}" sizes="32x32"/>
@@ -6284,13 +6300,23 @@
                     <div class="logo-wrapper">
                         <div class="logo-tagline">
                             <a href="{{ url('/')}}" title="Landscaping Garden" class="logo " style="min-width:0px">
-                                <img width="300" height="100" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20215%2058'%3E%3C/svg%3E" alt="Landscaping Garden" class="normal-logo" style="" data-lazy-src="/wp-content/uploads/2017/11/logo.png"/>
+                                <img width="300" height="100"
+                                     src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20215%2058'%3E%3C/svg%3E"
+                                     alt="Landscaping Garden" class="normal-logo" style=""
+                                     data-lazy-src="{{ asset('wp-content/uploads/2017/11/logo.png')}}"/>
                                 <noscript>
-                                    <img width="300" height="100" src="/wp-content/uploads/2017/11/logo.png" alt="Landscaping Garden" class="normal-logo" style=""/>
+                                    <img width="300" height="100"
+                                         src="{{ asset('wp-content/uploads/2017/11/logo.png')}}"
+                                         alt="Landscaping Garden" class="normal-logo" style=""/>
                                 </noscript>
-                                <img width="300" height="100" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20215%2058'%3E%3C/svg%3E" alt="Landscaping Garden" class="alternative-logo" style="" data-lazy-src="/wp-content/uploads/2017/11/logo.png"/>
+                                <img width="300" height="100"
+                                     src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20215%2058'%3E%3C/svg%3E"
+                                     alt="Landscaping Garden" class="alternative-logo" style=""
+                                     data-lazy-src="{{ asset('wp-content/uploads/2017/11/logo.png')}}"/>
                                 <noscript>
-                                    <img width="300" height="100" src="/wp-content/uploads/2017/11/logo.png" alt="Landscaping Garden" class="alternative-logo" style=""/>
+                                    <img width="300" height="100"
+                                         src="{{ asset('wp-content/uploads/2017/11/logo.png')}}"
+                                         alt="Landscaping Garden" class="alternative-logo" style=""/>
                                 </noscript>
                             </a>
                         </div>
@@ -6359,48 +6385,177 @@
             <div id="header-slider-container" class="revslider">
                 <div class="header-slider-wrapper">
                     <p class="rs-p-wp-fix"></p>
-                        <rs-module-wrap id="rev_slider_72_1_wrapper" data-source="gallery" style="visibility:hidden;background:#163015;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;background-image:url({{ asset('wp-content/uploads/2017/09/Slide-2.jpg')}});background-repeat:no-repeat;background-size:cover;background-position:center center;">
+                    <rs-module-wrap id="rev_slider_72_1_wrapper" data-source="gallery"
+                                    style="visibility:hidden;background:#163015;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;background-image:url('wp-content/uploads/2017/09/Slide-2.jpg');background-repeat:no-repeat;background-size:cover;background-position:center center;">
                         <rs-module id="rev_slider_72_1" style="" data-version="6.6.10">
                             <rs-slides style="overflow: hidden; position: absolute;">
-                                <rs-slide style="position: absolute;" data-key="rs-227" data-title="Slide" data-thumb="/wp-content/uploads/2017/09/Slide-2.jpg" data-anim="adpr:false;">
-                                    <img width="1" height="1" src="/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" title="Landscaper" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="/wp-content/uploads/2017/09/Slide-2.jpg" data-no-retina>
-                                    <rs-group id="slider-72-slide-227-layer-2" data-type="group" data-xy="x:c;y:b;yo:288px,288px,200px,220px;" data-text="l:22;a:inherit;" data-dim="w:791px,791px,687px,422px;h:86px,86px,83px,140px;" data-frame_0="tp:600;" data-frame_1="tp:600;sR:10;" data-frame_999="o:0;tp:600;st:w;sR:8690;sA:9000;" style="z-index:5;">
-                                        <rs-layer id="slider-72-slide-227-layer-4" data-type="image" data-rsp_ch="on" data-xy="x:c;xo:-7px,-95px,-81px,98px;y:b;yo:-15px,17px,17px,63px;" data-pos="a" data-text="l:22;a:inherit;" data-dim="w:['99','99','99','99'];h:['100','100','100','100'];" data-frame_0="sX:0.8;sY:0.8;tp:600;" data-frame_1="tp:600;e:power4.inOut;st:200;sp:2000;sR:190;" data-frame_999="st:w;sR:6800;auto:true;" style="z-index:8;">
-                                            <img width="1" height="1" src="/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" class="tp-rs-img rs-lazyload" data-lazyload="/wp-content/uploads/2017/11/shipped.png" data-no-retina>
+                                <rs-slide style="position: absolute;" data-key="rs-227" data-title="Slide"
+                                          data-thumb="wp-content/uploads/2017/09/Slide-2.jpg" data-anim="adpr:false;">
+                                    <img width="1" height="1"
+                                         src="{{ asset('wp-content/plugins/revslider/public/assets/assets/dummy.png')}}"
+                                         alt="" title="Landscaper" class="rev-slidebg tp-rs-img rs-lazyload"
+                                         data-lazyload="wp-content/uploads/2017/09/Slide-2.jpg" data-no-retina>
+                                    <rs-group id="slider-72-slide-227-layer-2" data-type="group"
+                                              data-xy="x:c;y:b;yo:288px,288px,200px,220px;" data-text="l:22;a:inherit;"
+                                              data-dim="w:791px,791px,687px,422px;h:86px,86px,83px,140px;"
+                                              data-frame_0="tp:600;" data-frame_1="tp:600;sR:10;"
+                                              data-frame_999="o:0;tp:600;st:w;sR:8690;sA:9000;" style="z-index:5;">
+                                        <rs-layer id="slider-72-slide-227-layer-4" data-type="image" data-rsp_ch="on"
+                                                  data-xy="x:c;xo:-7px,-95px,-81px,98px;y:b;yo:-15px,17px,17px,63px;"
+                                                  data-pos="a" data-text="l:22;a:inherit;"
+                                                  data-dim="w:['99','99','99','99'];h:['100','100','100','100'];"
+                                                  data-frame_0="sX:0.8;sY:0.8;tp:600;"
+                                                  data-frame_1="tp:600;e:power4.inOut;st:200;sp:2000;sR:190;"
+                                                  data-frame_999="st:w;sR:6800;auto:true;" style="z-index:8;">
+                                            <img width="1" height="1"
+                                                 src="{{ asset('wp-content/plugins/revslider/public/assets/assets/dummy.png')}}"
+                                                 alt="" class="tp-rs-img rs-lazyload"
+                                                 data-lazyload="{{ asset('wp-content/uploads/2017/11/shipped.png')}}"
+                                                 data-no-retina>
                                         </rs-layer>
-                                        <rs-layer id="slider-72-slide-227-layer-3" data-type="text" data-rsp_ch="on" data-xy="x:r;y:m,m,m,b;" data-pos="a" data-text="s:70,70,60,60;l:86,86,76,76;fw:700;a:inherit;" data-frame_0="x:-100%;o:1;tp:600;" data-frame_0_mask="u:t;" data-frame_1="tp:600;st:410;sp:1500;sR:400;" data-frame_1_mask="u:t;" data-frame_999="st:w;sR:7090;auto:true;" data-frame_999_mask="u:t;" style="z-index:7;font-family:'Montserrat';">Fruniture
+                                        <rs-layer id="slider-72-slide-227-layer-3" data-type="text" data-rsp_ch="on"
+                                                  data-xy="x:r;y:m,m,m,b;" data-pos="a"
+                                                  data-text="s:70,70,60,60;l:86,86,76,76;fw:700;a:inherit;"
+                                                  data-frame_0="x:-100%;o:1;tp:600;" data-frame_0_mask="u:t;"
+                                                  data-frame_1="tp:600;st:410;sp:1500;sR:400;" data-frame_1_mask="u:t;"
+                                                  data-frame_999="st:w;sR:7090;auto:true;" data-frame_999_mask="u:t;"
+                                                  style="z-index:7;font-family:'Montserrat';">Fruniture
                                         </rs-layer>
-                                        <rs-layer id="slider-72-slide-227-layer-1" data-type="text" data-rsp_ch="on" data-xy="y:m,m,m,t;" data-pos="a" data-text="s:70,70,60,60;l:86,86,76,76;fw:700;a:inherit;" data-frame_0="x:100%;o:1;tp:600;" data-frame_0_mask="u:t;" data-frame_1="tp:600;st:410;sp:1500;sR:400;" data-frame_1_mask="u:t;" data-frame_999="st:w;sR:7090;auto:true;" data-frame_999_mask="u:t;" style="z-index:6;font-family:'Montserrat';">Shipping
+                                        <rs-layer id="slider-72-slide-227-layer-1" data-type="text" data-rsp_ch="on"
+                                                  data-xy="y:m,m,m,t;" data-pos="a"
+                                                  data-text="s:70,70,60,60;l:86,86,76,76;fw:700;a:inherit;"
+                                                  data-frame_0="x:100%;o:1;tp:600;" data-frame_0_mask="u:t;"
+                                                  data-frame_1="tp:600;st:410;sp:1500;sR:400;" data-frame_1_mask="u:t;"
+                                                  data-frame_999="st:w;sR:7090;auto:true;" data-frame_999_mask="u:t;"
+                                                  style="z-index:6;font-family:'Montserrat';">Shipping
                                         </rs-layer>
                                     </rs-group>
-                                    <rs-layer id="slider-72-slide-227-layer-7" data-type="text" data-rsp_ch="on" data-xy="x:c;xo:-14px,-14px,0,0;y:b;yo:266px,266px,120px,120px;" data-text="w:nowrap,nowrap,normal,normal;s:23;l:28;fw:600;a:inherit,inherit,center,center;" data-dim="w:auto,auto,693px,420px;" data-frame_0="y:-100%;o:1;tp:600;" data-frame_0_mask="u:t;" data-frame_1="tp:600;st:1080;sp:1500;sR:1080;" data-frame_1_mask="u:t;" data-frame_999="st:w;sR:6420;auto:true;" data-frame_999_mask="u:t;" style="z-index:9;font-family:'Montserrat';">Provides Fast,Easy and Trustworthy Transporting Service.
+                                    <rs-layer id="slider-72-slide-227-layer-7" data-type="text" data-rsp_ch="on"
+                                              data-xy="x:c;xo:-14px,-14px,0,0;y:b;yo:266px,266px,120px,120px;"
+                                              data-text="w:nowrap,nowrap,normal,normal;s:23;l:28;fw:600;a:inherit,inherit,center,center;"
+                                              data-dim="w:auto,auto,693px,420px;" data-frame_0="y:-100%;o:1;tp:600;"
+                                              data-frame_0_mask="u:t;" data-frame_1="tp:600;st:1080;sp:1500;sR:1080;"
+                                              data-frame_1_mask="u:t;" data-frame_999="st:w;sR:6420;auto:true;"
+                                              data-frame_999_mask="u:t;" style="z-index:9;font-family:'Montserrat';">
+                                        Provides Fast,Easy and Trustworthy Transporting Service.
                                     </rs-layer>
-                                    <rs-layer id="slider-72-slide-227-layer-5" class="rev-btn" data-type="button" data-color="rgba(255,255,255,1)" data-xy="x:c,l,l,l;xo:-110px,335px,195px,40px;y:b;yo:174px,174px,40px,40px;" data-text="s:14;l:18;fw:500;a:inherit;" data-dim="w:auto,137px,137px,auto;h:auto,48px,48px,auto;" data-actions='o:click;a:simplelink;target:_self;url:/about.php;' data-padding="t:15;r:35;b:15;l:35;" data-border="bos:solid;boc:#ffffff;bow:1,1,1,1;bor:30px,30px,30px,30px;" data-frame_0="y:bottom;o:1;tp:600;" data-frame_1="tp:600;st:1360;sp:1020;sR:1360;" data-frame_999="st:w;sR:6620;auto:true;" data-frame_hover="bgc:#2a7d2e;boc:#2a7d2e;bor:30px,30px,30px,30px;bos:solid;bow:1px,1px,1px,1px;oX:50;oY:50;" style="z-index:10;background-color:rgba(0,0,0,0);font-family:'Montserrat';cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">About us
+                                    <rs-layer id="slider-72-slide-227-layer-5" class="rev-btn" data-type="button"
+                                              data-color="rgba(255,255,255,1)"
+                                              data-xy="x:c,l,l,l;xo:-110px,335px,195px,40px;y:b;yo:174px,174px,40px,40px;"
+                                              data-text="s:14;l:18;fw:500;a:inherit;"
+                                              data-dim="w:auto,137px,137px,auto;h:auto,48px,48px,auto;"
+                                              data-actions='o:click;a:simplelink;target:_self;url:{{ url('/about')}};'
+                                              data-padding="t:15;r:35;b:15;l:35;"
+                                              data-border="bos:solid;boc:#ffffff;bow:1,1,1,1;bor:30px,30px,30px,30px;"
+                                              data-frame_0="y:bottom;o:1;tp:600;"
+                                              data-frame_1="tp:600;st:1360;sp:1020;sR:1360;"
+                                              data-frame_999="st:w;sR:6620;auto:true;"
+                                              data-frame_hover="bgc:#2a7d2e;boc:#2a7d2e;bor:30px,30px,30px,30px;bos:solid;bow:1px,1px,1px,1px;oX:50;oY:50;"
+                                              style="z-index:10;background-color:rgba(0,0,0,0);font-family:'Montserrat';cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">
+                                        About us
                                     </rs-layer>
-                                    <rs-layer id="slider-72-slide-227-layer-9" class="rev-btn" data-type="button" data-color="#2a7d2e" data-xy="x:c,r,l,l;xo:100px,300px,360px,210px;y:b;yo:174px,174px,40px,40px;" data-text="s:14;l:18;fw:500;a:inherit;" data-dim="w:auto,229px,229px,auto;h:auto,48px,48px,auto;" data-actions='o:click;a:simplelink;target:_self;url:/contacts;' data-padding="t:15;r:40,35,35,40;b:15;l:40;" data-border="bos:solid;boc:rgba(255, 255, 255, 0);bow:1,1,1,1;bor:30px,30px,30px,30px;" data-frame_0="y:50px;tp:600;" data-frame_1="tp:600;st:1560;sp:1420;sR:1560;" data-frame_999="st:w;sR:6020;auto:true;" data-frame_hover="c:#fff;bgc:#2a7d2e;boc:#2a7d2e;bor:30px,30px,30px,30px;bos:solid;bow:1px,1px,1px,1px;oX:50;oY:50;" style="z-index:11;background-color:#ffffff;font-family:'Montserrat';cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">Request an Estimate
+                                    <rs-layer id="slider-72-slide-227-layer-9" class="rev-btn" data-type="button"
+                                              data-color="#2a7d2e"
+                                              data-xy="x:c,r,l,l;xo:100px,300px,360px,210px;y:b;yo:174px,174px,40px,40px;"
+                                              data-text="s:14;l:18;fw:500;a:inherit;"
+                                              data-dim="w:auto,229px,229px,auto;h:auto,48px,48px,auto;"
+                                              data-actions='o:click;a:simplelink;target:_self;url:/contacts;'
+                                              data-padding="t:15;r:40,35,35,40;b:15;l:40;"
+                                              data-border="bos:solid;boc:rgba(255, 255, 255, 0);bow:1,1,1,1;bor:30px,30px,30px,30px;"
+                                              data-frame_0="y:50px;tp:600;"
+                                              data-frame_1="tp:600;st:1560;sp:1420;sR:1560;"
+                                              data-frame_999="st:w;sR:6020;auto:true;"
+                                              data-frame_hover="c:#fff;bgc:#2a7d2e;boc:#2a7d2e;bor:30px,30px,30px,30px;bos:solid;bow:1px,1px,1px,1px;oX:50;oY:50;"
+                                              style="z-index:11;background-color:#ffffff;font-family:'Montserrat';cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">
+                                        Request an Estimate
                                     </rs-layer>
                                 </rs-slide>
-                                <rs-slide style="position: absolute;" data-key="rs-222" data-title="Slide" data-thumb="{{ url('wp-content/uploads/2017/09/images.jpeg')}}" data-anim="adpr:false;">
-                                    <img width="1" height="1" src="{{ url('wp-content/plugins/revslider/public/assets/assets/dummy.png')}}" alt="" title="Landscaper" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="{{ url("wp-content/uploads/2017/09/images.jpg")}}" data-no-retina>
-                                    <rs-group id="slider-72-slide-222-layer-2" data-type="group" data-xy="x:c;y:b;yo:288px,288px,200px,220px;" data-text="l:22;a:inherit;" data-dim="w:791px,791px,687px,422px;h:86px,86px,83px,140px;" data-frame_0="tp:600;" data-frame_1="tp:600;sR:10;" data-frame_999="o:0;tp:600;st:w;sR:8690;sA:9000;" style="z-index:5;">
-                                        <rs-layer id="slider-72-slide-222-layer-4" data-type="image" data-rsp_ch="on" data-xy="x:c;xo:-95px,-95px,-81px,98px;y:b;yo:17px,17px,17px,63px;" data-pos="a" data-text="l:22;a:inherit;" data-dim="w:['250','250','250','250'];h:['70','70','70','70'];" data-frame_0="sX:0.8;sY:0.8;tp:600;" data-frame_1="tp:600;e:power4.inOut;st:200;sp:2000;sR:190;" data-frame_999="st:w;sR:6800;auto:true;" style="z-index:8; right: 40px;">
-                                            <img width="1" height="1" src="/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" class="tp-rs-img rs-lazyload" data-lazyload="{{ url('wp-content/uploads/2017/09/ac.png')}}" data-no-retina>
+                                <rs-slide style="position: absolute;" data-key="rs-222" data-title="Slide"
+                                          data-thumb="{{ url('wp-content/uploads/2017/09/images.jpeg')}}"
+                                          data-anim="adpr:false;">
+                                    <img width="1" height="1"
+                                         src="{{ url('wp-content/plugins/revslider/public/assets/assets/dummy.png')}}"
+                                         alt="" title="Landscaper" class="rev-slidebg tp-rs-img rs-lazyload"
+                                         data-lazyload="{{ url("wp-content/uploads/2017/09/images.jpg")}}"
+                                         data-no-retina>
+                                    <rs-group id="slider-72-slide-222-layer-2" data-type="group"
+                                              data-xy="x:c;y:b;yo:288px,288px,200px,220px;" data-text="l:22;a:inherit;"
+                                              data-dim="w:791px,791px,687px,422px;h:86px,86px,83px,140px;"
+                                              data-frame_0="tp:600;" data-frame_1="tp:600;sR:10;"
+                                              data-frame_999="o:0;tp:600;st:w;sR:8690;sA:9000;" style="z-index:5;">
+                                        <rs-layer id="slider-72-slide-222-layer-4" data-type="image" data-rsp_ch="on"
+                                                  data-xy="x:c;xo:-95px,-95px,-81px,98px;y:b;yo:17px,17px,17px,63px;"
+                                                  data-pos="a" data-text="l:22;a:inherit;"
+                                                  data-dim="w:['250','250','250','250'];h:['70','70','70','70'];"
+                                                  data-frame_0="sX:0.8;sY:0.8;tp:600;"
+                                                  data-frame_1="tp:600;e:power4.inOut;st:200;sp:2000;sR:190;"
+                                                  data-frame_999="st:w;sR:6800;auto:true;"
+                                                  style="z-index:8; right: 40px;">
+                                            <img width="1" height="1"
+                                                 src="{{ asset('wp-content/plugins/revslider/public/assets/assets/dummy.png')}}"
+                                                 alt="" class="tp-rs-img rs-lazyload"
+                                                 data-lazyload="{{ url('wp-content/uploads/2017/09/ac.png')}}"
+                                                 data-no-retina>
                                         </rs-layer>
-                                        <rs-layer id="slider-72-slide-222-layer-3" data-type="text" data-rsp_ch="on" data-xy="x:r;y:m,m,m,b;" data-pos="a" data-text="s:70,70,60,60;l:86,86,76,76;fw:700;a:inherit;" data-frame_0="x:-100%;o:1;tp:600;" data-frame_0_mask="u:t;" data-frame_1="tp:600;st:410;sp:1500;sR:400;" data-frame_1_mask="u:t;" data-frame_999="st:w;sR:8990;auto:true;" data-frame_999_mask="u:t;" style="z-index:7;font-family:'Montserrat';">Maintance
+                                        <rs-layer id="slider-72-slide-222-layer-3" data-type="text" data-rsp_ch="on"
+                                                  data-xy="x:r;y:m,m,m,b;" data-pos="a"
+                                                  data-text="s:70,70,60,60;l:86,86,76,76;fw:700;a:inherit;"
+                                                  data-frame_0="x:-100%;o:1;tp:600;" data-frame_0_mask="u:t;"
+                                                  data-frame_1="tp:600;st:410;sp:1500;sR:400;" data-frame_1_mask="u:t;"
+                                                  data-frame_999="st:w;sR:8990;auto:true;" data-frame_999_mask="u:t;"
+                                                  style="z-index:7;font-family:'Montserrat';">Maintance
                                         </rs-layer>
-                                        <rs-layer id="slider-72-slide-222-layer-1" data-type="text" data-rsp_ch="on" data-xy="y:m,m,m,t;" data-pos="a" data-text="s:70,70,60,60;l:86,86,76,76;fw:700;a:inherit;" data-frame_0="x:100%;o:1;tp:600;" data-frame_0_mask="u:t;" data-frame_1="tp:600;st:410;sp:1500;sR:400;" data-frame_1_mask="u:t;" data-frame_999="st:w;sR:8990;auto:true;" data-frame_999_mask="u:t;" style="z-index:6;font-family:'Montserrat';">AC
+                                        <rs-layer id="slider-72-slide-222-layer-1" data-type="text" data-rsp_ch="on"
+                                                  data-xy="y:m,m,m,t;" data-pos="a"
+                                                  data-text="s:70,70,60,60;l:86,86,76,76;fw:700;a:inherit;"
+                                                  data-frame_0="x:100%;o:1;tp:600;" data-frame_0_mask="u:t;"
+                                                  data-frame_1="tp:600;st:410;sp:1500;sR:400;" data-frame_1_mask="u:t;"
+                                                  data-frame_999="st:w;sR:8990;auto:true;" data-frame_999_mask="u:t;"
+                                                  style="z-index:6;font-family:'Montserrat';">AC
                                         </rs-layer>
                                     </rs-group>
-                                    <rs-layer id="slider-72-slide-222-layer-7" data-type="text" data-rsp_ch="on" data-xy="x:c;xo:-14px,-14px,0,0;y:b;yo:266px,266px,120px,120px;" data-text="w:nowrap,nowrap,normal,normal;s:23;l:28;fw:600;a:inherit,inherit,center,center;" data-dim="w:auto,auto,693px,420px;" data-frame_0="y:-100%;o:1;tp:600;" data-frame_0_mask="u:t;" data-frame_1="tp:600;st:1080;sp:1500;sR:1080;" data-frame_1_mask="u:t;" data-frame_999="st:w;sR:6420;auto:true;" data-frame_999_mask="u:t;" style="z-index:9;font-family:'Montserrat';">Provides The best Repairing service for Air conditioning.
+                                    <rs-layer id="slider-72-slide-222-layer-7" data-type="text" data-rsp_ch="on"
+                                              data-xy="x:c;xo:-14px,-14px,0,0;y:b;yo:266px,266px,120px,120px;"
+                                              data-text="w:nowrap,nowrap,normal,normal;s:23;l:28;fw:600;a:inherit,inherit,center,center;"
+                                              data-dim="w:auto,auto,693px,420px;" data-frame_0="y:-100%;o:1;tp:600;"
+                                              data-frame_0_mask="u:t;" data-frame_1="tp:600;st:1080;sp:1500;sR:1080;"
+                                              data-frame_1_mask="u:t;" data-frame_999="st:w;sR:6420;auto:true;"
+                                              data-frame_999_mask="u:t;" style="z-index:9;font-family:'Montserrat';">
+                                        Provides The best Repairing service for Air conditioning.
                                     </rs-layer>
-                                    <rs-layer id="slider-72-slide-222-layer-5" class="rev-btn" data-type="button" data-color="rgba(255,255,255,1)" data-xy="x:c,l,l,l;xo:-110px,335px,195px,40px;y:b;yo:174px,174px,40px,40px;" data-text="s:14;l:18;fw:500;a:inherit;" data-dim="w:auto,137px,137px,auto;h:auto,48px,48px,auto;" data-actions='o:click;a:simplelink;target:_self;url:/about.php;' data-padding="t:15;r:35;b:15;l:35;" data-border="bos:solid;boc:#ffffff;bow:1,1,1,1;bor:30px,30px,30px,30px;" data-frame_0="y:bottom;o:1;tp:600;" data-frame_1="tp:600;st:1360;sp:1020;sR:1360;" data-frame_999="st:w;sR:6620;auto:true;" data-frame_hover="bgc:#2a7d2e;boc:#2a7d2e;bor:30px,30px,30px,30px;bos:solid;bow:1px,1px,1px,1px;oX:50;oY:50;" style="z-index:10;background-color:rgba(0,0,0,0);font-family:'Montserrat';cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">About us
+                                    <rs-layer id="slider-72-slide-222-layer-5" class="rev-btn" data-type="button"
+                                              data-color="rgba(255,255,255,1)"
+                                              data-xy="x:c,l,l,l;xo:-110px,335px,195px,40px;y:b;yo:174px,174px,40px,40px;"
+                                              data-text="s:14;l:18;fw:500;a:inherit;"
+                                              data-dim="w:auto,137px,137px,auto;h:auto,48px,48px,auto;"
+                                              data-actions='o:click;a:simplelink;target:_self;url:{{ url('/about')}};'
+                                              data-padding="t:15;r:35;b:15;l:35;"
+                                              data-border="bos:solid;boc:#ffffff;bow:1,1,1,1;bor:30px,30px,30px,30px;"
+                                              data-frame_0="y:bottom;o:1;tp:600;"
+                                              data-frame_1="tp:600;st:1360;sp:1020;sR:1360;"
+                                              data-frame_999="st:w;sR:6620;auto:true;"
+                                              data-frame_hover="bgc:#2a7d2e;boc:#2a7d2e;bor:30px,30px,30px,30px;bos:solid;bow:1px,1px,1px,1px;oX:50;oY:50;"
+                                              style="z-index:10;background-color:rgba(0,0,0,0);font-family:'Montserrat';cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">
+                                        About us
                                     </rs-layer>
-                                    <rs-layer id="slider-72-slide-222-layer-9" class="rev-btn" data-type="button" data-color="#2a7d2e" data-xy="x:c,r,l,l;xo:100px,300px,360px,210px;y:b;yo:174px,174px,40px,40px;" data-text="s:14;l:18;fw:500;a:inherit;" data-dim="w:auto,229px,229px,auto;h:auto,48px,48px,auto;" data-actions='o:click;a:simplelink;target:_self;url:/contacts;' data-padding="t:15;r:40,35,35,40;b:15;l:40;" data-border="bos:solid;boc:rgba(255, 255, 255, 0);bow:1,1,1,1;bor:30px,30px,30px,30px;" data-frame_0="y:50px;tp:600;" data-frame_1="tp:600;st:1560;sp:1420;sR:1560;" data-frame_999="st:w;sR:6020;auto:true;" data-frame_hover="c:#fff;bgc:#2a7d2e;boc:#2a7d2e;bor:30px,30px,30px,30px;bos:solid;bow:1px,1px,1px,1px;oX:50;oY:50;" style="z-index:11;background-color:#ffffff;font-family:'Montserrat';cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">Request an Estimate
+                                    <rs-layer id="slider-72-slide-222-layer-9" class="rev-btn" data-type="button"
+                                              data-color="#2a7d2e"
+                                              data-xy="x:c,r,l,l;xo:100px,300px,360px,210px;y:b;yo:174px,174px,40px,40px;"
+                                              data-text="s:14;l:18;fw:500;a:inherit;"
+                                              data-dim="w:auto,229px,229px,auto;h:auto,48px,48px,auto;"
+                                              data-actions='o:click;a:simplelink;target:_self;url:/contacts;'
+                                              data-padding="t:15;r:40,35,35,40;b:15;l:40;"
+                                              data-border="bos:solid;boc:rgba(255, 255, 255, 0);bow:1,1,1,1;bor:30px,30px,30px,30px;"
+                                              data-frame_0="y:50px;tp:600;"
+                                              data-frame_1="tp:600;st:1560;sp:1420;sR:1560;"
+                                              data-frame_999="st:w;sR:6020;auto:true;"
+                                              data-frame_hover="c:#fff;bgc:#2a7d2e;boc:#2a7d2e;bor:30px,30px,30px,30px;bos:solid;bow:1px,1px,1px,1px;oX:50;oY:50;"
+                                              style="z-index:11;background-color:#ffffff;font-family:'Montserrat';cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">
+                                        Request an Estimate
                                     </rs-layer>
                                 </rs-slide>
                             </rs-slides>
                         </rs-module>
-                        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
                         <script>
                             setREVStartSize({
                                 c: 'rev_slider_72_1',
@@ -6453,26 +6608,38 @@
                                                 </div>
                                             </div>
                                             <div class="fl-col-group fl-node-59aafb03b0476" data-node="59aafb03b0476">
-                                                <div class="fl-col fl-node-59aafb03b05d7 fl-col-has-cols vamtam-add-shadow" data-node="59aafb03b05d7">
+                                                <div
+                                                    class="fl-col fl-node-59aafb03b05d7 fl-col-has-cols vamtam-add-shadow"
+                                                    data-node="59aafb03b05d7">
                                                     <div class="fl-col-content fl-node-content">
-                                                        <div class="fl-col-group fl-node-59aafb0894f7f fl-col-group-nested fl-col-group-equal-height fl-col-group-align-center fl-col-group-custom-width" data-node="59aafb0894f7f">
-                                                            <div class="fl-col fl-node-59aafb0895102 fl-col-small" data-node="59aafb0895102">
+                                                        <div
+                                                            class="fl-col-group fl-node-59aafb0894f7f fl-col-group-nested fl-col-group-equal-height fl-col-group-align-center fl-col-group-custom-width"
+                                                            data-node="59aafb0894f7f">
+                                                            <div class="fl-col fl-node-59aafb0895102 fl-col-small"
+                                                                 data-node="59aafb0895102">
                                                                 <div class="fl-col-content fl-node-content">
-                                                                    <div class="fl-module fl-module-vamtam-icon fl-node-59aafad21a60e" data-node="59aafad21a60e">
+                                                                    <div
+                                                                        class="fl-module fl-module-vamtam-icon fl-node-59aafad21a60e"
+                                                                        data-node="59aafad21a60e">
                                                                         <div class="fl-module-content fl-node-content">
                                                                                 <span class="fl-icon-wrap">
                                                                                     <span class="fl-icon">
-                                                                                        <a href="/gardens/" target="_self">
-                                                                                            <img src="/wp-content/uploads/fastandeasy.png">
+                                                                                        <a href="/gardens/"
+                                                                                           target="_self">
+                                                                                            <img
+                                                                                                src="{{ asset('wp-content/uploads/fastandeasy.png')}}">
                                                                                         </a>
                                                                                     </span>
                                                                                 </span>
                                                                         </div>
                                                                     </div>
-                                                                    <div class="fl-module fl-module-vamtam-heading fl-node-59aafad21a64a" data-node="59aafad21a64a">
+                                                                    <div
+                                                                        class="fl-module fl-module-vamtam-heading fl-node-59aafad21a64a"
+                                                                        data-node="59aafad21a64a">
                                                                         <div class="fl-module-content fl-node-content">
                                                                             <h3 class="vamtam-heading ">
-                                                                                <a href="/gardens/" title="Gardens" target="_self">
+                                                                                <a href="/gardens/" title="Gardens"
+                                                                                   target="_self">
                                                                                     <span class="vamtam-heading-text">Fast and Easy</span>
                                                                                 </a>
                                                                             </h3>
@@ -6495,23 +6662,31 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div class="fl-col fl-node-59aafb0895148 fl-col-small" data-node="59aafb0895148">
+                                                            <div class="fl-col fl-node-59aafb0895148 fl-col-small"
+                                                                 data-node="59aafb0895148">
                                                                 <div class="fl-col-content fl-node-content">
-                                                                    <div class="fl-module fl-module-vamtam-icon fl-node-59aafad21a778" data-node="59aafad21a778">
+                                                                    <div
+                                                                        class="fl-module fl-module-vamtam-icon fl-node-59aafad21a778"
+                                                                        data-node="59aafad21a778">
                                                                         <div class="fl-module-content fl-node-content">
                                                                                 <span class="fl-icon-wrap">
                                                                                     <span class="fl-icon">
-                                                                                        <a href="/urban/" target="_self">
-                                                                                            <img src="/wp-content/uploads/trustworthy.png">
+                                                                                        <a href="/urban/"
+                                                                                           target="_self">
+                                                                                            <img
+                                                                                                src="{{ asset('wp-content/uploads/trustworthy.png')}}">
                                                                                         </a>
                                                                                     </span>
                                                                                 </span>
                                                                         </div>
                                                                     </div>
-                                                                    <div class="fl-module fl-module-vamtam-heading fl-node-59aafad21a7b5" data-node="59aafad21a7b5">
+                                                                    <div
+                                                                        class="fl-module fl-module-vamtam-heading fl-node-59aafad21a7b5"
+                                                                        data-node="59aafad21a7b5">
                                                                         <div class="fl-module-content fl-node-content">
                                                                             <h3 class="vamtam-heading ">
-                                                                                <a href="/urban/" title="Urban" target="_self">
+                                                                                <a href="/urban/" title="Urban"
+                                                                                   target="_self">
                                                                                     <span class="vamtam-heading-text">Trust worthy</span>
                                                                                 </a>
                                                                             </h3>
@@ -6535,23 +6710,31 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div class="fl-col fl-node-59aafb089518e fl-col-small" data-node="59aafb089518e">
+                                                            <div class="fl-col fl-node-59aafb089518e fl-col-small"
+                                                                 data-node="59aafb089518e">
                                                                 <div class="fl-col-content fl-node-content">
-                                                                    <div class="fl-module fl-module-vamtam-icon fl-node-59aafad21a8e9" data-node="59aafad21a8e9">
+                                                                    <div
+                                                                        class="fl-module fl-module-vamtam-icon fl-node-59aafad21a8e9"
+                                                                        data-node="59aafad21a8e9">
                                                                         <div class="fl-module-content fl-node-content">
                                                                                 <span class="fl-icon-wrap">
                                                                                     <span class="fl-icon">
-                                                                                        <a href="/maintenance/" target="_self">
-                                                                                            <img src="/wp-content/uploads/prices-1.png">
+                                                                                        <a href="/maintenance/"
+                                                                                           target="_self">
+                                                                                            <img
+                                                                                                src="{{ asset('wp-content/uploads/prices-1.png')}}">
                                                                                         </a>
                                                                                     </span>
                                                                                 </span>
                                                                         </div>
                                                                     </div>
-                                                                    <div class="fl-module fl-module-vamtam-heading fl-node-59aafad21a927" data-node="59aafad21a927">
+                                                                    <div
+                                                                        class="fl-module fl-module-vamtam-heading fl-node-59aafad21a927"
+                                                                        data-node="59aafad21a927">
                                                                         <div class="fl-module-content fl-node-content">
                                                                             <h3 class="vamtam-heading ">
-                                                                                <a href="/maintenance/" title="Maintenance" target="_self">
+                                                                                <a href="/maintenance/"
+                                                                                   title="Maintenance" target="_self">
                                                                                     <span class="vamtam-heading-text">Great Prices</span>
                                                                                 </a>
                                                                             </h3>
@@ -6575,23 +6758,31 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div class="fl-col fl-node-59aafb08951e6 fl-col-small" data-node="59aafb08951e6">
+                                                            <div class="fl-col fl-node-59aafb08951e6 fl-col-small"
+                                                                 data-node="59aafb08951e6">
                                                                 <div class="fl-col-content fl-node-content">
-                                                                    <div class="fl-module fl-module-vamtam-icon fl-node-59aafad21aa55" data-node="59aafad21aa55">
+                                                                    <div
+                                                                        class="fl-module fl-module-vamtam-icon fl-node-59aafad21aa55"
+                                                                        data-node="59aafad21aa55">
                                                                         <div class="fl-module-content fl-node-content">
                                                                                 <span class="fl-icon-wrap">
                                                                                     <span class="fl-icon">
-                                                                                        <a href="/services/events-decoration/" target="_self">
-                                                                                            <img src="/wp-content/uploads/helpful.png">
+                                                                                        <a href="/services/events-decoration/"
+                                                                                           target="_self">
+                                                                                            <img
+                                                                                                src="{{ asset('wp-content/uploads/helpful.png')}}">
                                                                                         </a>
                                                                                     </span>
                                                                                 </span>
                                                                         </div>
                                                                     </div>
-                                                                    <div class="fl-module fl-module-vamtam-heading fl-node-59aafad21aa92" data-node="59aafad21aa92">
+                                                                    <div
+                                                                        class="fl-module fl-module-vamtam-heading fl-node-59aafad21aa92"
+                                                                        data-node="59aafad21aa92">
                                                                         <div class="fl-module-content fl-node-content">
                                                                             <h3 class="vamtam-heading ">
-                                                                                <a href="" title="Events" target="_self">
+                                                                                <a href="" title="Events"
+                                                                                   target="_self">
                                                                                     <span class="vamtam-heading-text">Helpful</span>
                                                                                 </a>
                                                                             </h3>
@@ -6817,14 +7008,54 @@
                                                                                                 <span class="excerpt">Mirum est notare quam littera gothica, quam nunc.</span>
                                                                                             </span>
                                                                                     </a>
-                                                                                    <a href="/portfolio/somerset/" class="link-read-more">Case study →</a>
+                                                                                    <a href="/portfolio/somerset/"
+                                                                                       class="link-read-more">Case study
+                                                                                        →</a>
                                                                                 </div>
                                                                                 <div class="portfolio-image">
-                                                                                    <a href="/portfolio/somerset/" class="meta " target="_self">
-                                                                                        <div class="vamtam-responsive-wrapper">
-                                                                                            <img width="292" height="225" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20292%20225'%3E%3C/svg%3E" class="attachment-theme-loop-4 size-theme-loop-4 wp-post-image" alt="" decoding="async" data-lazy-srcset="/wp-content/uploads/2017/09/checking-conditioner.jpg 292w, /wp-content/uploads/2017/09/checking-conditioner.jpg 615w, /wp-content/uploads/2017/09/checking-conditioner.jpg 400w, /wp-content/uploads/2017/09/checking-conditioner.jpg 800w, /wp-content/uploads/2017/01/gallery1-r-585x450.jpg 585w" data-lazy-sizes="(min-width: 900px) 50vw, 100vw" data-attachment-id="14807" data-permalink="/portfolio/somerset/gallery1-r/" data-orig-file="/wp-content/uploads/2017/01/gallery1-r.jpg" data-orig-size="1200,732" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="gallery1-r" data-image-description="" data-image-caption="" data-medium-file="/wp-content/uploads/2017/01/gallery1-r-600x366.jpg" data-large-file="/wp-content/uploads/2017/09/checking-conditioner.jpg" data-lazy-src="/wp-content/uploads/2017/09/checking-conditioner.jpg"/>
+                                                                                    <a href="/portfolio/somerset/"
+                                                                                       class="meta " target="_self">
+                                                                                        <div
+                                                                                            class="vamtam-responsive-wrapper">
+                                                                                            <img width="292"
+                                                                                                 height="225"
+                                                                                                 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20292%20225'%3E%3C/svg%3E"
+                                                                                                 class="attachment-theme-loop-4 size-theme-loop-4 wp-post-image"
+                                                                                                 alt="" decoding="async"
+                                                                                                 data-lazy-srcset="'{{ asset('wp-content/uploads/2017/09/checking-conditioner.jpg')}}' 292w, {{ asset('wp-content/uploads/2017/09/checking-conditioner.jpg')}} 615w, {{ asset('wp-content/uploads/2017/09/checking-conditioner.jpg')}} 400w, {{ asset('wp-content/uploads/2017/09/checking-conditioner.jpg')}} 800w, {{ asset('wp-content/uploads/2017/09/checking-conditioner.jpg')}} 585w"
+                                                                                                 data-lazy-sizes="(min-width: 900px) 50vw, 100vw"
+                                                                                                 data-attachment-id="14807"
+                                                                                                 data-permalink="/portfolio/somerset/gallery1-r/"
+                                                                                                 data-orig-file="{{ asset('wp-content/uploads/2017/09/checking-conditioner.jpg')}}"
+                                                                                                 data-orig-size="1200,732"
+                                                                                                 data-comments-opened="0"
+                                                                                                 data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}"
+                                                                                                 data-image-title="gallery1-r"
+                                                                                                 data-image-description=""
+                                                                                                 data-image-caption=""
+                                                                                                 data-medium-file="{{ asset('wp-content/uploads/2017/09/checking-conditioner.jpg')}}"
+                                                                                                 data-large-file="{{ asset('wp-content/uploads/2017/09/checking-conditioner.jpg')}}"
+                                                                                                 data-lazy-src="{{ asset('wp-content/uploads/2017/09/checking-conditioner.jpg')}}"/>
                                                                                             <noscript>
-                                                                                                <img width="292" height="225" src="/wp-content/uploads/2017/09/checking-conditioner.jpg" class="attachment-theme-loop-4 size-theme-loop-4 wp-post-image" alt="" decoding="async" srcset="/wp-content/uploads/2017/09/checking.jpg 292w, /wp-content/uploads/2017/09/checking.jpg 615w, /wp-content/uploads/2017/09/checking.jpg, /wp-content/uploads/2017/09/checking.jpg 800w, /wp-content/uploads/2017/09/checking.jpg" sizes="(min-width: 900px) 50vw, 100vw" data-attachment-id="14807" data-permalink="/portfolio/somerset/gallery1-r/" data-orig-file="/wp-content/uploads/2017/09/checking.jpg" data-orig-size="1200,732" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="gallery1-r" data-image-description="" data-image-caption="" data-medium-file="/wp-content/uploads/2017/09/checking.jpg" data-large-file="/wp-content/uploads/2017/09/checking.jpg"/>
+                                                                                                <img width="292"
+                                                                                                     height="225"
+                                                                                                     src="{{ asset('wp-content/uploads/2017/09/checking-conditioner.jpg')}}"
+                                                                                                     class="attachment-theme-loop-4 size-theme-loop-4 wp-post-image"
+                                                                                                     alt=""
+                                                                                                     decoding="async"
+                                                                                                     srcset="{{ asset('wp-content/uploads/2017/09/checking.jpg')}} 292w, {{ asset('wp-content/uploads/2017/09/checking.jpg')}} 615w, {{ asset('wp-content/uploads/2017/09/checking.jpg')}}, {{ asset('wp-content/uploads/2017/09/checking.jpg')}} 800w, {{ asset('wp-content/uploads/2017/09/checking.jpg')}}"
+                                                                                                     sizes="(min-width: 900px) 50vw, 100vw"
+                                                                                                     data-attachment-id="14807"
+                                                                                                     data-permalink="/portfolio/somerset/gallery1-r/"
+                                                                                                     data-orig-file="{{ asset('wp-content/uploads/2017/09/checking.jpg')}}"
+                                                                                                     data-orig-size="1200,732"
+                                                                                                     data-comments-opened="0"
+                                                                                                     data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}"
+                                                                                                     data-image-title="gallery1-r"
+                                                                                                     data-image-description=""
+                                                                                                     data-image-caption=""
+                                                                                                     data-medium-file="{{ asset('wp-content/uploads/2017/09/checking.jpg')}}"
+                                                                                                     data-large-file="{{ asset('wp-content/uploads/2017/09/checking.jpg')}}"/>
                                                                                             </noscript>
                                                                                         </div>
                                                                                     </a>
@@ -6833,7 +7064,10 @@
                                                                         </div>
 
 
-                                                                        <div data-id="315" data-type="events interiors maintance" class="has-title has-description state-closed vamtam-project hover-animation-2 cbp-item post-315 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-events jetpack-portfolio-type-interiors jetpack-portfolio-type-maintance" style="width: 33%">
+                                                                        <div data-id="315"
+                                                                             data-type="events interiors maintance"
+                                                                             class="has-title has-description state-closed vamtam-project hover-animation-2 cbp-item post-315 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-events jetpack-portfolio-type-interiors jetpack-portfolio-type-maintance"
+                                                                             style="width: 33%">
                                                                             <div class="portfolio-item-wrapper">
                                                                                 <div class="portfolio_details">
                                                                                     <a href="/" class="project-title " target="_self">
@@ -6842,47 +7076,134 @@
                                                                                                 <span class="excerpt">Mirum est notare quam littera gothica, quam nunc.</span>
                                                                                             </span>
                                                                                     </a>
-                                                                                    <a href="/" class="link-read-more">Case study →</a>
+                                                                                    <a href="/" class="link-read-more">Case
+                                                                                        study →</a>
                                                                                 </div>
                                                                                 <div class="portfolio-image">
-                                                                                    <a href="/" class="meta " target="_self">
-                                                                                        <div class="vamtam-responsive-wrapper">
-                                                                                            <img width="315" height="242" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20315%20242'%3E%3C/svg%3E" class="attachment-theme-loop-4 size-theme-loop-4 wp-post-image" alt="" decoding="async" data-lazy-srcset="/wp-content/uploads/2014/01/gallery5-327x251.jpg 327w, /wp-content/uploads/2017/09/checking.jpg 685w, /wp-content/uploads/2017/09/checking.jpg 446w, /wp-content/uploads/2017/09/checking.jpg 893w, /wp-content/uploads/2014/01/gallery5-655x503.jpg 655w" data-lazy-sizes="(min-width: 900px) 50vw, 100vw" data-attachment-id="13834" data-permalink="/portfolio/water/gallery5/" data-orig-file="/wp-content/uploads/2017/09/checking.jpg" data-orig-size="1200,1905" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="gallery5" data-image-description="" data-image-caption="" data-medium-file="/wp-content/uploads/2017/09/checking.jpg" data-large-file="/wp-content/uploads/2017/09/checking.jpg" data-lazy-src="/wp-content/uploads/2017/09/checking.jpg"/>
+                                                                                    <a href="/" class="meta "
+                                                                                       target="_self">
+                                                                                        <div
+                                                                                            class="vamtam-responsive-wrapper">
+                                                                                            <img width="315"
+                                                                                                 height="242"
+                                                                                                 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20315%20242'%3E%3C/svg%3E"
+                                                                                                 class="attachment-theme-loop-4 size-theme-loop-4 wp-post-image"
+                                                                                                 alt="" decoding="async"
+                                                                                                 data-lazy-srcset="{{ asset('wp-content/uploads/2017/09/checking.jpg')}} 327w, {{ asset('wp-content/uploads/2017/09/checking.jpg')}}{{ asset('wp-content/uploads/2017/09/checking.jpg')}} 685w, {{ asset('wp-content/uploads/2017/09/checking.jpg')}} 446w, {{ asset('wp-content/uploads/2017/09/checking.jpg')}} 893w, {{ asset('wp-content/uploads/2017/09/checking.jpg')}} 655w"
+                                                                                                 data-lazy-sizes="(min-width: 900px) 50vw, 100vw"
+                                                                                                 data-attachment-id="13834"
+                                                                                                 data-permalink="/portfolio/water/gallery5/"
+                                                                                                 data-orig-file="{{ asset('wp-content/uploads/2017/09/checking.jpg')}}"
+                                                                                                 data-orig-size="1200,1905"
+                                                                                                 data-comments-opened="0"
+                                                                                                 data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}"
+                                                                                                 data-image-title="gallery5"
+                                                                                                 data-image-description=""
+                                                                                                 data-image-caption=""
+                                                                                                 data-medium-file="{{ asset('wp-content/uploads/2017/09/checking.jpg')}}"
+                                                                                                 data-large-file="{{ asset('wp-content/uploads/2017/09/checking.jpg')}}"
+                                                                                                 data-lazy-src="{{ asset('wp-content/uploads/2017/09/checking.jpg')}}"/>
                                                                                             <noscript>
-                                                                                                <img width="315" height="242" src="/wp-content/uploads/2017/09/checking.jpg" class="attachment-theme-loop-4 size-theme-loop-4 wp-post-image" alt="" decoding="async" srcset="/wp-content/uploads/2017/09/checking.jpg 327w, /wp-content/uploads/2017/09/checking.jpg 685w, /wp-content/uploads/2014/01/gallery5-446x343.jpg 446w, /wp-content/uploads/2017/09/checking.jpg 893w, /wp-content/uploads/2014/01/gallery5-655x503.jpg 655w" sizes="(min-width: 900px) 50vw, 100vw" data-attachment-id="13834" data-permalink="/portfolio/water/gallery5/" data-orig-file="/wp-content/uploads/2017/09/checking.jpg" data-orig-size="1200,1905" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="gallery5" data-image-description="" data-image-caption="" data-medium-file="/wp-content/uploads/2017/09/checking.jpg" data-large-file="/wp-content/uploads/2017/09/checking.jpg"/>
+                                                                                                <img width="315"
+                                                                                                     height="242"
+                                                                                                     src="{{ asset('wp-content/uploads/2017/09/checking.jpg')}}"
+                                                                                                     class="attachment-theme-loop-4 size-theme-loop-4 wp-post-image"
+                                                                                                     alt=""
+                                                                                                     decoding="async"
+                                                                                                     srcset="{{ asset('wp-content/uploads/2017/09/checking.jpg')}} 327w, {{ asset('wp-content/uploads/2017/09/checking.jpg')}} 685w, {{ asset('wp-content/uploads/2017/09/checking.jpg')}} 446w, {{ asset('wp-content/uploads/2017/09/checking.jpg')}} 893w, {{ asset('wp-content/uploads/2017/09/checking.jpg')}} 655w"
+                                                                                                     sizes="(min-width: 900px) 50vw, 100vw"
+                                                                                                     data-attachment-id="13834"
+                                                                                                     data-permalink="/portfolio/water/gallery5/"
+                                                                                                     data-orig-file="{{ asset('wp-content/uploads/2017/09/checking.jpg')}}"
+                                                                                                     data-orig-size="1200,1905"
+                                                                                                     data-comments-opened="0"
+                                                                                                     data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}"
+                                                                                                     data-image-title="gallery5"
+                                                                                                     data-image-description=""
+                                                                                                     data-image-caption=""
+                                                                                                     data-medium-file="{{ asset('wp-content/uploads/2017/09/checking.jpg')}}"
+                                                                                                     data-large-file="{{ asset('wp-content/uploads/2017/09/checking.jpg')}}"/>
                                                                                             </noscript>
                                                                                         </div>
                                                                                     </a>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
-                                                                        <div data-id="322" data-type="maintance" class="has-title has-description state-closed vamtam-project hover-animation-2 cbp-item post-322 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-maintance" style="width: 33%">
+                                                                        <div data-id="322" data-type="maintance"
+                                                                             class="has-title has-description state-closed vamtam-project hover-animation-2 cbp-item post-322 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-maintance"
+                                                                             style="width: 33%">
                                                                             <div class="portfolio-item-wrapper">
                                                                                 <div class="portfolio_details">
-                                                                                    <a href="/portfolio/garden/" class="project-title " target="_self">
+                                                                                    <a href="/portfolio/garden/"
+                                                                                       class="project-title "
+                                                                                       target="_self">
                                                                                             <span class="text-wrapper">
                                                                                                 <span class="title">Stefan </span>
                                                                                                 <span class="excerpt">Mirum est notare quam littera gothica, quam nunc.</span>
                                                                                             </span>
                                                                                     </a>
-                                                                                    <a href="/portfolio/garden/" class="link-read-more">Case study →</a>
+                                                                                    <a href="/portfolio/garden/"
+                                                                                       class="link-read-more">Case study
+                                                                                        →</a>
                                                                                 </div>
                                                                                 <div class="portfolio-image">
-                                                                                    <a href="/portfolio/garden/" class="meta " target="_self">
-                                                                                        <div class="vamtam-responsive-wrapper">
-                                                                                            <img width="292" height="225" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20292%20225'%3E%3C/svg%3E" class="attachment-theme-loop-4 size-theme-loop-4 wp-post-image" alt="" decoding="async" data-lazy-srcset="/wp-content/uploads/maintance2.jpg 292w, /wp-content/uploads/2014/01/gallery4-r-615x473.jpg 615w, /wp-content/uploads/maintance2.jpg 400w, /wp-content/uploads/maintance2.jpg 800w, wp-content/uploads/maintance2.jpg 585w" data-lazy-sizes="(min-width: 900px) 50vw, 100vw" data-attachment-id="14811" data-permalink="/portfolio/garden/gallery4-r/" data-orig-file="/wp-content/uploads/maintance2.jpg" data-orig-size="1200,788" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="gallery4-r" data-image-description="" data-image-caption="" data-medium-file="/wp-content/uploads/maintance2.jpg" data-large-file="/wp-content/uploads/maintance2.jpg" data-lazy-src="/wp-content/uploads/maintance2.jpg"/>
+                                                                                    <a href="/portfolio/garden/"
+                                                                                       class="meta " target="_self">
+                                                                                        <div
+                                                                                            class="vamtam-responsive-wrapper">
+                                                                                            <img width="292"
+                                                                                                 height="225"
+                                                                                                 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20292%20225'%3E%3C/svg%3E"
+                                                                                                 class="attachment-theme-loop-4 size-theme-loop-4 wp-post-image"
+                                                                                                 alt="" decoding="async"
+                                                                                                 data-lazy-srcset="{{ asset('wp-content/uploads/maintance2.jpg')}} 292w, {{ asset('wp-content/uploads/maintance2.jpg')}} 615w, {{ asset('wp-content/uploads/maintance2.jpg')}} 400w, {{ asset('wp-content/uploads/maintance2.jpg')}} 800w, {{ asset('wp-content/uploads/maintance2.jpg')}} 585w"
+                                                                                                 data-lazy-sizes="(min-width: 900px) 50vw, 100vw"
+                                                                                                 data-attachment-id="14811"
+                                                                                                 data-permalink="/portfolio/garden/gallery4-r/"
+                                                                                                 data-orig-file="{{ asset('wp-content/uploads/maintance2.jpg')}}"
+                                                                                                 data-orig-size="1200,788"
+                                                                                                 data-comments-opened="0"
+                                                                                                 data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}"
+                                                                                                 data-image-title="gallery4-r"
+                                                                                                 data-image-description=""
+                                                                                                 data-image-caption=""
+                                                                                                 data-medium-file="{{ asset('wp-content/uploads/maintance2.jpg')}}"
+                                                                                                 data-large-file="{{ asset('wp-content/uploads/maintance2.jpg')}}"
+                                                                                                 data-lazy-src="{{ asset('wp-content/uploads/maintance2.jpg')}}"/>
                                                                                             <noscript>
-                                                                                                <img width="292" height="225" src="/wp-content/uploads/maintance2.jpg" class="attachment-theme-loop-4 size-theme-loop-4 wp-post-image" alt="" decoding="async" srcset="/wp-content/uploads/maintance2.jpg 292w, /wp-content/uploads/2014/01/gallery4-r-615x473.jpg 615w, /wp-content/uploads/maintance2.jpg 400w, /wp-content/uploads/maintance2.jpg 800w, /wp-content/uploads/maintance2.jpg 585w" sizes="(min-width: 900px) 50vw, 100vw" data-attachment-id="14811" data-permalink="/portfolio/garden/gallery4-r/" data-orig-file="/wp-content/uploads/maintance2.jpg" data-orig-size="1200,788" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="gallery4-r" data-image-description="" data-image-caption="" data-medium-file="/wp-content/uploads/maintance2.jpg" data-large-file="/wp-content/uploads/maintance2.jpg"/>
+                                                                                                <img width="292"
+                                                                                                     height="225"
+                                                                                                     src="{{ asset('wp-content/uploads/maintance2.jpg')}}"
+                                                                                                     class="attachment-theme-loop-4 size-theme-loop-4 wp-post-image"
+                                                                                                     alt=""
+                                                                                                     decoding="async"
+                                                                                                     srcset="{{ asset('wp-content/uploads/maintance2.jpg')}} 292w, {{ asset('wp-content/uploads/maintance2.jpg')}} 615w, {{ asset('wp-content/uploads/maintance2.jpg')}} 400w, {{ asset('wp-content/uploads/maintance2.jpg')}} 800w, {{ asset('wp-content/uploads/maintance2.jpg')}} 585w"
+                                                                                                     sizes="(min-width: 900px) 50vw, 100vw"
+                                                                                                     data-attachment-id="14811"
+                                                                                                     data-permalink="/portfolio/garden/gallery4-r/"
+                                                                                                     data-orig-file="{{ asset('wp-content/uploads/maintance2.jpg')}}"
+                                                                                                     data-orig-size="1200,788"
+                                                                                                     data-comments-opened="0"
+                                                                                                     data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}"
+                                                                                                     data-image-title="gallery4-r"
+                                                                                                     data-image-description=""
+                                                                                                     data-image-caption=""
+                                                                                                     data-medium-file="{{ asset('wp-content/uploads/maintance2.jpg')}}"
+                                                                                                     data-large-file="{{ asset('wp-content/uploads/maintance2.jpg')}}"/>
                                                                                             </noscript>
                                                                                         </div>
                                                                                     </a>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
-                                                                        <div data-id="320" data-type="gardens" class="has-title has-description state-closed vamtam-project hover-animation-2 cbp-item post-320 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-gardens" style="width: 33%">
+                                                                        <div data-id="320" data-type="gardens"
+                                                                             class="has-title has-description state-closed vamtam-project hover-animation-2 cbp-item post-320 jetpack-portfolio type-jetpack-portfolio status-publish format-standard has-post-thumbnail hentry jetpack-portfolio-type-gardens"
+                                                                             style="width: 33%">
                                                                             <div class="portfolio-item-wrapper">
                                                                                 <div class="portfolio_details">
-                                                                                    <a href="/portfolio/fairy/" class="project-title " target="_self">
+                                                                                    <a href="/portfolio/fairy/"
+                                                                                       class="project-title "
+                                                                                       target="_self">
                                                                                             <span class="text-wrapper">
                                                                                                 <span class="title">Fairy </span>
                                                                                                 <span class="excerpt">Mirum est notare quam littera gothica, quam nunc.</span>
@@ -6890,18 +7211,7 @@
                                                                                     </a>
                                                                                     <a href="/portfolio/fairy/" class="link-read-more">Case study →</a>
                                                                                 </div>
-                                                                                <div class="portfolio-image">
-                                                                                    <a href="/portfolio/fairy/" class="meta " target="_self">
-                                                                                        <div class="vamtam-responsive-wrapper">
-                                                                                            <img width="315" height="242" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20315%20242'%3E%3C/svg%3E" class="attachment-theme-loop-4 size-theme-loop-4 wp-post-image" alt="" decoding="async" data-lazy-srcset="/wp-content/uploads/transport.jpg 327w, /wp-content/uploads/transport.jpg 685w, /wp-content/uploads/2014/01/gallery6-1-446x343.jpg 446w, /wp-content/uploads/transport.jpg 893w, /wp-content/uploads/transport.jpg 655w" data-lazy-sizes="(min-width: 900px) 50vw, 100vw" data-attachment-id="13836" data-permalink="/portfolio/fairy/gallery6-4/" data-orig-file="/wp-content/uploads/transport.jpg" data-orig-size="1200,871" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="gallery6" data-image-description="" data-image-caption="" data-medium-file="/wp-content/uploads/transport.jpg.jpg" data-large-file="/wp-content/uploads/2014/01/gallery6-1.jpg" data-lazy-src="/wp-content/uploads/transport.jpg"/>
-                                                                                            <noscript>
-                                                                                                <img width="315" height="242" src="/wp-content/uploads/transport.jpg" class="attachment-theme-loop-4 size-theme-loop-4 wp-post-image" alt="" decoding="async" srcset="/wp-content/uploads/transport.jpg 327w, /wp-content/uploads/transport.jpg 685w, /wp-content/uploads/transport.jpg 446w, /wp-content/uploads/2014/01/gallery6-1-893x687.jpg 893w, /wp-content/uploads/transport.jpg 655w" sizes="(min-width: 900px) 50vw, 100vw" data-attachment-id="13836" data-permalink="/portfolio/fairy/gallery6-4/" data-orig-file="/wp-content/uploads/transport.jpg" data-orig-size="1200,871" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="gallery6" data-image-description="" data-image-caption="" data-medium-file="/wp-content/uploads/transport.jpg" data-large-file="/wp-content/uploads/transport.jpg"/>
-                                                                                            </noscript>
-                                                                                            </noscript>
-                                                                                            </noscript>
-                                                                                        </div>
-                                                                                    </a>
-                                                                                </div>
+
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -6947,17 +7257,34 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="fl-col fl-node-59ad1ee6f21c1 fl-col-has-cols" data-node="59ad1ee6f21c1">
+                                                <div class="fl-col fl-node-59ad1ee6f21c1 fl-col-has-cols"
+                                                     data-node="59ad1ee6f21c1">
                                                     <div class="fl-col-content fl-node-content">
-                                                        <div class="fl-col-group fl-node-59ad28dd311af fl-col-group-nested fl-col-group-custom-width" data-node="59ad28dd311af">
-                                                            <div class="fl-col fl-node-59ad28d68ae98" data-node="59ad28d68ae98">
-                                                                <img src="/wp-content/uploads/2017/09/Pic2.jpg" alt="pic2">
+                                                        <div
+                                                            class="fl-col-group fl-node-59ad28dd311af fl-col-group-nested fl-col-group-custom-width"
+                                                            data-node="59ad28dd311af">
+                                                            <div class="fl-col fl-node-59ad28d68ae98"
+                                                                 data-node="59ad28d68ae98">
+                                                                <img
+                                                                    src="{{ asset('wp-content/uploads/2017/09/Pic2.jpg')}}"
+                                                                    alt="pic2">
                                                                 <div class=" fl-node-content">
-                                                                    <div class="fl-module fl-module-photo fl-node-59ad9857c9370" data-node="59ad9857c9370">
+                                                                    <div
+                                                                        class="fl-module fl-module-photo fl-node-59ad9857c9370"
+                                                                        data-node="59ad9857c9370">
                                                                         <div class="fl-module-content fl-node-content">
-                                                                            <div class="fl-photo fl-photo-align-center" itemscope itemtype="http://schema.org/ImageObject">
-                                                                                <div class="fl-photo-content fl-photo-img-svg">
-                                                                                    <img width="743" height="440" decoding="async" class="fl-photo-img wp-image-14081 size-full" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20743%20440'%3E%3C/svg%3E" alt="Tree-pic" itemprop="image" title="Tree-pic" data-lazy-src="/wp-content/uploads/truck.png"/>
+                                                                            <div class="fl-photo fl-photo-align-center"
+                                                                                 itemscope
+                                                                                 itemtype="http://schema.org/ImageObject">
+                                                                                <div
+                                                                                    class="fl-photo-content fl-photo-img-svg">
+                                                                                    <img width="743" height="440"
+                                                                                         decoding="async"
+                                                                                         class="fl-photo-img wp-image-14081 size-full"
+                                                                                         src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20743%20440'%3E%3C/svg%3E"
+                                                                                         alt="Tree-pic" itemprop="image"
+                                                                                         title="Tree-pic"
+                                                                                         data-lazy-src="{{ asset('wp-content/uploads/truck.png')}}"/>
 
                                                                                 </div>
                                                                             </div>
@@ -6966,8 +7293,11 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="fl-col-group fl-node-59ad2828ebdfe fl-col-group-nested fl-col-group-equal-height fl-col-group-align-center fl-col-group-custom-width" data-node="59ad2828ebdfe">
-                                                            <div class="fl-col fl-node-59ad2828ebfaf fl-col-small" data-node="59ad2828ebfaf">
+                                                        <div
+                                                            class="fl-col-group fl-node-59ad2828ebdfe fl-col-group-nested fl-col-group-equal-height fl-col-group-align-center fl-col-group-custom-width"
+                                                            data-node="59ad2828ebdfe">
+                                                            <div class="fl-col fl-node-59ad2828ebfaf fl-col-small"
+                                                                 data-node="59ad2828ebfaf">
                                                                 <div class="fl-col-content fl-node-content">
                                                                     <div class="fl-module fl-module-vamtam-heading fl-node-59aafad21a11b" data-node="59aafad21a11b">
                                                                         <div class="fl-module-content fl-node-content">
@@ -7015,18 +7345,23 @@
                                                                 </div>
                                                             </div>
 
-                                                            <div class="fl-col fl-node-59ad2828ebff5 fl-col-small" data-node="59ad2828ebff5">
+                                                            <div class="fl-col fl-node-59ad2828ebff5 fl-col-small"
+                                                                 data-node="59ad2828ebff5">
                                                                 <div class="fl-col-content fl-node-content">
-                                                                    <div class="fl-module fl-module-vamtam-icon fl-node-59ad2afd00d46" data-node="59ad2afd00d46">
+                                                                    <div
+                                                                        class="fl-module fl-module-vamtam-icon fl-node-59ad2afd00d46"
+                                                                        data-node="59ad2afd00d46">
                                                                         <div class="fl-module-content fl-node-content">
                                                                                 <span class="fl-icon-wrap">
                                                                                     <span class="fl-icon">
-                                                                                        <img src="/wp-content/uploads/truck.png">
+                                                                                        <img
+                                                                                            src="{{ asset('wp-content/uploads/truck.png')}}">
                                                                                     </span>
                                                                                 </span>
                                                                         </div>
                                                                     </div>
-                                                                    <div class="fl-module fl-module-vamtam-heading fl-node-59aafad219fa5">
+                                                                    <div
+                                                                        class="fl-module fl-module-vamtam-heading fl-node-59aafad219fa5">
                                                                         <div class="fl-module-content fl-node-content">
                                                                             <h3 class="vamtam-heading ">
                                                                                 <span class="vamtam-heading-text">Craftsmanship</span>
@@ -7053,14 +7388,21 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="fl-col-group fl-node-59ad3665ae9f5 fl-col-group-nested fl-col-group-equal-height fl-col-group-align-center fl-col-group-custom-width" data-node="59ad3665ae9f5">
-                                                            <div class="fl-col fl-node-59ad3665aeba3 fl-col-small" data-node="59ad3665aeba3">
-                                                                <div class="fl-node-content" ></div>
-                                                                <img  src="/wp-content/uploads/2017/09/checking.jpg"></img>
+                                                        <div
+                                                            class="fl-col-group fl-node-59ad3665ae9f5 fl-col-group-nested fl-col-group-equal-height fl-col-group-align-center fl-col-group-custom-width"
+                                                            data-node="59ad3665ae9f5">
+                                                            <div class="fl-col fl-node-59ad3665aeba3 fl-col-small"
+                                                                 data-node="59ad3665aeba3">
+                                                                <div class="fl-node-content"></div>
+                                                                <img
+                                                                    src="{{ asset('wp-content/uploads/2017/09/checking.jpg')}}"></img>
                                                             </div>
-                                                            <div class="fl-col fl-node-59ad3665aebf2 fl-col-small" data-node="59ad3665aebf2">
+                                                            <div class="fl-col fl-node-59ad3665aebf2 fl-col-small"
+                                                                 data-node="59ad3665aebf2">
                                                                 <div class="fl-col-content fl-node-content">
-                                                                    <div class="fl-module fl-module-vamtam-heading fl-node-59aafad21a1d0" data-node="59aafad21a1d0">
+                                                                    <div
+                                                                        class="fl-module fl-module-vamtam-heading fl-node-59aafad21a1d0"
+                                                                        data-node="59aafad21a1d0">
                                                                         <div class="fl-module-content fl-node-content">
                                                                             <h3 class="vamtam-heading ">
                                                                                 <span class="vamtam-heading-text">Philosophy</span>
@@ -7231,7 +7573,9 @@
                                                                 </div>
                                                             </div>
 
-                                                            <div class="fl-col fl-node-59ad4fc301ad1 fl-col-small fl-visible-desktop" data-node="59ad4fc301ad1">
+                                                            <div
+                                                                class="fl-col fl-node-59ad4fc301ad1 fl-col-small fl-visible-desktop"
+                                                                data-node="59ad4fc301ad1">
                                                                 <div class="fl-col-content fl-node-content"></div>
                                                             </div>
                                                         </div>
@@ -7241,28 +7585,47 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="fl-row fl-row-full-width fl-row-bg-parallax fl-node-59ad56011a0a1 fl-row-bg-overlay fl-row-bg-attachment-scroll" data-node="59ad56011a0a1" data-parallax-speed="5" data-parallax-image="/wp-content/uploads/2014/07/pic2-2.jpg" data-background-position="left top" data-background-size="cover">
+                                <div
+                                    class="fl-row fl-row-full-width fl-row-bg-parallax fl-node-59ad56011a0a1 fl-row-bg-overlay fl-row-bg-attachment-scroll"
+                                    data-node="59ad56011a0a1" data-parallax-speed="5"
+                                    data-parallax-image="{{ asset('wp-content/uploads/2014/07/pic2-2.jpg')}}"
+                                    data-background-position="left top" data-background-size="cover">
                                     <div class="fl-row-content-wrap">
                                         <div class="fl-row-content fl-row-full-width fl-node-content">
                                             <div class="fl-col-group fl-node-59ad56012d4f7" data-node="59ad56012d4f7">
-                                                <div class="fl-col fl-node-59ad56012d647 fl-col-has-cols" data-node="59ad56012d647">
+                                                <div class="fl-col fl-node-59ad56012d647 fl-col-has-cols"
+                                                     data-node="59ad56012d647">
                                                     <div class="fl-col-content fl-node-content">
-                                                        <div class="fl-module fl-module-vamtam-heading fl-node-59ad565acdf90" data-node="59ad565acdf90">
+                                                        <div
+                                                            class="fl-module fl-module-vamtam-heading fl-node-59ad565acdf90"
+                                                            data-node="59ad565acdf90">
                                                             <div class="fl-module-content fl-node-content">
                                                                 <h5 class="vamtam-heading ">
                                                                     <span class="vamtam-heading-text">Easy, Fast and Cheap</span>
                                                                 </h5>
                                                             </div>
                                                         </div>
-                                                        <div class="fl-col-group fl-node-59ad56cec28bf fl-col-group-nested" data-node="59ad56cec28bf">
-                                                            <div class="fl-col fl-node-59ad56cec2c16" data-node="59ad56cec2c16">
+                                                        <div
+                                                            class="fl-col-group fl-node-59ad56cec28bf fl-col-group-nested"
+                                                            data-node="59ad56cec28bf">
+                                                            <div class="fl-col fl-node-59ad56cec2c16"
+                                                                 data-node="59ad56cec2c16">
                                                                 <div class="fl-col-content fl-node-content">
-                                                                    <div class="fl-module fl-module-vamtam-button fl-node-59ad56d558251" data-node="59ad56d558251">
+                                                                    <div
+                                                                        class="fl-module fl-module-vamtam-button fl-node-59ad56d558251"
+                                                                        data-node="59ad56d558251">
                                                                         <div class="fl-module-content fl-node-content">
-                                                                            <div class="vamtam-button-wrap vamtam-button-width-auto vamtam-button-has-icon" style="text-align:center">
-                                                                                <a href="/services.php" target="_self" class="vamtam-button accent5 hover-accent1 button-solid icon-animation-disable" role="button" style="font-size:14px;line-height:16px;padding:16px 32px;">
+                                                                            <div
+                                                                                class="vamtam-button-wrap vamtam-button-width-auto vamtam-button-has-icon"
+                                                                                style="text-align:center">
+                                                                                <a href="{{ url('/services')}}"
+                                                                                   target="_self"
+                                                                                   class="vamtam-button accent5 hover-accent1 button-solid icon-animation-disable"
+                                                                                   role="button"
+                                                                                   style="font-size:14px;line-height:16px;padding:16px 32px;">
                                                                                     <span class="vamtam-button-text">Discover our services </span>
-                                                                                    <i class="vamtam-button-icon vamtam-button-icon-after icon icon-b theme" data-icon="&#59703;"></i>
+                                                                                    <i class="vamtam-button-icon vamtam-button-icon-after icon icon-b theme"
+                                                                                       data-icon="&#59703;"></i>
                                                                                 </a>
                                                                             </div>
                                                                         </div>
@@ -7286,31 +7649,57 @@
 
         <div class="footer-wrapper" style="">
             <footer id="main-footer" class="main-footer">
-                <link rel='stylesheet' id='nf-display-css' href='/wp-content/plugins/ninja-forms/assets/css/display-structure.css' type='text/css' media="(max-width: 0px)" onload="media='all'"/>
+                <link rel='stylesheet' id='nf-display-css'
+                      href='{{ asset('wp-content/plugins/ninja-forms/assets/css/display-structure.css')}}'
+                      type='text/css' media="(max-width: 0px)" onload="media='all'"/>
                 <noscript>
-                    <link rel='stylesheet' href='/wp-content/plugins/ninja-forms/assets/css/display-structure.css' type='text/css' media='all'/>
+                    <link rel='stylesheet'
+                          href='{{ asset('wp-content/plugins/ninja-forms/assets/css/display-structure.css')}}'
+                          type='text/css' media='all'/>
                 </noscript>
-                <link rel='stylesheet' id='fl-builder-layout-13332-css' href='https://landscaping.vamtam.com/wp-content/uploads/bb-plugin/cache/13332-layout-partial.css?ver=4dc081b31c2e1db5c980cda0e01bd579' type='text/css' media="(max-width: 0px)" onload="media='all'"/>
+                <link rel='stylesheet' id='fl-builder-layout-13332-css'
+                      href='https://landscaping.vamtam.com/wp-content/uploads/bb-plugin/cache/13332-layout-partial.css?ver=4dc081b31c2e1db5c980cda0e01bd579'
+                      type='text/css' media="(max-width: 0px)" onload="media='all'"/>
                 <noscript>
-                    <link rel='stylesheet' href='https://landscaping.vamtam.com/wp-content/uploads/bb-plugin/cache/13332-layout-partial.css?ver=4dc081b31c2e1db5c980cda0e01bd579' type='text/css' media='all'/>
+                    <link rel='stylesheet'
+                          href='https://landscaping.vamtam.com/wp-content/uploads/bb-plugin/cache/13332-layout-partial.css?ver=4dc081b31c2e1db5c980cda0e01bd579'
+                          type='text/css' media='all'/>
                 </noscript>
-                <div class="fl-builder-content fl-builder-content-13332 fl-builder-template fl-builder-row-template fl-builder-global-templates-locked" data-post-id="13332">
-                    <div class="fl-row fl-row-full-width fl-row-bg-color fl-node-596673e94e945 fl-row-bg-attachment-scroll" data-node="596673e94e945">
+                <div
+                    class="fl-builder-content fl-builder-content-13332 fl-builder-template fl-builder-row-template fl-builder-global-templates-locked"
+                    data-post-id="13332">
+                    <div
+                        class="fl-row fl-row-full-width fl-row-bg-color fl-node-596673e94e945 fl-row-bg-attachment-scroll"
+                        data-node="596673e94e945">
                         <div class="fl-row-content-wrap">
                             <div class="fl-row-content fl-row-fixed-width fl-node-content">
                                 <div class="fl-col-group fl-node-596673e94e738" data-node="596673e94e738">
                                     <div class="fl-col fl-node-596673e94e793" data-node="   ">
-                                        <div class="fl-photo fl-photo-align-center" itemscope itemtype="http://schema.org/ImageObject">
+                                        <div class="fl-photo fl-photo-align-center" itemscope
+                                             itemtype="http://schema.org/ImageObject">
                                             <div class="fl-photo-content fl-photo-img-svg">
-                                                <img  width="500" height="100" decoding="async" class="fl-photo-img wp-image-14745 size-full pt-1" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20215%2058'%3E%3C/svg%3E" alt="logo-landscaping" itemprop="image" title="logo-landscaping" data-lazy-src="/wp-content/uploads/2017/11/logo.png"/>
+                                                <img width="500" height="100" decoding="async"
+                                                     class="fl-photo-img wp-image-14745 size-full pt-1"
+                                                     src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20215%2058'%3E%3C/svg%3E"
+                                                     alt="logo-landscaping" itemprop="image" title="logo-landscaping"
+                                                     data-lazy-src="{{ asset('wp-content/uploads/2017/11/logo.png')}}"/>
                                                 <noscript>
-                                                    <img width="500" height="100" decoding="async" class="fl-photo-img wp-image-14745 size-full" src="/wp-content/uploads/2017/11/logo.png" alt="logo-landscaping" itemprop="image" title="logo-landscaping"/>
+                                                    <img width="500" height="100" decoding="async"
+                                                         class="fl-photo-img wp-image-14745 size-full"
+                                                         src="{{ asset('wp-content/uploads/2017/11/logo.png')}}"
+                                                         alt="logo-landscaping" itemprop="image"
+                                                         title="logo-landscaping"/>
                                                 </noscript>
                                             </div>
                                         </div>
                                         <div class="fl-module-content fl-node-content">
-                                            <div class="vamtam-button-wrap vamtam-button-width-auto vamtam-button-has-icon" style="text-align:center">
-                                                <a href="/contacts" target="_self" class="vamtam-button accent1 hover-accent2 button-border icon-animation-disable" role="button" style="font-size:16px;line-height:18px;padding:16px 32px;">
+                                            <div
+                                                class="vamtam-button-wrap vamtam-button-width-auto vamtam-button-has-icon"
+                                                style="text-align:center">
+                                                <a href="/contacts" target="_self"
+                                                   class="vamtam-button accent1 hover-accent2 button-border icon-animation-disable"
+                                                   role="button"
+                                                   style="font-size:16px;line-height:18px;padding:16px 32px;">
                                                     <span class="vamtam-button-text">Contact us</span>
                                                 </a>
                                             </div>
@@ -7324,15 +7713,23 @@
                                             </div>
                                         </div>
 
-                                        <div class="fl-module fl-module-rich-text fl-node-596673e94e901" data-node="596673e94e901">
+                                        <div class="fl-module fl-module-rich-text fl-node-596673e94e901"
+                                             data-node="596673e94e901">
                                             <div class="fl-module-content fl-node-content">
                                                 <div class="fl-rich-text">
                                                     <p style="text-align: center;">
                                                                 <span style="font-size: 12px;">
-                                                                    © 2023 <a style="font-size: 12px;" href="https://themeforest.net/item/landscaping-garden-landscaper-wordpress/20942637?s_rank=20">Shipping Company</a>
-                                                                    by <a style="font-size: 12px;" href="http://martinhabeeb.rf.gd/" target="_blank" rel="noopener">Martin Habeeb</a>
+                                                                    © 2023 <a style="font-size: 12px;"
+                                                                              href="https://themeforest.net/item/landscaping-garden-landscaper-wordpress/20942637?s_rank=20">El-riyadh transport</a>
+                                                                    by <a style="font-size: 12px;"
+                                                                          href="http://martinhabeeb.rf.gd/"
+                                                                          target="_blank"
+                                                                          rel="noopener">Martin Habeeb</a>
                                                                     <br/>
-                                                                    Proudly powered by <a style="font-size: 12px;" href="https://wordpress.org/" target="_blank" rel="noopener">WordPress</a>
+                                                                    Proudly powered by <a style="font-size: 12px;"
+                                                                                          href="https://wordpress.org/"
+                                                                                          target="_blank"
+                                                                                          rel="noopener">WordPress</a>
                                                                 </span>
                                                     </p>
                                                 </div>
@@ -7431,16 +7828,21 @@
             }
         }
     </script>
-    <link rel="preload" as="font" id="rs-icon-set-revicon-woff" href="/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.woff" type="font/woff" crossorigin="anonymous" media="all"/>
-    <link rel='stylesheet' id='rs-plugin-settings-css' href='/wp-content/plugins/revslider/public/assets/css/rs6.css' type='text/css' media="(max-width: 0px)" onload="media='all'"/>
+    <link rel="preload" as="font" id="rs-icon-set-revicon-woff"
+          href="{{ asset('wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.woff')}}" type="font/woff"
+          crossorigin="anonymous" media="all"/>
+    <link rel='stylesheet' id='rs-plugin-settings-css'
+          href='{{ asset('wp-content/plugins/revslider/public/assets/css/rs6.css')}}' type='text/css'
+          media="(max-width: 0px)" onload="media='all'"/>
     <noscript>
-        <link rel='stylesheet' href='/wp-content/plugins/revslider/public/assets/css/rs6.css' type='text/css' media='all'/>
+        <link rel='stylesheet' href='{{ asset('wp-content/plugins/revslider/public/assets/css/rs6.css')}}'
+              type='text/css' media='all'/>
     </noscript>
     <style id='rs-plugin-settings-inline-css' type='text/css'>
         #rev_slider_72_1_wrapper .custom.tparrows {
             cursor: pointer;
             background: #000;
-            background: rgba(0,0,0,0.5);
+            background: rgba(0, 0, 0, 0.5);
             width: 40px;
             height: 40px;
             position: absolute;
@@ -7473,20 +7875,27 @@
             background-color: #203d1f !important
         }
     </style>
-    <script type='text/javascript' defer src='/wp-content/plugins/vamtam-elements-b/assets/fl-photo.js' id='vamtam-fl-photo-js'></script>
-    <script type='text/javascript' defer src='/wp-content/plugins/vamtam-elements-b/assets/vamtam-numbers.js' id='vamtam-numbers-js'></script>
-    <script type='text/javascript' defer src='/wp-content/uploads/bb-plugin/cache/14013-layout.js' id='fl-builder-layout-14013-js'></script>
-    <script type='text/javascript' defer src='/wp-content/plugins/revslider/public/assets/js/rbtools.min.js' defer async id='tp-tools-js'></script>
-    <script type='text/javascript' defer src='/wp-content/plugins/revslider/public/assets/js/rs6.min.js' defer async id='revmin-js'></script>
+    <script type='text/javascript' defer src='{{ asset('wp-content/plugins/vamtam-elements-b/assets/fl-photo.js')}}'
+            id='vamtam-fl-photo-js'></script>
+    <script type='text/javascript' defer src='{{ asset('wp-content/uploads/bb-plugin/cache/14013-layout.js')}}'
+            id='fl-builder-layout-14013-js'></script>
+    <script type='text/javascript' defer
+            src='{{ asset('wp-content/plugins/revslider/public/assets/js/rbtools.min.js')}}' defer async
+            id='tp-tools-js'></script>
+    <script type='text/javascript' defer src='{{ asset('wp-content/plugins/revslider/public/assets/js/rs6.min.js')}}'
+            defer async id='revmin-js'></script>
+    <script type='text/javascript' defer
+            src='{{ asset('wp-content/plugins/vamtam-elements-b/assets/vamtam-numbers.js')}}'
+            id='vamtam-numbers-js'></script>
     <script type='text/javascript' id='rocket-browser-checker-js-after'>
         "use strict";
-        var _createClass = function() {
+        var _createClass = function () {
             function defineProperties(target, props) {
                 for (var i = 0; i < props.length; i++) {
                     var descriptor = props[i];
                     descriptor.enumerable = descriptor.enumerable || !1,
                         descriptor.configurable = !0,
-                    "value"in descriptor && (descriptor.writable = !0),
+                    "value" in descriptor && (descriptor.writable = !0),
                         Object.defineProperty(target, descriptor.key, descriptor)
                 }
             }
@@ -7755,8 +8164,10 @@
         };
         /* ]]> */
     </script>
-    <script type='text/javascript' defer src='/wp-content/themes/landscaping/vamtam/assets/js/all.min.js' id='vamtam-all-js'></script>
-    <script type='text/javascript' defer src='/wp-includes/js/hoverIntent.min.js' id='hoverIntent-js'></script>
+    <script type='text/javascript' defer src='{{ asset('wp-content/themes/landscaping/vamtam/assets/js/all.min.js')}}'
+            id='vamtam-all-js'></script>
+    <script type='text/javascript' defer src='{{ asset('wp-includes/js/hoverIntent.min.js')}}'
+            id='hoverIntent-js'></script>
     <script type='text/javascript' id='megamenu-js-extra'>
         /* <![CDATA[ */
         var megamenu = {
@@ -7765,8 +8176,11 @@
         };
         /* ]]> */
     </script>
-    <script type='text/javascript' defer src='/wp-content/plugins/megamenu/js/maxmegamenu.js' id='megamenu-js'></script>
-    <script type='text/javascript' defer src='/wp-content/themes/landscaping/vamtam/assets/js/build/sticky-header.min.js' id='vamtam-sticky-header-js'></script>
+    <script type='text/javascript' defer src='{{ asset('wp-content/plugins/megamenu/js/maxmegamenu.js')}}'
+            id='megamenu-js'></script>
+    <script type='text/javascript' defer
+            src='{{ asset('wp-content/themes/landscaping/vamtam/assets/js/build/sticky-header.min.js')}}'
+            id='vamtam-sticky-header-js'></script>
     <script id="rs-initialisation-scripts">
         var tpj = jQuery;
 
@@ -7920,7 +8334,8 @@
             }
         }, !1)
     </script>
-    <script data-no-minify="1" async src="/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script>
+    <script data-no-minify="1" async
+            src="{{ asset('wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js')}}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
 
     </body>
