@@ -6924,457 +6924,55 @@
                                                                         </h4>
                                                                     </div>
                                                                 </div>
-                                                                <div class="fl-module fl-module-vamtam-ninja-form fl-node-597119bf428ad" data-node="597119bf428ad">
+                                                                <div
+                                                                    class="fl-module fl-module-vamtam-ninja-form fl-node-597119bf428ad"
+                                                                    data-node="597119bf428ad">
                                                                     <div class="fl-module-content fl-node-content">
-                                                                        <noscript class="ninja-forms-noscript-message">Notice: JavaScript is required for this content.</noscript>
-                                                                        <div id="nf-form-17-cont" class="nf-form-cont" aria-live="polite" aria-labelledby="nf-form-title-17" aria-describedby="nf-form-errors-17" role="form">
+                                                                        <noscript class="ninja-forms-noscript-message">
+                                                                            Notice: JavaScript is required for this
+                                                                            content.
+                                                                        </noscript>
+                                                                        <div id="nf-form-17-cont" class="nf-form-cont"
+                                                                             aria-live="polite"
+                                                                             aria-labelledby="nf-form-title-17"
+                                                                             aria-describedby="nf-form-errors-17"
+                                                                             role="form">
                                                                             <div class="nf-loading-spinner"></div>
                                                                         </div>
-                                                                        <script>
-                                                                            var formDisplay = 1;
-                                                                            var nfForms = nfForms || [];
-                                                                            var form = [];
-                                                                            form.id = '17';
-                                                                            form.settings = {
-                                                                                "objectType": "Form Setting",
-                                                                                "editActive": true,
-                                                                                "title": "Home-Modern Form",
-                                                                                "show_title": 0,
-                                                                                "clear_complete": 1,
-                                                                                "hide_complete": 0,
-                                                                                "default_label_pos": "above",
-                                                                                "wrapper_class": "",
-                                                                                "element_class": "",
-                                                                                "key": "",
-                                                                                "add_submit": 1,
-                                                                                "currency": "",
-                                                                                "logged_in": false,
-                                                                                "not_logged_in_msg": "",
-                                                                                "sub_limit_msg": "The Form has reached it's submission limit.",
-                                                                                "calculations": [],
-                                                                                "formContentData": ["name_1500043774761", "e-mail_1500043757302", "address_1500043619512", "phone_1500043639965", "what_do_you_need_to_1500325196347", "describe_briefly_1500047307986", "get_free_quote_1500047086896"],
-                                                                                "drawerDisabled": false,
-                                                                                "allow_public_link": 0,
-                                                                                "embed_form": "",
-                                                                                "unique_field_error": "A form with this value has already been submitted.",
-                                                                                "ninjaForms": "Ninja Forms",
-                                                                                "changeEmailErrorMsg": "Please enter a valid email address!",
-                                                                                "changeDateErrorMsg": "Please enter a valid date!",
-                                                                                "confirmFieldErrorMsg": "These fields must match!",
-                                                                                "fieldNumberNumMinError": "Number Min Error",
-                                                                                "fieldNumberNumMaxError": "Number Max Error",
-                                                                                "fieldNumberIncrementBy": "Please increment by ",
-                                                                                "fieldTextareaRTEInsertLink": "Insert Link",
-                                                                                "fieldTextareaRTEInsertMedia": "Insert Media",
-                                                                                "fieldTextareaRTESelectAFile": "Select a file",
-                                                                                "formErrorsCorrectErrors": "Please correct errors before submitting this form.",
-                                                                                "formHoneypot": "If you are a human seeing this field, please leave it empty.",
-                                                                                "validateRequiredField": "This is a required field.",
-                                                                                "honeypotHoneypotError": "Honeypot Error",
-                                                                                "fileUploadOldCodeFileUploadInProgress": "File Upload in Progress.",
-                                                                                "fileUploadOldCodeFileUpload": "FILE UPLOAD",
-                                                                                "currencySymbol": "$",
-                                                                                "fieldsMarkedRequired": "Fields marked with an <span class=\"ninja-forms-req-symbol\">*<\/span> are required",
-                                                                                "thousands_sep": ",",
-                                                                                "decimal_point": ".",
-                                                                                "siteLocale": "en_US",
-                                                                                "dateFormat": "d\/m\/Y",
-                                                                                "startOfWeek": "1",
-                                                                                "of": "of",
-                                                                                "previousMonth": "Previous Month",
-                                                                                "nextMonth": "Next Month",
-                                                                                "months": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
-                                                                                "monthsShort": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
-                                                                                "weekdays": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-                                                                                "weekdaysShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
-                                                                                "weekdaysMin": ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"],
-                                                                                "recaptchaConsentMissing": "reCapctha validation couldn&#039;t load.",
-                                                                                "recaptchaMissingCookie": "reCaptcha v3 validation couldn&#039;t load the cookie needed to submit the form.",
-                                                                                "recaptchaConsentEvent": "Accept reCaptcha cookies before sending the form.",
-                                                                                "currency_symbol": "",
-                                                                                "beforeForm": "",
-                                                                                "beforeFields": "",
-                                                                                "afterFields": "",
-                                                                                "afterForm": ""
-                                                                            };
-                                                                            form.fields = [{
-                                                                                "objectType": "Field",
-                                                                                "objectDomain": "fields",
-                                                                                "editActive": false,
-                                                                                "order": 1,
-                                                                                "label": "Name",
-                                                                                "type": "firstname",
-                                                                                "key": "name_1500043774761",
-                                                                                "label_pos": "hidden",
-                                                                                "required": 1,
-                                                                                "default": "",
-                                                                                "placeholder": "Name",
-                                                                                "container_class": "one-half first",
-                                                                                "element_class": "",
-                                                                                "admin_label": "",
-                                                                                "help_text": "",
-                                                                                "desc_text": "",
-                                                                                "drawerDisabled": false,
-                                                                                "custom_name_attribute": "fname",
-                                                                                "personally_identifiable": 1,
-                                                                                "value": "",
-                                                                                "id": 84,
-                                                                                "beforeField": "",
-                                                                                "afterField": "",
-                                                                                "parentType": "firstname",
-                                                                                "element_templates": ["firstname", "input"],
-                                                                                "old_classname": "",
-                                                                                "wrap_template": "wrap"
-                                                                            }, {
-                                                                                "objectType": "Field",
-                                                                                "objectDomain": "fields",
-                                                                                "editActive": false,
-                                                                                "order": 2,
-                                                                                "label": "E-mail",
-                                                                                "type": "email",
-                                                                                "key": "e-mail_1500043757302",
-                                                                                "label_pos": "hidden",
-                                                                                "required": 1,
-                                                                                "default": "",
-                                                                                "placeholder": "E-mail",
-                                                                                "container_class": "one-half second",
-                                                                                "element_class": "",
-                                                                                "admin_label": "",
-                                                                                "help_text": "",
-                                                                                "desc_text": "",
-                                                                                "drawerDisabled": false,
-                                                                                "custom_name_attribute": "email",
-                                                                                "personally_identifiable": 1,
-                                                                                "value": "",
-                                                                                "id": 85,
-                                                                                "beforeField": "",
-                                                                                "afterField": "",
-                                                                                "parentType": "email",
-                                                                                "element_templates": ["email", "input"],
-                                                                                "old_classname": "",
-                                                                                "wrap_template": "wrap"
-                                                                            }, {
-                                                                                "objectType": "Field",
-                                                                                "objectDomain": "fields",
-                                                                                "editActive": false,
-                                                                                "order": 3,
-                                                                                "label": "Address",
-                                                                                "type": "address",
-                                                                                "key": "address_1500043619512",
-                                                                                "label_pos": "hidden",
-                                                                                "required": false,
-                                                                                "default": "",
-                                                                                "placeholder": "Address",
-                                                                                "container_class": "one-half first",
-                                                                                "element_class": "",
-                                                                                "input_limit": "",
-                                                                                "input_limit_type": "characters",
-                                                                                "input_limit_msg": "Character(s) left",
-                                                                                "manual_key": false,
-                                                                                "disable_input": "",
-                                                                                "admin_label": "",
-                                                                                "help_text": "",
-                                                                                "desc_text": "",
-                                                                                "disable_browser_autocomplete": "",
-                                                                                "mask": "",
-                                                                                "custom_mask": "",
-                                                                                "drawerDisabled": false,
-                                                                                "custom_name_attribute": "address",
-                                                                                "personally_identifiable": 1,
-                                                                                "value": "",
-                                                                                "id": 86,
-                                                                                "beforeField": "",
-                                                                                "afterField": "",
-                                                                                "parentType": "address",
-                                                                                "element_templates": ["address", "textbox", "input"],
-                                                                                "old_classname": "",
-                                                                                "wrap_template": "wrap"
-                                                                            }, {
-                                                                                "objectType": "Field",
-                                                                                "objectDomain": "fields",
-                                                                                "editActive": false,
-                                                                                "order": 4,
-                                                                                "label": "Phone",
-                                                                                "type": "phone",
-                                                                                "key": "phone_1500043639965",
-                                                                                "label_pos": "hidden",
-                                                                                "required": 1,
-                                                                                "default": "",
-                                                                                "placeholder": "Phone",
-                                                                                "container_class": "one-half second",
-                                                                                "element_class": "",
-                                                                                "input_limit": "",
-                                                                                "input_limit_type": "characters",
-                                                                                "input_limit_msg": "Character(s) left",
-                                                                                "manual_key": false,
-                                                                                "disable_input": "",
-                                                                                "admin_label": "",
-                                                                                "help_text": "",
-                                                                                "desc_text": "",
-                                                                                "disable_browser_autocomplete": "",
-                                                                                "mask": "",
-                                                                                "custom_mask": "",
-                                                                                "drawerDisabled": false,
-                                                                                "custom_name_attribute": "phone",
-                                                                                "personally_identifiable": 1,
-                                                                                "value": "",
-                                                                                "id": 87,
-                                                                                "beforeField": "",
-                                                                                "afterField": "",
-                                                                                "parentType": "textbox",
-                                                                                "element_templates": ["tel", "textbox", "input"],
-                                                                                "old_classname": "",
-                                                                                "wrap_template": "wrap"
-                                                                            }, {
-                                                                                "objectType": "Field",
-                                                                                "objectDomain": "fields",
-                                                                                "editActive": false,
-                                                                                "order": 6,
-                                                                                "label": "What do you need to",
-                                                                                "type": "listselect",
-                                                                                "key": "what_do_you_need_to_1500325196347",
-                                                                                "label_pos": "hidden",
-                                                                                "required": false,
-                                                                                "options": [{
-                                                                                    "errors": [],
-                                                                                    "max_options": 0,
-                                                                                    "label": "Shipping Furniture",
-                                                                                    "value": "shipping-furniture",
-                                                                                    "calc": "",
-                                                                                    "selected": 0,
-                                                                                    "order": 0,
-                                                                                    "settingModel": {
-                                                                                        "settings": false,
-                                                                                        "hide_merge_tags": false,
-                                                                                        "error": false,
-                                                                                        "name": "options",
-                                                                                        "type": "option-repeater",
-                                                                                        "label": "Options <a href=\"#\" class=\"nf-add-new\">Add New<\/a> <a href=\"#\" class=\"extra nf-open-import-tooltip\"><i class=\"fa fa-sign-in\" aria-hidden=\"true\"><\/i> Import<\/a>",
-                                                                                        "width": "full",
-                                                                                        "group": "",
-                                                                                        "value": [{
-                                                                                            "label": "One",
-                                                                                            "value": "one",
-                                                                                            "calc": "",
-                                                                                            "selected": 0,
-                                                                                            "order": 0
-                                                                                        }, {
-                                                                                            "label": "Two",
-                                                                                            "value": "two",
-                                                                                            "calc": "",
-                                                                                            "selected": 0,
-                                                                                            "order": 1
-                                                                                        }, {
-                                                                                            "label": "Three",
-                                                                                            "value": "three",
-                                                                                            "calc": "",
-                                                                                            "selected": 0,
-                                                                                            "order": 2
-                                                                                        }],
-                                                                                        "columns": {
-                                                                                            "label": {
-                                                                                                "header": "Label",
-                                                                                                "default": ""
-                                                                                            },
-                                                                                            "value": {
-                                                                                                "header": "Value",
-                                                                                                "default": ""
-                                                                                            },
-                                                                                            "calc": {
-                                                                                                "header": "Calc Value",
-                                                                                                "default": ""
-                                                                                            },
-                                                                                            "selected": {
-                                                                                                "header": "<span class=\"dashicons dashicons-yes\"><\/span>",
-                                                                                                "default": 0
-                                                                                            }
-                                                                                        }
-                                                                                    }
-                                                                                }, {
-                                                                                    "errors": [],
-                                                                                    "max_options": 0,
-                                                                                    "label": "Air Conditioner Maintainance",
-                                                                                    "value": "air-conditioner-maintainance",
-                                                                                    "calc": "",
-                                                                                    "selected": 0,
-                                                                                    "order": 1,
-                                                                                    "settingModel": {
-                                                                                        "settings": false,
-                                                                                        "hide_merge_tags": false,
-                                                                                        "error": false,
-                                                                                        "name": "options",
-                                                                                        "type": "option-repeater",
-                                                                                        "label": "Options <a href=\"#\" class=\"nf-add-new\">Add New<\/a> <a href=\"#\" class=\"extra nf-open-import-tooltip\"><i class=\"fa fa-sign-in\" aria-hidden=\"true\"><\/i> Import<\/a>",
-                                                                                        "width": "full",
-                                                                                        "group": "",
-                                                                                        "value": [{
-                                                                                            "label": "One",
-                                                                                            "value": "one",
-                                                                                            "calc": "",
-                                                                                            "selected": 0,
-                                                                                            "order": 0
-                                                                                        }, {
-                                                                                            "label": "Two",
-                                                                                            "value": "two",
-                                                                                            "calc": "",
-                                                                                            "selected": 0,
-                                                                                            "order": 1
-                                                                                        }, {
-                                                                                            "label": "Three",
-                                                                                            "value": "three",
-                                                                                            "calc": "",
-                                                                                            "selected": 0,
-                                                                                            "order": 2
-                                                                                        }],
-                                                                                        "columns": {
-                                                                                            "label": {
-                                                                                                "header": "Label",
-                                                                                                "default": ""
-                                                                                            },
-                                                                                            "value": {
-                                                                                                "header": "Value",
-                                                                                                "default": ""
-                                                                                            },
-                                                                                            "calc": {
-                                                                                                "header": "Calc Value",
-                                                                                                "default": ""
-                                                                                            },
-                                                                                            "selected": {
-                                                                                                "header": "<span class=\"dashicons dashicons-yes\"><\/span>",
-                                                                                                "default": 0
-                                                                                            }
-                                                                                        }
-                                                                                    }
-                                                                                }, {
-                                                                                    "errors": [],
-                                                                                    "max_options": 0,
-                                                                                    "label": "Air Conditioner Installation",
-                                                                                    "value": "air-conditioner-installation",
-                                                                                    "calc": "",
-                                                                                    "selected": 0,
-                                                                                    "order": 2,
-                                                                                    "settingModel": {
-                                                                                        "settings": false,
-                                                                                        "hide_merge_tags": false,
-                                                                                        "error": false,
-                                                                                        "name": "options",
-                                                                                        "type": "option-repeater",
-                                                                                        "label": "Options <a href=\"#\" class=\"nf-add-new\">Add New<\/a> <a href=\"#\" class=\"extra nf-open-import-tooltip\"><i class=\"fa fa-sign-in\" aria-hidden=\"true\"><\/i> Import<\/a>",
-                                                                                        "width": "full",
-                                                                                        "group": "",
-                                                                                        "value": [{
-                                                                                            "label": "One",
-                                                                                            "value": "one",
-                                                                                            "calc": "",
-                                                                                            "selected": 0,
-                                                                                            "order": 0
-                                                                                        }, {
-                                                                                            "label": "Two",
-                                                                                            "value": "two",
-                                                                                            "calc": "",
-                                                                                            "selected": 0,
-                                                                                            "order": 1
-                                                                                        }, {
-                                                                                            "label": "Three",
-                                                                                            "value": "three",
-                                                                                            "calc": "",
-                                                                                            "selected": 0,
-                                                                                            "order": 2
-                                                                                        }],
-                                                                                        "columns": {
-                                                                                            "label": {
-                                                                                                "header": "Label",
-                                                                                                "default": ""
-                                                                                            },
-                                                                                            "value": {
-                                                                                                "header": "Value",
-                                                                                                "default": ""
-                                                                                            },
-                                                                                            "calc": {
-                                                                                                "header": "Calc Value",
-                                                                                                "default": ""
-                                                                                            },
-                                                                                            "selected": {
-                                                                                                "header": "<span class=\"dashicons dashicons-yes\"><\/span>",
-                                                                                                "default": 0
-                                                                                            }
-                                                                                        }
-                                                                                    }
-                                                                                }
-                                                                                ],
-                                                                                "container_class": "",
-                                                                                "element_class": "",
-                                                                                "admin_label": "What do you need to",
-                                                                                "help_text": "",
-                                                                                "desc_text": "",
-                                                                                "drawerDisabled": false,
-                                                                                "id": 91,
-                                                                                "beforeField": "",
-                                                                                "afterField": "",
-                                                                                "value": "",
-                                                                                "parentType": "list",
-                                                                                "element_templates": ["listselect", "input"],
-                                                                                "old_classname": "list-select",
-                                                                                "wrap_template": "wrap"
-                                                                            }, {
-                                                                                "objectType": "Field",
-                                                                                "objectDomain": "fields",
-                                                                                "editActive": false,
-                                                                                "order": 7,
-                                                                                "label": "Describe briefly",
-                                                                                "type": "textarea",
-                                                                                "key": "describe_briefly_1500047307986",
-                                                                                "label_pos": "hidden",
-                                                                                "required": false,
-                                                                                "default": "",
-                                                                                "placeholder": "Describe briefly",
-                                                                                "container_class": "",
-                                                                                "element_class": "",
-                                                                                "input_limit": "",
-                                                                                "input_limit_type": "characters",
-                                                                                "input_limit_msg": "Character(s) left",
-                                                                                "manual_key": false,
-                                                                                "disable_input": "",
-                                                                                "admin_label": "",
-                                                                                "help_text": "",
-                                                                                "desc_text": "",
-                                                                                "disable_browser_autocomplete": "",
-                                                                                "textarea_rte": "",
-                                                                                "disable_rte_mobile": "",
-                                                                                "textarea_media": "",
-                                                                                "drawerDisabled": false,
-                                                                                "value": "",
-                                                                                "id": 89,
-                                                                                "beforeField": "",
-                                                                                "afterField": "",
-                                                                                "parentType": "textarea",
-                                                                                "element_templates": ["textarea", "input"],
-                                                                                "old_classname": "",
-                                                                                "wrap_template": "wrap"
-                                                                            }, {
-                                                                                "objectType": "Field",
-                                                                                "objectDomain": "fields",
-                                                                                "editActive": false,
-                                                                                "order": 8,
-                                                                                "type": "submit",
-                                                                                "label": "Send",
-                                                                                "processing_label": "Processing",
-                                                                                "container_class": "",
-                                                                                "element_class": "",
-                                                                                "key": "get_free_quote_1500047086896",
-                                                                                "drawerDisabled": false,
-                                                                                "id": 90,
-                                                                                "beforeField": "",
-                                                                                "afterField": "",
-                                                                                "value": "",
-                                                                                "label_pos": "above",
-                                                                                "parentType": "textbox",
-                                                                                "element_templates": ["submit", "button", "input"],
-                                                                                "old_classname": "",
-                                                                                "wrap_template": "wrap-no-label"
-                                                                            }];
-                                                                            nfForms.push(form);
-                                                                        </script>
+                                                                        <form action="" method="post"
+                                                                              action="{{ route('contact.store') }}">
+                                                                            <!-- CROSS Site Request Forgery Protection -->
+                                                                            @csrf
+                                                                            <div class="form-group">
+                                                                                <label>Name</label>
+                                                                                <input type="text" class="form-control"
+                                                                                       name="name" id="name">
+                                                                            </div>
+                                                                            <div class="form-group">
+                                                                                <label>Email</label>
+                                                                                <input type="email" class="form-control"
+                                                                                       name="email" id="email">
+                                                                            </div>
+                                                                            <div class="form-group">
+                                                                                <label>Phone</label>
+                                                                                <input type="text" class="form-control"
+                                                                                       name="phone" id="phone">
+                                                                            </div>
+                                                                            <div class="form-group">
+                                                                                <label>Subject</label>
+                                                                                <input type="text" class="form-control"
+                                                                                       name="subject" id="subject">
+                                                                            </div>
+                                                                            <div class="form-group">
+                                                                                <label>Message</label>
+                                                                                <textarea class="form-control"
+                                                                                          name="message" id="message"
+                                                                                          rows="4"></textarea>
+                                                                            </div>
+                                                                            <input type="submit" name="send"
+                                                                                   value="Submit"
+                                                                                   class="btn btn-dark btn-block">
+                                                                        </form>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -7382,7 +6980,8 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="fl-col fl-node-5973fcadb3826 fl-col-small" data-node="5973fcadb3826">
+                                            <div class="fl-col fl-node-5973fcadb3826 fl-col-small"
+                                                 data-node="5973fcadb3826">
                                                 <img src="/wp-content/uploads/last.jpg">
                                             </div>
                                         </div>

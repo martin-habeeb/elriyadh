@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactUsFormController;
+use App\Http\Controllers\CommentController;
 
 /*
 |--------------------------------------------------------------------------
@@ -30,9 +31,9 @@ Route::get('/services', function () {
     return view('services');
 });
 
-Route::get('/reviews', function () {
-    return view('reviews');
-});
+
+Route::get('/reviews', [CommentController::class, 'show']);
+Route::post('/reviews/store', [CommentController::class, 'store']);
 
 Route::get('/contacts', [ContactUsFormController::class, 'createForm']);
 Route::post('/contacts', [ContactUsFormController::class, 'ContactUsForm'])->name('contact.store');
