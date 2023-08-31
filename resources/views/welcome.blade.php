@@ -12,7 +12,9 @@
 
 
 
-        <title>elriyadh co.</title>
+        <title>شرطة الرياض </title>
+        <link rel="icon" type="image/x-icon" href="/wp-content/uploads/icon.png">
+
 
         <!-- Fonts -->
         <style id="vamtam-theme-options">
@@ -6296,6 +6298,66 @@
 
         <div class="limit-wrapper header-maybe-limit-wrapper header-padding">
             <div class="header-contents">
+
+                <div id="header-text">
+                    <div>
+                        <a href="tel:+966539147257" target="_self" class="vamtam-button accent1 hover-accent2 button-solid" role="button">
+                            <span class="vamtam-button-text">اتصل بنا</span>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="second-row ">
+                    <div id="menus">
+                        <nav id="main-menu" class="">
+                            <a href="#main" title="Skip to content" class="visuallyhidden">Skip to content</a>
+                            <div id="mega-menu-wrap-menu-header" class="mega-menu-wrap">
+                                <div class="mega-menu-toggle">
+                                    <div class="mega-toggle-blocks-left"></div>
+                                    <div class="mega-toggle-blocks-center">
+                                        <div class='mega-toggle-block mega-menu-toggle-block mega-toggle-block-1' id='mega-toggle-block-1' tabindex='0'>
+                                                    <span class='mega-toggle-label' role='button' aria-expanded='false'>
+                                                        <span class='mega-toggle-label-closed'></span>
+                                                        <span class='mega-toggle-label-open'></span>
+                                                    </span>
+                                        </div>
+                                    </div>
+                                    <div class="mega-toggle-blocks-right"></div>
+                                </div>
+
+                                <ul id="mega-menu-menu-header" class="mega-menu max-mega-menu mega-menu-horizontal mega-no-js" data-event="hover_intent" data-effect="slide" data-effect-speed="200" data-effect-mobile="disabled" data-effect-speed-mobile="0" data-mobile-force-width="false" data-second-click="go" data-document-click="collapse" data-vertical-behaviour="accordion" data-breakpoint="900" data-unbind="true" data-mobile-state="collapse_all" data-hover-intent-timeout="300" data-hover-intent-interval="100">
+
+                                    <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-11418' id='mega-menu-item-11418'>
+                                        <a class="mega-menu-link" href="{{ url('/contacts')}}" tabindex="0">تواصل معنا</a>
+                                    </li>
+                                    <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page  mega-page_item mega-page-item-7780  mega-align-bottom-left mega-menu-flyout mega-menu-item-12372' id='mega-menu-item-12372'>
+                                        <a class="mega-menu-link" href="{{ url('/reviews')}}" aria-current="page" tabindex="0">المراجعات</a>
+                                    </li>
+                                    <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-11416' id='mega-menu-item-11416'>
+                                        <a class="mega-menu-link" href="{{ url('/services')}}" aria-haspopup="true" aria-expanded="false" tabindex="0">
+                                            خدماتنا<span class="mega-indicator"></span>
+                                        </a>
+                                    </li>
+                                    <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-11414' id='mega-menu-item-11414'>
+                                        <a class="mega-menu-link" href="{{ url('/about')}}" aria-haspopup="true" aria-expanded="false" tabindex="0">
+                                            من نحن<span class="mega-indicator"></span>
+                                        </a>
+                                    </li>
+                                    <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-current-menu-item mega-current_page_item mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-13399' id='mega-menu-item-13399'>
+                                        <a class="mega-menu-link" href="{{ url('/')}}" aria-haspopup="true" aria-expanded="false" tabindex="0">
+                                            الصفحة الرئيسيه <span class="mega-indicator"></span>
+                                        </a>
+                                    </li>
+
+
+
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+
                 <div class="first-row">
                     <div class="logo-wrapper">
                         <div class="logo-tagline">
@@ -6326,57 +6388,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="second-row ">
-                    <div id="menus">
-                        <nav id="main-menu" class="">
-                            <a href="#main" title="Skip to content" class="visuallyhidden">Skip to content</a>
-                            <div id="mega-menu-wrap-menu-header" class="mega-menu-wrap">
-                                <div class="mega-menu-toggle">
-                                    <div class="mega-toggle-blocks-left"></div>
-                                    <div class="mega-toggle-blocks-center">
-                                        <div class='mega-toggle-block mega-menu-toggle-block mega-toggle-block-1' id='mega-toggle-block-1' tabindex='0'>
-                                                    <span class='mega-toggle-label' role='button' aria-expanded='false'>
-                                                        <span class='mega-toggle-label-closed'></span>
-                                                        <span class='mega-toggle-label-open'></span>
-                                                    </span>
-                                        </div>
-                                    </div>
-                                    <div class="mega-toggle-blocks-right"></div>
-                                </div>
-                                <ul id="mega-menu-menu-header" class="mega-menu max-mega-menu mega-menu-horizontal mega-no-js" data-event="hover_intent" data-effect="slide" data-effect-speed="200" data-effect-mobile="disabled" data-effect-speed-mobile="0" data-mobile-force-width="false" data-second-click="go" data-document-click="collapse" data-vertical-behaviour="accordion" data-breakpoint="900" data-unbind="true" data-mobile-state="collapse_all" data-hover-intent-timeout="300" data-hover-intent-interval="100">
-                                    <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-current-menu-item mega-current_page_item mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-13399' id='mega-menu-item-13399'>
-                                        <a class="mega-menu-link" href="{{ url('/')}}" aria-haspopup="true" aria-expanded="false" tabindex="0">
-                                            Home<span class="mega-indicator"></span>
-                                        </a>
-                                    </li>
-                                    <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-11414' id='mega-menu-item-11414'>
-                                        <a class="mega-menu-link" href="{{ url('/about')}}" aria-haspopup="true" aria-expanded="false" tabindex="0">
-                                            About<span class="mega-indicator"></span>
-                                        </a>
-                                    </li>
-                                    <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-11416' id='mega-menu-item-11416'>
-                                        <a class="mega-menu-link" href="{{ url('/services')}}" aria-haspopup="true" aria-expanded="false" tabindex="0">
-                                            Services<span class="mega-indicator"></span>
-                                        </a>
-                                    </li>
-                                    <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page  mega-page_item mega-page-item-7780  mega-align-bottom-left mega-menu-flyout mega-menu-item-12372' id='mega-menu-item-12372'>
-                                        <a class="mega-menu-link" href="{{ url('/reviews')}}" aria-current="page" tabindex="0">Reviews</a>
-                                    </li>
-                                    <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-11418' id='mega-menu-item-11418'>
-                                        <a class="mega-menu-link" href="{{ url('/contacts')}}" tabindex="0">Contacts</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-                <div id="header-text">
-                    <div>
-                        <a href="tel:+966539147257" target="_self" class="vamtam-button accent1 hover-accent2 button-solid" role="button">
-                            <span class="vamtam-button-text">Call Us</span>
-                        </a>
-                    </div>
-                </div>
+
             </div>
         </div>
     </header>
@@ -6386,15 +6398,15 @@
                 <div class="header-slider-wrapper">
                     <p class="rs-p-wp-fix"></p>
                     <rs-module-wrap id="rev_slider_72_1_wrapper" data-source="gallery"
-                                    style="visibility:hidden;background:#163015;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;background-image:url('wp-content/uploads/2017/09/Slide-2.jpg');background-repeat:no-repeat;background-size:cover;background-position:center center;">
+                                    style="visibility:hidden;background:#163015;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;background-image:url('wp-content/uploads/default.jpg');background-repeat:no-repeat;background-size:cover;background-position:center center;">
                         <rs-module id="rev_slider_72_1" style="" data-version="6.6.10">
                             <rs-slides style="overflow: hidden; position: absolute;">
                                 <rs-slide style="position: absolute;" data-key="rs-227" data-title="Slide"
-                                          data-thumb="wp-content/uploads/2017/09/Slide-2.jpg" data-anim="adpr:false;">
+                                          data-thumb="wp-content/uploads/default.jpg" data-anim="adpr:false;">
                                     <img width="1" height="1"
                                          src="{{ asset('wp-content/plugins/revslider/public/assets/assets/dummy.png')}}"
                                          alt="" title="Landscaper" class="rev-slidebg tp-rs-img rs-lazyload"
-                                         data-lazyload="wp-content/uploads/2017/09/Slide-2.jpg" data-no-retina>
+                                         data-lazyload="wp-content/uploads/default.jpg" data-no-retina>
                                     <rs-group id="slider-72-slide-227-layer-2" data-type="group"
                                               data-xy="x:c;y:b;yo:288px,288px,200px,220px;" data-text="l:22;a:inherit;"
                                               data-dim="w:791px,791px,687px,422px;h:86px,86px,83px,140px;"
@@ -6407,11 +6419,7 @@
                                                   data-frame_0="sX:0.8;sY:0.8;tp:600;"
                                                   data-frame_1="tp:600;e:power4.inOut;st:200;sp:2000;sR:190;"
                                                   data-frame_999="st:w;sR:6800;auto:true;" style="z-index:8;">
-                                            <img width="1" height="1"
-                                                 src="{{ asset('wp-content/plugins/revslider/public/assets/assets/dummy.png')}}"
-                                                 alt="" class="tp-rs-img rs-lazyload"
-                                                 data-lazyload="{{ asset('wp-content/uploads/2017/11/shipped.png')}}"
-                                                 data-no-retina>
+
                                         </rs-layer>
                                         <rs-layer id="slider-72-slide-227-layer-3" data-type="text" data-rsp_ch="on"
                                                   data-xy="x:r;y:m,m,m,b;" data-pos="a"
@@ -6419,7 +6427,7 @@
                                                   data-frame_0="x:-100%;o:1;tp:600;" data-frame_0_mask="u:t;"
                                                   data-frame_1="tp:600;st:410;sp:1500;sR:400;" data-frame_1_mask="u:t;"
                                                   data-frame_999="st:w;sR:7090;auto:true;" data-frame_999_mask="u:t;"
-                                                  style="z-index:7;font-family:'Montserrat';">Fruniture
+                                                  style="z-index:7;font-family:'Montserrat';">نقل الأثاث في جميع أنحاءالرياض
                                         </rs-layer>
                                         <rs-layer id="slider-72-slide-227-layer-1" data-type="text" data-rsp_ch="on"
                                                   data-xy="y:m,m,m,t;" data-pos="a"
@@ -6427,7 +6435,7 @@
                                                   data-frame_0="x:100%;o:1;tp:600;" data-frame_0_mask="u:t;"
                                                   data-frame_1="tp:600;st:410;sp:1500;sR:400;" data-frame_1_mask="u:t;"
                                                   data-frame_999="st:w;sR:7090;auto:true;" data-frame_999_mask="u:t;"
-                                                  style="z-index:6;font-family:'Montserrat';">Shipping
+                                                  style="z-index:6;font-family:'Montserrat';">
                                         </rs-layer>
                                     </rs-group>
                                     <rs-layer id="slider-72-slide-227-layer-7" data-type="text" data-rsp_ch="on"
@@ -6437,7 +6445,7 @@
                                               data-frame_0_mask="u:t;" data-frame_1="tp:600;st:1080;sp:1500;sR:1080;"
                                               data-frame_1_mask="u:t;" data-frame_999="st:w;sR:6420;auto:true;"
                                               data-frame_999_mask="u:t;" style="z-index:9;font-family:'Montserrat';">
-                                        Provides Fast,Easy and Trustworthy Transporting Service.
+                                        .نقدّم خدمة نقل سريعة وسهلة وجديرة بالثقة
                                     </rs-layer>
                                     <rs-layer id="slider-72-slide-227-layer-5" class="rev-btn" data-type="button"
                                               data-color="rgba(255,255,255,1)"
@@ -6452,7 +6460,7 @@
                                               data-frame_999="st:w;sR:6620;auto:true;"
                                               data-frame_hover="bgc:#2a7d2e;boc:#2a7d2e;bor:30px,30px,30px,30px;bos:solid;bow:1px,1px,1px,1px;oX:50;oY:50;"
                                               style="z-index:10;background-color:rgba(0,0,0,0);font-family:'Montserrat';cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">
-                                        About us
+                                       من نحن
                                     </rs-layer>
                                     <rs-layer id="slider-72-slide-227-layer-9" class="rev-btn" data-type="button"
                                               data-color="#2a7d2e"
@@ -6467,7 +6475,7 @@
                                               data-frame_999="st:w;sR:6020;auto:true;"
                                               data-frame_hover="c:#fff;bgc:#2a7d2e;boc:#2a7d2e;bor:30px,30px,30px,30px;bos:solid;bow:1px,1px,1px,1px;oX:50;oY:50;"
                                               style="z-index:11;background-color:#ffffff;font-family:'Montserrat';cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">
-                                        Request an Estimate
+                                        تواصل معنا
                                     </rs-layer>
                                 </rs-slide>
                                 <rs-slide style="position: absolute;" data-key="rs-222" data-title="Slide"
@@ -6491,11 +6499,7 @@
                                                   data-frame_1="tp:600;e:power4.inOut;st:200;sp:2000;sR:190;"
                                                   data-frame_999="st:w;sR:6800;auto:true;"
                                                   style="z-index:8; right: 40px;">
-                                            <img width="1" height="1"
-                                                 src="{{ asset('wp-content/plugins/revslider/public/assets/assets/dummy.png')}}"
-                                                 alt="" class="tp-rs-img rs-lazyload"
-                                                 data-lazyload="{{ url('wp-content/uploads/2017/09/ac.png')}}"
-                                                 data-no-retina>
+
                                         </rs-layer>
                                         <rs-layer id="slider-72-slide-222-layer-3" data-type="text" data-rsp_ch="on"
                                                   data-xy="x:r;y:m,m,m,b;" data-pos="a"
@@ -6503,7 +6507,7 @@
                                                   data-frame_0="x:-100%;o:1;tp:600;" data-frame_0_mask="u:t;"
                                                   data-frame_1="tp:600;st:410;sp:1500;sR:400;" data-frame_1_mask="u:t;"
                                                   data-frame_999="st:w;sR:8990;auto:true;" data-frame_999_mask="u:t;"
-                                                  style="z-index:7;font-family:'Montserrat';">Maintance
+                                                  style="z-index:7;font-family:'Montserrat';">فك وتركيب وصيانة مكيفات الأسبليت
                                         </rs-layer>
                                         <rs-layer id="slider-72-slide-222-layer-1" data-type="text" data-rsp_ch="on"
                                                   data-xy="y:m,m,m,t;" data-pos="a"
@@ -6511,7 +6515,7 @@
                                                   data-frame_0="x:100%;o:1;tp:600;" data-frame_0_mask="u:t;"
                                                   data-frame_1="tp:600;st:410;sp:1500;sR:400;" data-frame_1_mask="u:t;"
                                                   data-frame_999="st:w;sR:8990;auto:true;" data-frame_999_mask="u:t;"
-                                                  style="z-index:6;font-family:'Montserrat';">AC
+                                                  style="z-index:6;font-family:'Montserrat';">
                                         </rs-layer>
                                     </rs-group>
                                     <rs-layer id="slider-72-slide-222-layer-7" data-type="text" data-rsp_ch="on"
@@ -6521,7 +6525,7 @@
                                               data-frame_0_mask="u:t;" data-frame_1="tp:600;st:1080;sp:1500;sR:1080;"
                                               data-frame_1_mask="u:t;" data-frame_999="st:w;sR:6420;auto:true;"
                                               data-frame_999_mask="u:t;" style="z-index:9;font-family:'Montserrat';">
-                                        Provides The best Repairing service for Air conditioning.
+                                        .تقدم أفضل خدمة إصلاح تكييف الهواء
                                     </rs-layer>
                                     <rs-layer id="slider-72-slide-222-layer-5" class="rev-btn" data-type="button"
                                               data-color="rgba(255,255,255,1)"
@@ -6536,7 +6540,7 @@
                                               data-frame_999="st:w;sR:6620;auto:true;"
                                               data-frame_hover="bgc:#2a7d2e;boc:#2a7d2e;bor:30px,30px,30px,30px;bos:solid;bow:1px,1px,1px,1px;oX:50;oY:50;"
                                               style="z-index:10;background-color:rgba(0,0,0,0);font-family:'Montserrat';cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">
-                                        About us
+                                       من نحن
                                     </rs-layer>
                                     <rs-layer id="slider-72-slide-222-layer-9" class="rev-btn" data-type="button"
                                               data-color="#2a7d2e"
@@ -6551,7 +6555,7 @@
                                               data-frame_999="st:w;sR:6020;auto:true;"
                                               data-frame_hover="c:#fff;bgc:#2a7d2e;boc:#2a7d2e;bor:30px,30px,30px,30px;bos:solid;bow:1px,1px,1px,1px;oX:50;oY:50;"
                                               style="z-index:11;background-color:#ffffff;font-family:'Montserrat';cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">
-                                        Request an Estimate
+                                       تواصل معنا
                                     </rs-layer>
                                 </rs-slide>
                             </rs-slides>
@@ -6640,7 +6644,7 @@
                                                                             <h3 class="vamtam-heading ">
                                                                                 <a  title="Gardens"
                                                                                    target="_self">
-                                                                                    <span class="vamtam-heading-text">Fast and Easy</span>
+                                                                                    <span class="vamtam-heading-text">السرعه والسهولة</span>
                                                                                 </a>
                                                                             </h3>
                                                                         </div>
@@ -6648,7 +6652,7 @@
                                                                     <div class="fl-module fl-module-rich-text fl-node-59aafcbaa63a9" data-node="59aafcbaa63a9">
                                                                         <div class="fl-module-content fl-node-content">
                                                                             <div class="fl-rich-text">
-                                                                                <p style="text-align: center;">Wide experience in transporting furniture.</p>
+                                                                                <p style="text-align: center;">خبرة واسعه في نقل الأثاث وفنيين محترفين في فك وتركيب أو صيانة المكيفات الأسبليت</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -6687,7 +6691,7 @@
                                                                             <h3 class="vamtam-heading ">
                                                                                 <a  title="Urban"
                                                                                    target="_self">
-                                                                                    <span class="vamtam-heading-text">Trust worthy</span>
+                                                                                    <span class="vamtam-heading-text">الجدارة بالثقة</span>
                                                                                 </a>
                                                                             </h3>
                                                                         </div>
@@ -6695,7 +6699,7 @@
                                                                     <div class="fl-module fl-module-rich-text fl-node-59aafe74b7ede" data-node="59aafe74b7ede">
                                                                         <div class="fl-module-content fl-node-content">
                                                                             <div class="fl-rich-text">
-                                                                                <p style="text-align: center;">Trusted by all of our clients and feedback rated for your peace of mind.</p>
+                                                                                <p style="text-align: center;">.موثوق بنا من قبل جميع عملائنا وتم تقييم بالتعليقات لراحة بالك</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -6735,7 +6739,7 @@
                                                                             <h3 class="vamtam-heading ">
                                                                                 <a
                                                                                    title="Maintenance" target="_self">
-                                                                                    <span class="vamtam-heading-text">Great Prices</span>
+                                                                                    <span class="vamtam-heading-text">أسعار رائعة</span>
                                                                                 </a>
                                                                             </h3>
                                                                         </div>
@@ -6743,7 +6747,7 @@
                                                                     <div class="fl-module fl-module-rich-text fl-node-59aafe9d4a930" data-node="59aafe9d4a930">
                                                                         <div class="fl-module-content fl-node-content">
                                                                             <div class="fl-rich-text">
-                                                                                <p style="text-align: center;">Cheaper than standard rates.</p>
+                                                                                <p style="text-align: center;">.أسعار اقل من منافسينا</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -6783,7 +6787,7 @@
                                                                             <h3 class="vamtam-heading ">
                                                                                 <a title="Events"
                                                                                    target="_self">
-                                                                                    <span class="vamtam-heading-text">Helpful</span>
+                                                                                    <span class="vamtam-heading-text">متعاونون</span>
                                                                                 </a>
                                                                             </h3>
                                                                         </div>
@@ -6791,7 +6795,8 @@
                                                                     <div class="fl-module fl-module-rich-text fl-node-59aafddc7a5ef" data-node="59aafddc7a5ef">
                                                                         <div class="fl-module-content fl-node-content">
                                                                             <div class="fl-rich-text">
-                                                                                <p style="text-align: center;">Need assistance?Email or call us.We are here to help.</p>
+                                                                                <p style="text-align: center;">تريد مساعدة
+                                                                                ؟راسلنا او اتصل بنا نحن هنا للمساعدة</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -6822,7 +6827,7 @@
                                                         <div class="fl-module fl-module-vamtam-heading fl-node-59ac9898e8aec" data-node="59ac9898e8aec">
                                                             <div class="fl-module-content fl-node-content">
                                                                 <h4 class="vamtam-heading ">
-                                                                    <span class="vamtam-heading-text">We handle everything for you!</span>
+                                                                    <span class="vamtam-heading-text">!نحن نقوم بكل شئ لأجلك</span>
                                                                 </h4>
                                                             </div>
                                                         </div>
@@ -6835,7 +6840,7 @@
                                                                     <div class="fl-module fl-module-rich-text fl-node-59ac98fb5d691" data-node="59ac98fb5d691">
                                                                         <div class="fl-module-content fl-node-content">
                                                                             <div class="fl-rich-text">
-                                                                                <p style="text-align: center;">We aim to provide the highest quality of relocation services for our clienteles diverse requests.Regularly servicing your air conditioner helps keep costs down and your AC in excellent condition.</p>
+                                                                                <p style="text-align: center;">نحن نهدف إلى تقديم أعلى مستويات الجودة من خدمات النقل لطلبات عملائنا المتنوعة. تساعد الصيانة المنتظمة لمكيف الهواء الخاص بك في تقليل التكاليف والحفاظ على مكيف الهواء الخاص بك في حالة ممتازة</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -6860,7 +6865,7 @@
                                                                                     <noscript>40</noscript>
                                                                                 </span>
                                                                         </div>
-                                                                        <span class="fl-number-after-text">YEARS</span>
+                                                                        <span class="fl-number-after-text">سنة</span>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -6868,14 +6873,14 @@
                                                         <div class="fl-module fl-module-vamtam-heading fl-node-59ac9d0a75f6d" data-node="59ac9d0a75f6d">
                                                             <div class="fl-module-content fl-node-content">
                                                                 <h3 class="vamtam-heading ">
-                                                                    <span class="vamtam-heading-text">Experience</span>
+                                                                    <span class="vamtam-heading-text">خبرة</span>
                                                                 </h3>
                                                             </div>
                                                         </div>
                                                         <div class="fl-module fl-module-rich-text fl-node-59ac9d10ed114" data-node="59ac9d10ed114">
                                                             <div class="fl-module-content fl-node-content">
                                                                 <div class="fl-rich-text">
-                                                                    <p style="text-align: center;">Delivering high quality services .</p>
+                                                                    <p style="text-align: center;">.نقدم خدمات عالية الجودة</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -6893,7 +6898,7 @@
                                                                                     <noscript>30</noscript>
                                                                                 </span>
                                                                         </div>
-                                                                        <span class="fl-number-after-text">SPECIALISTS</span>
+                                                                        <span class="fl-number-after-text">متخصص</span>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -6901,14 +6906,14 @@
                                                         <div class="fl-module fl-module-vamtam-heading fl-node-59ac9d4b18803" data-node="59ac9d4b18803">
                                                             <div class="fl-module-content fl-node-content">
                                                                 <h3 class="vamtam-heading ">
-                                                                    <span class="vamtam-heading-text">In Shipping Furniture</span>
+                                                                    <span class="vamtam-heading-text">في نقل الأثاث</span>
                                                                 </h3>
                                                             </div>
                                                         </div>
                                                         <div class="fl-module fl-module-rich-text fl-node-59ac9d51176ec" data-node="59ac9d51176ec">
                                                             <div class="fl-module-content fl-node-content">
                                                                 <div class="fl-rich-text">
-                                                                    <p style="text-align: center;">We gather the best talent, creating the best specialist team.</p>
+                                                                    <p style="text-align: center;">نحن نجمع بين المهارة والخبرة في فريقنا لنقدم افضل خدمة</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -6927,7 +6932,7 @@
                                                                                     <noscript>15</noscript>
                                                                                 </span>
                                                                         </div>
-                                                                        <span class="fl-number-after-text">SPECIALISTS</span>
+                                                                        <span class="fl-number-after-text">متخصص</span>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -6935,14 +6940,14 @@
                                                         <div class="fl-module fl-module-vamtam-heading fl-node-59ac9c87e4d10" data-node="59ac9c87e4d10">
                                                             <div class="fl-module-content fl-node-content">
                                                                 <h3 class="vamtam-heading ">
-                                                                    <span class="vamtam-heading-text">In Repairing Service</span>
+                                                                    <span class="vamtam-heading-text">في مكيفات الأسبليت</span>
                                                                 </h3>
                                                             </div>
                                                         </div>
                                                         <div class="fl-module fl-module-rich-text fl-node-59ac9cc21c6ae" data-node="59ac9cc21c6ae">
                                                             <div class="fl-module-content fl-node-content">
                                                                 <div class="fl-rich-text">
-                                                                    <p style="text-align: center;">The best solution for your air conditioner.</p>
+                                                                    <p style="text-align: center;">الحل الأفضل لمكيفك</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -6962,7 +6967,7 @@
                                                         <div class="fl-module fl-module-vamtam-heading fl-node-59aafad21973d" data-node="59aafad21973d">
                                                             <div class="fl-module-content fl-node-content">
                                                                 <h2 class="vamtam-heading ">
-                                                                    <span class="vamtam-heading-text">Works</span>
+                                                                    <span class="vamtam-heading-text">الأعمال</span>
                                                                 </h2>
                                                             </div>
                                                         </div>
@@ -6976,21 +6981,21 @@
                                                                                 <div class="cbp-l-filters-dropdownList">
                                                                                         <span class="inner-wrapper">
                                                                                             <span data-filter="*" class="cbp-filter-item-active cbp-filter-item">
-                                                                                                All <span class="cbp-filter-counter"></span>
+                                                                                                الجميع <span class="cbp-filter-counter"></span>
                                                                                             </span>
                                                                                             <span data-filter="[data-type~=&quot;AC&quot;]" class="cbp-filter-item">
                                                                                                 <span data-text="AC">
-                                                                                                Air conditioners <span class="cbp-filter-counter"></span>
+                                                                                                المكيفات<span class="cbp-filter-counter"></span>
                                                                                                 </span>
                                                                                             </span>
                                                                                             <span data-filter="[data-type~=&quot;SF&quot;]" class="cbp-filter-item">
                                                                                                 <span data-text="SF">
-                                                                                                    Shipping Furniture <span class="cbp-filter-counter"></span>
+                                                                                                    نقل الأثاث <span class="cbp-filter-counter"></span>
                                                                                                 </span>
                                                                                             </span>
                                                                                             <span data-filter="[data-type~=&quot;Maintenance&quot;]" class="cbp-filter-item">
                                                                                                 <span data-text="Maintenance">
-                                                                                                    Maintenance <span class="cbp-filter-counter"></span>
+                                                                                                    الصيانة <span class="cbp-filter-counter"></span>
                                                                                                 </span>
                                                                                             </span>
                                                                                         </span>
@@ -7004,8 +7009,8 @@
                                                                                 <div class="portfolio_details">
                                                                                     <a href="/portfolio/somerset/" class="project-title " target="_self">
                                                                                             <span class="text-wrapper">
-                                                                                                <span class="title">Maintaining </span>
-                                                                                                <span class="excerpt">Fixing ACs fast and effeciently</span>
+                                                                                                <span class="title">الفحص </span>
+                                                                                                <span class="excerpt">نتاكد من عمل كل انظمة التكييف </span>
                                                                                             </span>
                                                                                     </a>
                                                                                     <a href="/portfolio/somerset/"
@@ -7072,8 +7077,8 @@
                                                                                 <div class="portfolio_details">
                                                                                     <a href="{{ url('portfolio/ac/')}}" class="project-title " target="_self">
                                                                                             <span class="text-wrapper">
-                                                                                                <span class="title">Checking</span>
-                                                                                                <span class="excerpt">Checking if eveything is fine.</span>
+                                                                                                <span class="title">الصيانة</span>
+                                                                                                <span class="excerpt">نحرص على صيانة التكييف بسرعه وبراعه</span>
                                                                                             </span>
                                                                                     </a>
                                                                                     <a href="/" class="link-read-more">Case
@@ -7138,8 +7143,8 @@
                                                                                        class="project-title "
                                                                                        target="_self">
                                                                                             <span class="text-wrapper">
-                                                                                                <span class="title">Shipping Furniture </span>
-                                                                                                <span class="excerpt">The best company when it comes to furniture transporting.</span>
+                                                                                                <span class="title">نقل الاثاث </span>
+                                                                                                <span class="excerpt">أفضل شركة في الؤياض لنقل الأثاث</span>
                                                                                             </span>
                                                                                     </a>
                                                                                     <a href="/portfolio/sf/"
@@ -7206,8 +7211,8 @@
                                                                                        class="project-title "
                                                                                        target="_self">
                                                                                             <span class="text-wrapper">
-                                                                                                <span class="title">AC </span>
-                                                                                                <span class="excerpt">Installing any AC.</span>
+                                                                                                <span class="title">المكيفات </span>
+                                                                                                <span class="excerpt">فك وتركيب المكيفات الأسبليت</span>
                                                                                             </span>
                                                                                     </a>
                                                                                     <a href="/portfolio/maintain/"
@@ -7268,7 +7273,7 @@
                                                                     </div>
                                                                     <div class="load-more clearboth vamtam-pagination-wrapper">
                                                                         <a href="/?paged=2" class="lm-btn vamtam-button" data-query="{&quot;paged&quot;:2,&quot;posts_per_page&quot;:&quot;6&quot;,&quot;post_type&quot;:&quot;jetpack-portfolio&quot;,&quot;orderby&quot;:&quot;date&quot;,&quot;order&quot;:&quot;DESC&quot;,&quot;tax_query&quot;:{&quot;relation&quot;:&quot;AND&quot;},&quot;ignore_sticky_posts&quot;:true,&quot;offset&quot;:0,&quot;fl_original_offset&quot;:0,&quot;fl_builder_loop&quot;:true,&quot;fields&quot;:&quot;&quot;,&quot;settings&quot;:{&quot;layout&quot;:&quot;grid&quot;,&quot;hover_animation&quot;:&quot;hover-animation-2&quot;,&quot;pagination&quot;:&quot;true&quot;,&quot;posts_per_page&quot;:&quot;6&quot;,&quot;type_filter&quot;:true,&quot;title_filter&quot;:false,&quot;lightbox_button&quot;:&quot;true&quot;,&quot;columns&quot;:3,&quot;gap&quot;:true,&quot;link_opens&quot;:&quot;single&quot;,&quot;show_title&quot;:true,&quot;description&quot;:true,&quot;responsive_display&quot;:&quot;&quot;,&quot;visibility_display&quot;:&quot;&quot;,&quot;visibility_user_capability&quot;:&quot;&quot;,&quot;animation&quot;:{&quot;style&quot;:&quot;&quot;,&quot;delay&quot;:&quot;0.0&quot;},&quot;vamtam_animation_style&quot;:&quot;&quot;,&quot;vamtam_animation_type&quot;:&quot;progressive&quot;,&quot;vamtam_animation_exit&quot;:&quot;1&quot;,&quot;vamtam_animation_delay&quot;:&quot;0&quot;,&quot;vamtam_animation_origin&quot;:&quot;center center&quot;,&quot;vamtam_animation_mobile&quot;:&quot;0&quot;,&quot;vamtam_animation_pin&quot;:&quot;0&quot;,&quot;vamtam_animation_pin_duration&quot;:300,&quot;vamtam_animation_pin_trigger&quot;:&quot;center&quot;,&quot;container_element&quot;:&quot;div&quot;,&quot;id&quot;:&quot;&quot;,&quot;class&quot;:&quot;&quot;,&quot;node_label&quot;:&quot;&quot;,&quot;export&quot;:&quot;&quot;,&quot;import&quot;:&quot;&quot;,&quot;margin_top&quot;:&quot;&quot;,&quot;margin_unit&quot;:&quot;px&quot;,&quot;margin_top_large&quot;:&quot;&quot;,&quot;margin_large_unit&quot;:&quot;px&quot;,&quot;margin_top_medium&quot;:&quot;&quot;,&quot;margin_medium_unit&quot;:&quot;px&quot;,&quot;margin_top_responsive&quot;:&quot;&quot;,&quot;margin_responsive_unit&quot;:&quot;px&quot;,&quot;margin_right&quot;:&quot;&quot;,&quot;margin_right_large&quot;:&quot;&quot;,&quot;margin_right_medium&quot;:&quot;&quot;,&quot;margin_right_responsive&quot;:&quot;&quot;,&quot;margin_bottom&quot;:&quot;&quot;,&quot;margin_bottom_large&quot;:&quot;&quot;,&quot;margin_bottom_medium&quot;:&quot;&quot;,&quot;margin_bottom_responsive&quot;:&quot;&quot;,&quot;margin_left&quot;:&quot;&quot;,&quot;margin_left_large&quot;:&quot;&quot;,&quot;margin_left_medium&quot;:&quot;&quot;,&quot;margin_left_responsive&quot;:&quot;&quot;,&quot;row_width&quot;:1280,&quot;row_width_unit&quot;:&quot;px&quot;,&quot;show_default_heading&quot;:&quot;0&quot;,&quot;css&quot;:&quot;&quot;,&quot;js&quot;:&quot;&quot;,&quot;type&quot;:&quot;vamtam-projects&quot;,&quot;order_by&quot;:&quot;date&quot;,&quot;order&quot;:&quot;DESC&quot;,&quot;posts_post&quot;:&quot;&quot;,&quot;tax_post_category&quot;:&quot;&quot;,&quot;tax_post_post_tag&quot;:&quot;&quot;,&quot;posts_page&quot;:&quot;&quot;,&quot;posts_jetpack-portfolio&quot;:&quot;&quot;,&quot;tax_jetpack-portfolio_jetpack-portfolio-type&quot;:&quot;&quot;,&quot;tax_jetpack-portfolio_jetpack-portfolio-tag&quot;:&quot;&quot;,&quot;posts_jetpack-testimonial&quot;:&quot;&quot;,&quot;users&quot;:&quot;&quot;,&quot;posts_product&quot;:&quot;&quot;,&quot;tax_product_product_cat&quot;:&quot;&quot;,&quot;tax_product_product_tag&quot;:&quot;&quot;,&quot;tax_product_pa_brand&quot;:&quot;&quot;,&quot;post_type&quot;:&quot;jetpack-portfolio&quot;}}" data-other-vars="{&quot;layout&quot;:&quot;grid&quot;,&quot;hover_animation&quot;:&quot;hover-animation-2&quot;,&quot;pagination&quot;:&quot;true&quot;,&quot;posts_per_page&quot;:&quot;6&quot;,&quot;type_filter&quot;:true,&quot;title_filter&quot;:false,&quot;lightbox_button&quot;:&quot;true&quot;,&quot;columns&quot;:3,&quot;gap&quot;:true,&quot;link_opens&quot;:&quot;single&quot;,&quot;show_title&quot;:true,&quot;description&quot;:true,&quot;responsive_display&quot;:&quot;&quot;,&quot;visibility_display&quot;:&quot;&quot;,&quot;visibility_user_capability&quot;:&quot;&quot;,&quot;animation&quot;:{&quot;style&quot;:&quot;&quot;,&quot;delay&quot;:&quot;0.0&quot;},&quot;vamtam_animation_style&quot;:&quot;&quot;,&quot;vamtam_animation_type&quot;:&quot;progressive&quot;,&quot;vamtam_animation_exit&quot;:&quot;1&quot;,&quot;vamtam_animation_delay&quot;:&quot;0&quot;,&quot;vamtam_animation_origin&quot;:&quot;center center&quot;,&quot;vamtam_animation_mobile&quot;:&quot;0&quot;,&quot;vamtam_animation_pin&quot;:&quot;0&quot;,&quot;vamtam_animation_pin_duration&quot;:300,&quot;vamtam_animation_pin_trigger&quot;:&quot;center&quot;,&quot;container_element&quot;:&quot;div&quot;,&quot;id&quot;:&quot;&quot;,&quot;class&quot;:&quot;&quot;,&quot;node_label&quot;:&quot;&quot;,&quot;export&quot;:&quot;&quot;,&quot;import&quot;:&quot;&quot;,&quot;margin_top&quot;:&quot;&quot;,&quot;margin_unit&quot;:&quot;px&quot;,&quot;margin_top_large&quot;:&quot;&quot;,&quot;margin_large_unit&quot;:&quot;px&quot;,&quot;margin_top_medium&quot;:&quot;&quot;,&quot;margin_medium_unit&quot;:&quot;px&quot;,&quot;margin_top_responsive&quot;:&quot;&quot;,&quot;margin_responsive_unit&quot;:&quot;px&quot;,&quot;margin_right&quot;:&quot;&quot;,&quot;margin_right_large&quot;:&quot;&quot;,&quot;margin_right_medium&quot;:&quot;&quot;,&quot;margin_right_responsive&quot;:&quot;&quot;,&quot;margin_bottom&quot;:&quot;&quot;,&quot;margin_bottom_large&quot;:&quot;&quot;,&quot;margin_bottom_medium&quot;:&quot;&quot;,&quot;margin_bottom_responsive&quot;:&quot;&quot;,&quot;margin_left&quot;:&quot;&quot;,&quot;margin_left_large&quot;:&quot;&quot;,&quot;margin_left_medium&quot;:&quot;&quot;,&quot;margin_left_responsive&quot;:&quot;&quot;,&quot;row_width&quot;:1280,&quot;row_width_unit&quot;:&quot;px&quot;,&quot;show_default_heading&quot;:&quot;0&quot;,&quot;css&quot;:&quot;&quot;,&quot;js&quot;:&quot;&quot;,&quot;type&quot;:&quot;vamtam-projects&quot;,&quot;order_by&quot;:&quot;date&quot;,&quot;order&quot;:&quot;DESC&quot;,&quot;posts_post&quot;:&quot;&quot;,&quot;tax_post_category&quot;:&quot;&quot;,&quot;tax_post_post_tag&quot;:&quot;&quot;,&quot;posts_page&quot;:&quot;&quot;,&quot;posts_jetpack-portfolio&quot;:&quot;&quot;,&quot;tax_jetpack-portfolio_jetpack-portfolio-type&quot;:&quot;&quot;,&quot;tax_jetpack-portfolio_jetpack-portfolio-tag&quot;:&quot;&quot;,&quot;posts_jetpack-testimonial&quot;:&quot;&quot;,&quot;users&quot;:&quot;&quot;,&quot;posts_product&quot;:&quot;&quot;,&quot;tax_product_product_cat&quot;:&quot;&quot;,&quot;tax_product_product_tag&quot;:&quot;&quot;,&quot;tax_product_pa_brand&quot;:&quot;&quot;,&quot;post_type&quot;:&quot;jetpack-portfolio&quot;}">
-                                                                            <span class="btext" data-text="Load more">Load more</span>
+                                                                            <span class="btext" data-text="Load more">تحميل المزيد</span>
                                                                         </a>
                                                                     </div>
                                                                 </section>
@@ -7292,14 +7297,14 @@
                                                                     <div class="fl-module fl-module-vamtam-heading fl-node-59aafad21a3f2" data-node="59aafad21a3f2">
                                                                         <div class="fl-module-content fl-node-content">
                                                                             <h2 class="vamtam-heading ">
-                                                                                <span class="vamtam-heading-text">About us</span>
+                                                                                <span class="vamtam-heading-text">من نحن</span>
                                                                             </h2>
                                                                         </div>
                                                                     </div>
                                                                     <div class="fl-module fl-module-vamtam-heading fl-node-59ac9e2b05aad" data-node="59ac9e2b05aad">
                                                                         <div class="fl-module-content fl-node-content">
                                                                             <h4 class="vamtam-heading ">
-                                                                                <span class="vamtam-heading-text">We offer the best to clients.</span>
+                                                                                <span class="vamtam-heading-text">نحرص على تقديم الأفضل لعملائنا</span>
                                                                             </h4>
                                                                         </div>
                                                                     </div>
@@ -7353,14 +7358,14 @@
                                                                     <div class="fl-module fl-module-vamtam-heading fl-node-59aafad21a11b" data-node="59aafad21a11b">
                                                                         <div class="fl-module-content fl-node-content">
                                                                             <h3 class="vamtam-heading ">
-                                                                                <span class="vamtam-heading-text">Since 2005!</span>
+                                                                                <span class="vamtam-heading-text">منذ 2005</span>
                                                                             </h3>
                                                                         </div>
                                                                     </div>
                                                                     <div class="fl-module fl-module-rich-text fl-node-59ad2883346e8" data-node="59ad2883346e8">
                                                                         <div class="fl-module-content fl-node-content">
                                                                             <div class="fl-rich-text">
-                                                                                <p>We, established in 1987, is a Saudi Arabian company based in Riyadh.</p>
+                                                                                <p>انشأت شركة الرياض لنقل الاثاث في الرياض </p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -7375,7 +7380,7 @@
                                                                     <div class="fl-module fl-module-rich-text fl-node-59ad29c3853b1" data-node="59ad29c3853b1">
                                                                         <div class="fl-module-content fl-node-content">
                                                                             <div class="fl-rich-text">
-                                                                                <p>We expanded to offer our services all over Riyadh</p>
+                                                                                <p>توسعنا لنشمل خجمات فك وتركيب وصيانة المكيفات الاسبليت</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -7389,7 +7394,7 @@
                                                                     <div class="fl-module fl-module-rich-text fl-node-59ad29c3853b1" data-node="59ad29c3853b1">
                                                                         <div class="fl-module-content fl-node-content">
                                                                             <div class="fl-rich-text">
-                                                                                <p>We launched our frist website.</p>
+                                                                                <p>أطلقنا موقعنا الأول</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -7415,15 +7420,14 @@
                                                                         class="fl-module fl-module-vamtam-heading fl-node-59aafad219fa5">
                                                                         <div class="fl-module-content fl-node-content">
                                                                             <h3 class="vamtam-heading ">
-                                                                                <span class="vamtam-heading-text">Craftsmanship</span>
+                                                                                <span class="vamtam-heading-text">خدماتنا</span>
                                                                             </h3>
                                                                         </div>
                                                                     </div>
                                                                     <div class="fl-module fl-module-rich-text fl-node-59ad3267baa55" data-node="59ad3267baa55">
                                                                         <div class="fl-module-content fl-node-content">
                                                                             <div class="fl-rich-text">
-                                                                                <p>We are proud to offer Safe,fast and easy Shipping to your furniture.</p>
-                                                                                <p>And our best technicians for your air conditioner maintainance, installing and dissociation.</p>
+                                                                                <p>نحن فخورون بتقديم شحن آمن وسريع وسهل لأثاثك</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -7431,7 +7435,7 @@
                                                                         <div class="fl-module-content fl-node-content">
                                                                             <div class="vamtam-button-wrap vamtam-button-width-auto" style="text-align:left">
                                                                                 <a href="{{ url('/about')}}" target="_self" class="vamtam-button accent5 hover-accent2 button-border icon-animation-disable" role="button" style="font-size:14px;line-height:16px;padding:16px 32px;">
-                                                                                    <span class="vamtam-button-text">How we works</span>
+                                                                                    <span class="vamtam-button-text">طريقة عملنا</span>
                                                                                 </a>
                                                                             </div>
                                                                         </div>
@@ -7456,24 +7460,18 @@
                                                                         data-node="59aafad21a1d0">
                                                                         <div class="fl-module-content fl-node-content">
                                                                             <h3 class="vamtam-heading ">
-                                                                                <span class="vamtam-heading-text">Philosophy</span>
+                                                                                <span class="vamtam-heading-text">المكيفات</span>
                                                                             </h3>
                                                                         </div>
                                                                     </div>
                                                                     <div class="fl-module fl-module-rich-text fl-node-59ad373be9896" data-node="59ad373be9896">
                                                                         <div class="fl-module-content fl-node-content">
                                                                             <div class="fl-rich-text">
-                                                                                <p>“Everything that slows us down and forces patience, everything that sets us back into the slow circles of nature, is a help."</p>
+                                                                                <p>لدينا أفضل الفنيين لصيانة وتركيب وتفكيك مكيفات الهواء الخاصة بك</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
-                                                                    <div class="fl-module fl-module-vamtam-heading fl-node-59aafad21a24a" data-node="59aafad21a24a">
-                                                                        <div class="fl-module-content fl-node-content">
-                                                                            <h5 class="vamtam-heading ">
-                                                                                <span class="vamtam-heading-text">– Jame Stevens</span>
-                                                                            </h5>
-                                                                        </div>
-                                                                    </div>
+
                                                                     <div class="fl-module fl-module-photo fl-node-59aafad21a286" data-node="59aafad21a286">
                                                                         <div class="fl-module-content fl-node-content">
                                                                             <div class="fl-photo fl-photo-align-left" itemscope itemtype="http://schema.org/ImageObject">
@@ -7515,24 +7513,18 @@
                                                                 <div class="fl-module fl-module-vamtam-heading fl-node-59ad4f5dae166" data-node="59ad4f5dae166">
                                                                     <div class="fl-module-content fl-node-content">
                                                                         <h2 class="vamtam-heading ">
-                                                                            <span class="vamtam-heading-text">Our clients</span>
+                                                                            <span class="vamtam-heading-text">عملائنا</span>
                                                                         </h2>
                                                                     </div>
                                                                 </div>
-                                                                <div class="fl-module fl-module-vamtam-heading fl-node-59ad4f82672cb" data-node="59ad4f82672cb">
-                                                                    <div class="fl-module-content fl-node-content">
-                                                                        <h5 class="vamtam-heading ">
-                                                                            <span class="vamtam-heading-text">Work with big and small.</span>
-                                                                        </h5>
-                                                                    </div>
-                                                                </div>
+
                                                                 <div class="fl-module fl-module-vamtam-testimonials fl-node-59ad4fb0bfa27 vamtam-testimonials-slider" data-node="59ad4fb0bfa27">
                                                                     <div class="fl-module-content fl-node-content">
                                                                         <div class="vamtam-cubeportfolio cbp cbp-slider-edge vamtam-testimonials-slider vamtam-tst-align-center" data-options="{&quot;layoutMode&quot;:&quot;slider&quot;,&quot;drag&quot;:true,&quot;auto&quot;:false,&quot;autoTimeout&quot;:5000,&quot;autoPauseOnHover&quot;:true,&quot;showNavigation&quot;:false,&quot;showPagination&quot;:true,&quot;rewindNav&quot;:true,&quot;scrollByPage&quot;:false,&quot;gridAdjustment&quot;:&quot;responsive&quot;,&quot;mediaQueries&quot;:[{&quot;width&quot;:1,&quot;cols&quot;:1}],&quot;gapHorizontal&quot;:0,&quot;gapVertical&quot;:0,&quot;caption&quot;:&quot;&quot;,&quot;displayType&quot;:&quot;default&quot;}">
                                                                             <div class="cbp-item">
                                                                                 <blockquote class="clearfix small simple alignment-center post-10971 jetpack-testimonial type-jetpack-testimonial status-publish hentry">
                                                                                     <div class='quote-text'>
-                                                                                        <h3 class="quote-summary">“We are new customers of this company and have been very favorably impressed with the quality of the work performed by your employees.”</h3>
+                                                                                        <h3 class="quote-summary">“نحن عملاء جدد لهذه الشركة وقد أعجبنا بشكل إيجابي للغاية بجودة العمل الذي يؤديه موظفوك”</h3>
                                                                                         <div class="quote-title-wrapper clearfix">
                                                                                             <div class='quote-title'>
                                                                                                 <span class='icon shortcode   use-hover'>&#57864;</span>
@@ -7540,7 +7532,6 @@
                                                                                                 <span class='icon shortcode   use-hover'>&#57864;</span>
                                                                                                 <span class='icon shortcode   use-hover'>&#57864;</span>
                                                                                                 <span class='icon shortcode   use-hover'>&#57864;</span>
-                                                                                                &mdash;<span class='the-title'>ROBERT F.</span>
                                                                                             </div>
                                                                                         </div>
                                                                                         <div class="quote-content"></div>
@@ -7550,7 +7541,7 @@
                                                                             <div class="cbp-item">
                                                                                 <blockquote class="clearfix small simple alignment-center post-10972 jetpack-testimonial type-jetpack-testimonial status-publish hentry">
                                                                                     <div class='quote-text'>
-                                                                                        <h3 class="quote-summary">"My Team shows up on time, works efficiently and quickly, and cleans things up well. Along with very competitive pricing, they provide a good service and excellent value!"</h3>
+                                                                                        <h3 class="quote-summary">"صل فريقي في الوقت المحدد، ويعمل بكفاءة وسرعة، وينظف الأمور جيدًا. إلى جانب الأسعار التنافسية للغاية، فإنها توفر خدمة جيدة وقيمة ممتازة"</h3>
                                                                                         <div class="quote-title-wrapper clearfix">
                                                                                             <div class='quote-title'>
                                                                                                 <span class='icon shortcode   use-hover'>&#57864;</span>
@@ -7558,7 +7549,6 @@
                                                                                                 <span class='icon shortcode   use-hover'>&#57864;</span>
                                                                                                 <span class='icon shortcode   use-hover'>&#57864;</span>
                                                                                                 <span class='icon shortcode   use-hover'>&#57864;</span>
-                                                                                                &mdash;<span class='the-title'>MAHAT M.</span>
                                                                                             </div>
                                                                                         </div>
                                                                                         <div class="quote-content"></div>
@@ -7568,7 +7558,7 @@
                                                                             <div class="cbp-item">
                                                                                 <blockquote class="clearfix small simple alignment-center post-10973 jetpack-testimonial type-jetpack-testimonial status-publish hentry">
                                                                                     <div class='quote-text'>
-                                                                                        <h3 class="quote-summary">“ You Guys are fast and efficient. They fixed our old Air cinditioner and we always use it insted of the new one .”</h3>
+                                                                                        <h3 class="quote-summary">“أنتم يا رفاق سريعون وفعالون. لقد أصلحوا مكيف الهواء القديم لدينا ونستخدمه دائمًا بدلاً من المكيف الجديد ”</h3>
                                                                                         <div class="quote-title-wrapper clearfix">
                                                                                             <div class='quote-title'>
                                                                                                 <span class='icon shortcode   use-hover'>&#57864;</span>
@@ -7576,7 +7566,6 @@
                                                                                                 <span class='icon shortcode   use-hover'>&#57864;</span>
                                                                                                 <span class='icon shortcode   use-hover'>&#57864;</span>
                                                                                                 <span class='icon shortcode   use-hover'>&#57864;</span>
-                                                                                                &mdash;<span class='the-title'>BARRY M.</span>
                                                                                             </div>
                                                                                         </div>
                                                                                         <div class="quote-content"></div>
@@ -7586,7 +7575,7 @@
                                                                             <div class="cbp-item">
                                                                                 <blockquote class="clearfix small simple alignment-center post-10974 jetpack-testimonial type-jetpack-testimonial status-publish hentry">
                                                                                     <div class='quote-text'>
-                                                                                        <h3 class="quote-summary">"Best Shipping service I have ever used. I use them for shipping all my furniture. I even recommend it to my friends."</h3>
+                                                                                        <h3 class="quote-summary">"أفضل خدمة شحن استخدمتها على الإطلاق. استخدمتها لشحن جميع الأثاثي. أنصحك بالأصدقاء"</h3>
                                                                                         <div class="quote-title-wrapper clearfix">
                                                                                             <div class='quote-title'>
                                                                                                 <span class='icon shortcode   use-hover'>&#57864;</span>
@@ -7594,7 +7583,6 @@
                                                                                                 <span class='icon shortcode   use-hover'>&#57864;</span>
                                                                                                 <span class='icon shortcode   use-hover'>&#57864;</span>
                                                                                                 <span class='icon shortcode   use-hover'>&#57864;</span>
-                                                                                                &mdash;<span class='the-title'>JEREMIE B.</span>
                                                                                             </div>
                                                                                         </div>
                                                                                         <div class="quote-content"></div>
@@ -7604,7 +7592,7 @@
                                                                             <div class="cbp-item">
                                                                                 <blockquote class="clearfix small simple alignment-center post-10975 jetpack-testimonial type-jetpack-testimonial status-publish hentry">
                                                                                     <div class='quote-text'>
-                                                                                        <h3 class="quote-summary">"The driver was extremely professional, courteous, and the price quoted was fair. I would happily hire The guys from Gardeny again! He did an excellent job clearing my driveway of snow!"</h3>
+                                                                                        <h3 class="quote-summary">"كان السائق محترفًا للغاية ومهذبًا وكان السعر المعروض عادلاً. يسعدني أن أقوم بتعيين الرجال شركة الرياض مرة أخرى"</h3>
                                                                                         <div class="quote-title-wrapper clearfix">
                                                                                             <div class='quote-title'>
                                                                                                 <span class='icon shortcode   use-hover'>&#57864;</span>
@@ -7612,7 +7600,6 @@
                                                                                                 <span class='icon shortcode   use-hover'>&#57864;</span>
                                                                                                 <span class='icon shortcode   use-hover'>&#57864;</span>
                                                                                                 <span class='icon shortcode   use-hover'>&#57864;</span>
-                                                                                                &mdash;<span class='the-title'>ROBERTO L.</span>
                                                                                             </div>
                                                                                         </div>
                                                                                         <div class="quote-content"></div>
@@ -7652,7 +7639,7 @@
                                                             data-node="59ad565acdf90">
                                                             <div class="fl-module-content fl-node-content">
                                                                 <h5 class="vamtam-heading ">
-                                                                    <span class="vamtam-heading-text">Easy, Fast and Cheap</span>
+                                                                    <span class="vamtam-heading-text">نحن نتميز بالسرعة والسهولة والأسعار الرائعة</span>
                                                                 </h5>
                                                             </div>
                                                         </div>
@@ -7674,7 +7661,7 @@
                                                                                    class="vamtam-button accent5 hover-accent1 button-solid icon-animation-disable"
                                                                                    role="button"
                                                                                    style="font-size:14px;line-height:16px;padding:16px 32px;">
-                                                                                    <span class="vamtam-button-text">Discover our services </span>
+                                                                                    <span class="vamtam-button-text">أكتشف خدماتنا </span>
                                                                                     <i class="vamtam-button-icon vamtam-button-icon-after icon icon-b theme"
                                                                                        data-icon="&#59703;"></i>
                                                                                 </a>
@@ -7751,7 +7738,7 @@
                                                    class="vamtam-button accent1 hover-accent2 button-border icon-animation-disable"
                                                    role="button"
                                                    style="font-size:16px;line-height:18px;padding:16px 32px;">
-                                                    <span class="vamtam-button-text">Contact us</span>
+                                                    <span class="vamtam-button-text">تواصل معنا</span>
                                                 </a>
                                             </div>
                                         </div>
@@ -7759,7 +7746,7 @@
                                             <div class="fl-module-content fl-node-content">
                                                 <div class="fl-rich-text">
                                                     <p style="text-align: center;">
-                                                        <br/>Riyadh, Saudi Arabia </p>
+                                                        <br/>الرياض ، السعودية</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -7777,11 +7764,7 @@
                                                                           target="_blank"
                                                                           rel="noopener">Martin Habeeb</a>
                                                                     <br/>
-                                                                    Proudly powered by <a style="font-size: 12px;"
-                                                                                          href="https://wordpress.org/"
-                                                                                          target="_blank"
-                                                                                          rel="noopener">WordPress</a>
-                                                                </span>
+                                                                    </span>
                                                     </p>
                                                 </div>
                                             </div>

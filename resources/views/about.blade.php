@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#2a7d2e">
     <link rel="pingback" href="/xmlrpc.php"/>
-    <title>About us &#8211;el-batal inc.</title>
+    <title>من نحن &#8211;شركة الرياض</title>
+    <link rel="icon" type="image/x-icon" href="/wp-content/uploads/icon.png">
+
     <style id="vamtam-theme-options">
         :root {
             --vamtam-site-max-width: 1260px;
@@ -6268,26 +6270,16 @@
 
     <div class="limit-wrapper header-maybe-limit-wrapper header-padding">
         <div class="header-contents">
-            <div class="first-row">
-                <div class="logo-wrapper">
-                    <div class="logo-tagline">
-                        <a href="/" title="Landscaping Garden" class="logo " style="min-width:0px">
-                            <img width="300" height="100" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20215%2058'%3E%3C/svg%3E" alt="Landscaping Garden" class="normal-logo" style="" data-lazy-src="/wp-content/uploads/2017/11/logo.png"/>
-                            <noscript>
-                                <img width="300" height="100" src="/wp-content/uploads/2017/11/logo.png" alt="Landscaping Garden" class="normal-logo" style=""/>
-                            </noscript>
-                            <img width="300" height="100" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20215%2058'%3E%3C/svg%3E" alt="Landscaping Garden" class="alternative-logo" style="" data-lazy-src="/wp-content/uploads/2017/11/logo.png"/>
-                            <noscript>
-                                <img width="300" height="100" src="/wp-content/uploads/2017/11/logo.png" alt="Landscaping Garden" class="alternative-logo" style=""/>
-                            </noscript>
-                        </a>
-                    </div>
-                    <div class="mobile-logo-additions">
-                        <button class="header-search icon vamtam-overlay-search-trigger">&#59701;</button>
-                        <div id="vamtam-megamenu-main-menu-toggle"></div>
-                    </div>
+
+            <div id="header-text">
+                <div>
+                    <a href="tel:+966539147257" target="_self" class="vamtam-button accent1 hover-accent2 button-solid" role="button">
+                        <span class="vamtam-button-text">اتصل بنا</span>
+                    </a>
                 </div>
             </div>
+
+
             <div class="second-row ">
                 <div id="menus">
                     <nav id="main-menu" class="">
@@ -6305,44 +6297,73 @@
                                 </div>
                                 <div class="mega-toggle-blocks-right"></div>
                             </div>
+
                             <ul id="mega-menu-menu-header" class="mega-menu max-mega-menu mega-menu-horizontal mega-no-js" data-event="hover_intent" data-effect="slide" data-effect-speed="200" data-effect-mobile="disabled" data-effect-speed-mobile="0" data-mobile-force-width="false" data-second-click="go" data-document-click="collapse" data-vertical-behaviour="accordion" data-breakpoint="900" data-unbind="true" data-mobile-state="collapse_all" data-hover-intent-timeout="300" data-hover-intent-interval="100">
-                                <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-13399' id='mega-menu-item-13399'>
-                                    <a class="mega-menu-link" href="/" aria-haspopup="true" aria-expanded="false" tabindex="0">
-                                        Home<span class="mega-indicator"></span>
-                                    </a>
-                                </li>
-                                <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-current-menu-item mega-menu-item-has-children mega-current_page_item mega-align-bottom-left mega-menu-flyout mega-menu-item-11414' id='mega-menu-item-11414'>
-                                    <a class="mega-menu-link" href="/about" aria-haspopup="true" aria-expanded="false" tabindex="0">
-                                        About<span class="mega-indicator"></span>
-                                    </a>
-                                </li>
-                                <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-11416' id='mega-menu-item-11416'>
-                                    <a class="mega-menu-link" href="/services" aria-haspopup="true" aria-expanded="false" tabindex="0">
-                                        Services<span class="mega-indicator"></span>
-                                    </a>
+
+                                <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-11418' id='mega-menu-item-11418'>
+                                    <a class="mega-menu-link" href="{{ url('/contacts')}}" tabindex="0">تواصل معنا</a>
                                 </li>
                                 <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page  mega-page_item mega-page-item-7780  mega-align-bottom-left mega-menu-flyout mega-menu-item-12372' id='mega-menu-item-12372'>
-                                    <a class="mega-menu-link" href="/reviews" aria-current="page" tabindex="0">Reviews</a>
+                                    <a class="mega-menu-link" href="{{ url('/reviews')}}" aria-current="page" tabindex="0">المراجعات</a>
                                 </li>
-                                <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-11418' id='mega-menu-item-11418'>
-                                    <a class="mega-menu-link" href="/contacts" tabindex="0">Contacts</a>
+                                <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-11416' id='mega-menu-item-11416'>
+                                    <a class="mega-menu-link" href="{{ url('/services')}}" aria-haspopup="true" aria-expanded="false" tabindex="0">
+                                        خدماتنا<span class="mega-indicator"></span>
+                                    </a>
                                 </li>
+                                <li class='mega-menu-item mega-menu-item-type-post_type mega-current-menu-item mega-current_page_item mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-11414' id='mega-menu-item-11414'>
+                                    <a class="mega-menu-link" href="{{ url('/about')}}" aria-haspopup="true" aria-expanded="false" tabindex="0">
+                                        من نحن<span class="mega-indicator"></span>
+                                    </a>
+                                </li>
+                                <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-13399' id='mega-menu-item-13399'>
+                                    <a class="mega-menu-link" href="{{ url('/')}}" aria-haspopup="true" aria-expanded="false" tabindex="0">
+                                        الصفحة الرئيسيه <span class="mega-indicator"></span>
+                                    </a>
+                                </li>
+
+
+
                             </ul>
                         </div>
                     </nav>
                 </div>
             </div>
-            <div id="header-text">
-                <div>
-                    <a href="tel:966-53-749-0389" target="_self" class="vamtam-button accent1 hover-accent2 button-solid" role="button">
-                        <span class="vamtam-button-text">Call Us</span>
-                    </a>
+
+            <div class="first-row">
+                <div class="logo-wrapper">
+                    <div class="logo-tagline">
+                        <a href="{{ url('/')}}" title="Landscaping Garden" class="logo " style="min-width:0px">
+                            <img width="300" height="100"
+                                 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20215%2058'%3E%3C/svg%3E"
+                                 alt="Landscaping Garden" class="normal-logo" style=""
+                                 data-lazy-src="{{ asset('wp-content/uploads/2017/11/logo.png')}}"/>
+                            <noscript>
+                                <img width="300" height="100"
+                                     src="{{ asset('wp-content/uploads/2017/11/logo.png')}}"
+                                     alt="Landscaping Garden" class="normal-logo" style=""/>
+                            </noscript>
+                            <img width="300" height="100"
+                                 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20215%2058'%3E%3C/svg%3E"
+                                 alt="Landscaping Garden" class="alternative-logo" style=""
+                                 data-lazy-src="{{ asset('wp-content/uploads/2017/11/logo.png')}}"/>
+                            <noscript>
+                                <img width="300" height="100"
+                                     src="{{ asset('wp-content/uploads/2017/11/logo.png')}}"
+                                     alt="Landscaping Garden" class="alternative-logo" style=""/>
+                            </noscript>
+                        </a>
+                    </div>
+                    <div class="mobile-logo-additions">
+                        <button class="header-search icon vamtam-overlay-search-trigger">&#59701;</button>
+                        <div id="vamtam-megamenu-main-menu-toggle"></div>
+                    </div>
                 </div>
             </div>
+
         </div>
     </div>
 </header>
-
 <div id="page" class="main-container">
     <header class="header-middle type-slider">
         <div id="header-slider-container" class="revslider">
@@ -6353,11 +6374,11 @@
                         <rs-slides style="overflow: hidden; position: absolute;">
                             <rs-slide style="position: absolute;" data-key="rs-218" data-title="Slide1" data-anim="adpr:false;ms:800;" data-in="o:-0.5;sx:1.6;sy:1.6;e:power0.inOut;" data-out="o:0;sx:0.6;sy:0.6;">
                                 <img width="1" height="1" src="//landscaping.vamtam.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" title="About us" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//landscaping.vamtam.com/wp-content/uploads/slide.jpg" data-bg="p:center top;" data-panzoom="d:30000;ss:100;se:102;" data-no-retina>
-                                <rs-layer id="slider-70-slide-218-layer-1" class="a-bigtitle-white" data-type="text" data-color="rgba(255, 255, 255, 1)" data-rsp_ch="on" data-xy="x:c;y:c;yo:-30px;" data-text="s:60;l:60;fw:700;" data-frame_0="o:1;" data-frame_0_words="d:10;y:10;sX:0.8;sY:0.8;o:0;" data-frame_1="st:500;sp:1200;sR:500;" data-frame_1_words="d:10;" data-frame_999="st:w;sR:28000;auto:true;" style="z-index:7;font-family:'Montserrat';">HAVE A SERVICE,
+                                <rs-layer id="slider-70-slide-218-layer-1" class="a-bigtitle-white" data-type="text" data-color="rgba(255, 255, 255, 1)" data-rsp_ch="on" data-xy="x:c;y:c;yo:-30px;" data-text="s:60;l:60;fw:700;" data-frame_0="o:1;" data-frame_0_words="d:10;y:10;sX:0.8;sY:0.8;o:0;" data-frame_1="st:500;sp:1200;sR:500;" data-frame_1_words="d:10;" data-frame_999="st:w;sR:28000;auto:true;" style="z-index:7;font-family:'Montserrat';">
                                 </rs-layer>
-                                <rs-layer id="slider-70-slide-218-layer-2" class="a-bigtitle-white" data-type="text" data-color="rgba(255, 255, 255, 1)" data-rsp_ch="on" data-xy="x:c;y:c;yo:30px;" data-text="s:60;l:60;fw:800;" data-frame_0="o:1;" data-frame_0_words="d:10;o:0;rX:90;" data-frame_1="st:900;sp:1500;sR:900;" data-frame_1_words="d:10;" data-frame_999="st:w;sR:27300;auto:true;" style="z-index:8;font-family:'Montserrat';">YOU TRULY DESERVE.
+                                <rs-layer id="slider-70-slide-218-layer-2" class="a-bigtitle-white" data-type="text" data-color="rgba(255, 255, 255, 1)" data-rsp_ch="on" data-xy="x:c;y:c;yo:30px;" data-text="s:60;l:60;fw:800;" data-frame_0="o:1;" data-frame_0_words="d:10;o:0;rX:90;" data-frame_1="st:900;sp:1500;sR:900;" data-frame_1_words="d:10;" data-frame_999="st:w;sR:27300;auto:true;" style="z-index:8;font-family:'Montserrat';">
                                 </rs-layer>
-                                <rs-layer id="slider-70-slide-218-layer-3" class="a-text-normal-white" data-type="text" data-color="rgba(255, 255, 255, 1)" data-rsp_ch="on" data-xy="x:c;y:c;yo:90px;" data-text="s:14;l:20;fw:800;" data-frame_0="y:10;sX:0.8;sY:0.8;" data-frame_1="st:1600;sp:1200;sR:1600;" data-frame_999="st:w;sR:27200;auto:true;" style="z-index:9;font-family:'Montserrat';">EXPLORE US
+                                <rs-layer id="slider-70-slide-218-layer-3" class="a-text-normal-white" data-type="text" data-color="rgba(255, 255, 255, 1)" data-rsp_ch="on" data-xy="x:c;y:c;yo:90px;" data-text="s:14;l:20;fw:800;" data-frame_0="y:10;sX:0.8;sY:0.8;" data-frame_1="st:1600;sp:1200;sR:1600;" data-frame_999="st:w;sR:27200;auto:true;" style="z-index:9;font-family:'Montserrat';">أكتشف من نحن
                                 </rs-layer>
                                 <rs-layer id="slider-70-slide-218-layer-6" data-type="image" data-rsp_ch="on" data-xy="x:c;y:b;yo:4px;" data-text="l:22;a:inherit;" data-dim="w:60;h:92;" data-actions='o:click;a:scrollbelow;e:none;' data-frame_0="sX:0;sY:0;" data-frame_1="st:1520;sp:2000;sR:1520;" data-frame_999="st:w;sR:26480;auto:true;" data-loop_999="sX:1.1;sY:1.1;sp:6000;e:power3.inOut;yym:t;yys:t;yyf:t;" style="z-index:10;">
                                     <img width="1" height="1" src="//landscaping.vamtam.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" class="tp-rs-img rs-lazyload" data-lazyload="//landscaping.vamtam.com/wp-content/uploads/2017/07/leaf-button.svg" data-no-retina>
@@ -6367,7 +6388,6 @@
                             </rs-slide>
                         </rs-slides>
                     </rs-module>
-                    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
                     <script>
                         setREVStartSize({
                             c: 'rev_slider_70_1',
@@ -6406,7 +6426,7 @@
                                                     <div class="fl-module fl-module-rich-text fl-node-5973aaa575f54" data-node="5973aaa575f54">
                                                         <div class="fl-module-content fl-node-content">
                                                             <div class="fl-rich-text">
-                                                                <h2>We offer a full-service of shipping furniture and AC to clients.</h2>
+                                                                <h2>نحن نقدم خدمة كامله في نقل الأثاث وفك وتركيب المكيفات الأسبليت لعملائنا</h2>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -6417,7 +6437,7 @@
                                                     <div class="fl-module fl-module-rich-text fl-node-596fc88b18b1d" data-node="596fc88b18b1d">
                                                         <div class="fl-module-content fl-node-content">
                                                             <div class="fl-rich-text">
-                                                                <h4>We work with a select group of our technicians and workers to provide the best service to the client.</h4>
+                                                                <h4>نحن نعمل مع مجموعة مختارة من الفنيين والعمال لدينا لتقديم أفضل خدمة للعميل</h4>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -6442,7 +6462,7 @@
                                                                             <div class="portfolio_details">
                                                                                 <a href="/portfolio/somerset/" class="project-title " target="_self">
                                                                                             <span class="text-wrapper">
-                                                                                                <span class="title">Checking </span>
+                                                                                                <span class="title">الفحص </span>
                                                                                             </span>
                                                                                 </a>
                                                                                 <a href="/portfolio/somerset/" class="link-read-more">Case study →</a>
@@ -6464,7 +6484,7 @@
                                                                             <div class="portfolio_details">
                                                                                 <a href="/portfolio/ac/" class="project-title " target="_self">
                                                                                             <span class="text-wrapper">
-                                                                                                <span class="title">Checking </span>
+                                                                                                <span class="title">الصيانة </span>
                                                                                             </span>
                                                                                 </a>
                                                                                 <a href="/portfolio/ac/" class="link-read-more">Case study →</a>
@@ -6486,7 +6506,7 @@
                                                                             <div class="portfolio_details">
                                                                                 <a href="/portfolio/maintain/" class="project-title " target="_self">
                                                                                             <span class="text-wrapper">
-                                                                                                <span class="title">AC </span>
+                                                                                                <span class="title">فك وتركيب المكيفات </span>
                                                                                             </span>
                                                                                 </a>
                                                                                 <a href="/portfolio/maintain/" class="link-read-more">Case study →</a>
@@ -6509,7 +6529,7 @@
                                                                             <div class="portfolio_details">
                                                                                 <a href="/portfolio/sf/" class="project-title " target="_self">
                                                                                             <span class="text-wrapper">
-                                                                                                <span class="title">AC </span>
+                                                                                                <span class="title">نقل الأثاث </span>
                                                                                             </span>
                                                                                 </a>
                                                                                 <a href="/portfolio/sf/" class="link-read-more">Case study →</a>
@@ -6556,7 +6576,7 @@
                                                                                             </span>
                                                                                     +
                                                                                 </div>
-                                                                                <span class="fl-number-after-text">Happy Clients</span>
+                                                                                <span class="fl-number-after-text">عملائنا</span>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -6564,7 +6584,7 @@
                                                                 <div class="fl-module fl-module-rich-text fl-node-596fea87e2624" data-node="596fea87e2624">
                                                                     <div class="fl-module-content fl-node-content">
                                                                         <div class="fl-rich-text">
-                                                                            <p style="text-align: center;">We have more than 400 happy clients from providing our services to them.</p>
+                                                                            <p style="text-align: center;">لدينا أكثر من 400 عميل سعيد بتقديم خدماتنا لهم</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -6582,7 +6602,7 @@
                                                                                             </span>
                                                                                     + KG
                                                                                 </div>
-                                                                                <span class="fl-number-after-text">Transfered furniture</span>
+                                                                                <span class="fl-number-after-text">أثاث منقول</span>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -6590,7 +6610,7 @@
                                                                 <div class="fl-module fl-module-rich-text fl-node-596fea8b2ad41" data-node="596fea8b2ad41">
                                                                     <div class="fl-module-content fl-node-content">
                                                                         <div class="fl-rich-text">
-                                                                            <p style="text-align: center;">More than 40,000 kilo grams of furniture were Transfered . </p>
+                                                                            <p style="text-align: center;">تم نقل أكثر من 40 ألف كيلو جرام من الأثاث </p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -6608,7 +6628,7 @@
                                                                                             </span>
                                                                                     +
                                                                                 </div>
-                                                                                <span class="fl-number-after-text">ACs Services</span>
+                                                                                <span class="fl-number-after-text">خدمات المكبفات</span>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -6616,7 +6636,7 @@
                                                                 <div class="fl-module fl-module-rich-text fl-node-596fea2a6946a" data-node="596fea2a6946a">
                                                                     <div class="fl-module-content fl-node-content">
                                                                         <div class="fl-rich-text">
-                                                                            <p style="text-align: center;">More than 950 services of Air conditioning Installation and Mantainance were provided to customers.</p>
+                                                                            <p style="text-align: center;">تم تقديم أكثر من 950 خدمة تركيب وصيانة لتكييف الهواء للعملاء</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -6659,7 +6679,7 @@
                                                                     <div class="fl-module-content fl-node-content">
                                                                         <h3 class="vamtam-heading ">
                                                                             <a  title="Gardens" target="_self">
-                                                                                <span class="vamtam-heading-text">Installing ACs</span>
+                                                                                <span class="vamtam-heading-text">فك وتركيب</span>
                                                                             </a>
                                                                         </h3>
                                                                     </div>
@@ -6695,7 +6715,7 @@
                                                                     <div class="fl-module-content fl-node-content">
                                                                         <h3 class="vamtam-heading ">
                                                                             <a  title="Urban" target="_self">
-                                                                                <span class="vamtam-heading-text">Maintenance</span>
+                                                                                <span class="vamtam-heading-text">فحص</span>
                                                                             </a>
                                                                         </h3>
                                                                     </div>
@@ -6731,7 +6751,7 @@
                                                                     <div class="fl-module-content fl-node-content">
                                                                         <h3 class="vamtam-heading ">
                                                                             <a title="Maintenance" target="_self">
-                                                                                <span class="vamtam-heading-text">Shipping</span>
+                                                                                <span class="vamtam-heading-text">نقل</span>
                                                                             </a>
                                                                         </h3>
                                                                     </div>
@@ -6767,7 +6787,7 @@
                                                                     <div class="fl-module-content fl-node-content">
                                                                         <h3 class="vamtam-heading ">
                                                                             <a  title="Events" target="_self">
-                                                                                <span class="vamtam-heading-text">Transporting</span>
+                                                                                <span class="vamtam-heading-text">شحن</span>
                                                                             </a>
                                                                         </h3>
                                                                     </div>
@@ -6787,7 +6807,7 @@
                                                                 <div class="fl-module fl-module-vamtam-heading fl-node-596fec215633b" data-node="596fec215633b">
                                                                     <div class="fl-module-content fl-node-content">
                                                                         <h5 class="vamtam-heading ">
-                                                                            <span class="vamtam-heading-text">We handle everything for you!</span>
+                                                                            <span class="vamtam-heading-text">نحن نقوم بكل شئ لأجلك</span>
                                                                         </h5>
                                                                     </div>
                                                                 </div>
@@ -6795,7 +6815,7 @@
                                                                     <div class="fl-module-content fl-node-content">
                                                                         <div class="vamtam-button-wrap vamtam-button-width-auto" style="text-align:left">
                                                                             <a href="/services"target="_self" class="vamtam-button accent1 hover-accent2 button-underline icon-animation-disable" role="button" style="font-size:14px;line-height:16px;padding:1px 0px;">
-                                                                                <span class="vamtam-button-text">View all service</span>
+                                                                                <span class="vamtam-button-text">تعرف على جميع الخدمات</span>
                                                                             </a>
                                                                         </div>
                                                                     </div>
@@ -6808,9 +6828,9 @@
                                                                     <div class="fl-module-content fl-node-content">
                                                                         <div class="fl-rich-text">
                                                                             <ul>
-                                                                                <li>Shipping Furniture</li>
-                                                                                <li>Air conditioning Maintainance</li>
-                                                                                <li>Air conditioning Installation</li>
+                                                                                <li>نقل أثاث</li>
+                                                                                <li>صيانة المكيفات</li>
+                                                                                <li>فك وتركيب المكيفات</li>
                                                                             </ul>
                                                                         </div>
                                                                     </div>
@@ -6838,14 +6858,14 @@
                                                                 <div class="fl-module fl-module-vamtam-heading fl-node-596fee13c9034" data-node="596fee13c9034">
                                                                     <div class="fl-module-content fl-node-content">
                                                                         <h4 class="vamtam-heading ">
-                                                                            <span class="vamtam-heading-text">E-mail Us</span>
+                                                                            <span class="vamtam-heading-text">راسلنا</span>
                                                                         </h4>
                                                                     </div>
                                                                 </div>
                                                                 <div class="fl-module fl-module-rich-text fl-node-596fef86ed818" data-node="596fef86ed818">
                                                                     <div class="fl-module-content fl-node-content">
                                                                         <div class="fl-rich-text">
-                                                                            <p style="text-align: center;">The first step is to subscribe to our website to know all the new offers.</p>
+                                                                            <p style="text-align: center;">لخطوة الأولى هي الاشتراك في موقعنا لمعرفة كل العروض الجديدة</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -6862,14 +6882,14 @@
                                                                 <div class="fl-module fl-module-vamtam-heading fl-node-596fef2840486" data-node="596fef2840486">
                                                                     <div class="fl-module-content fl-node-content">
                                                                         <h4 class="vamtam-heading ">
-                                                                            <span class="vamtam-heading-text">CHoose a Service</span>
+                                                                            <span class="vamtam-heading-text">أختر الخدمة</span>
                                                                         </h4>
                                                                     </div>
                                                                 </div>
                                                                 <div class="fl-module fl-module-rich-text fl-node-596fef96032ec" data-node="596fef96032ec">
                                                                     <div class="fl-module-content fl-node-content">
                                                                         <div class="fl-rich-text">
-                                                                            <p style="text-align: center;">The next stage is to choose which service do you need and write a breif detail about it .</p>
+                                                                            <p style="text-align: center;">الخطوة التالية هي اختيار الخدمة التي تحتاجها وكتابة تفاصيل مختصرة عنها</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -6886,14 +6906,14 @@
                                                                 <div class="fl-module fl-module-vamtam-heading fl-node-596fee7f1fcc7" data-node="596fee7f1fcc7">
                                                                     <div class="fl-module-content fl-node-content">
                                                                         <h4 class="vamtam-heading ">
-                                                                            <span class="vamtam-heading-text">Done</span>
+                                                                            <span class="vamtam-heading-text">تم</span>
                                                                         </h4>
                                                                     </div>
                                                                 </div>
                                                                 <div class="fl-module fl-module-rich-text fl-node-596fef68b181c" data-node="596fef68b181c">
                                                                     <div class="fl-module-content fl-node-content">
                                                                         <div class="fl-rich-text">
-                                                                            <p style="text-align: center;">Now let us do all the work for you .</p>
+                                                                            <p style="text-align: center;">في وقت قصير سنتواصل معك </p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -6918,14 +6938,14 @@
                                                                 <div class="fl-module fl-module-vamtam-heading fl-node-59710b981c451" data-node="59710b981c451">
                                                                     <div class="fl-module-content fl-node-content">
                                                                         <h2 class="vamtam-heading ">
-                                                                            <span class="vamtam-heading-text">Why choose us?</span>
+                                                                            <span class="vamtam-heading-text">لماذا نحن افضل اختيار</span>
                                                                         </h2>
                                                                     </div>
                                                                 </div>
                                                                 <div class="fl-module fl-module-rich-text fl-node-59710b981c4a2" data-node="59710b981c4a2">
                                                                     <div class="fl-module-content fl-node-content">
                                                                         <div class="fl-rich-text">
-                                                                            <p>We are the best shipping company. Our established systems allow us to deliver high quality services to clients. Built on a family tradition of caring, we are driven by a passion to exceed customer expectations and consistently deliver client satisfaction.</p>
+                                                                            <p>نحن أفضل شركة شحن. تتيح لنا أنظمتنا القائمة تقديم خدمات عالية الجودة للعملاء. بناءً على تقاليد عائلية في الرعاية، نحن مدفوعون بشغف لتجاوز توقعات العملاء وتحقيق رضا العملاء باستمرار</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -6958,14 +6978,14 @@
                                                                 <div class="fl-module fl-module-vamtam-heading fl-node-5973b5ef65c17" data-node="5973b5ef65c17">
                                                                     <div class="fl-module-content fl-node-content">
                                                                         <h2 class="vamtam-heading ">
-                                                                            <span class="vamtam-heading-text">Our mission.</span>
+                                                                            <span class="vamtam-heading-text">ما هي مهمتنا</span>
                                                                         </h2>
                                                                     </div>
                                                                 </div>
                                                                 <div class="fl-module fl-module-rich-text fl-node-5973b5ef65c5a" data-node="5973b5ef65c5a">
                                                                     <div class="fl-module-content fl-node-content">
                                                                         <div class="fl-rich-text">
-                                                                            <p>Our aim is to provide great service to the client.We regularly work closely with Professional technicians and dedicated workers to ensure that this is achieved.</p>
+                                                                            <p>هدفنا هو تقديم خدمة رائعة للعميل. ونحن نعمل بانتظام بشكل وثيق مع الفنيين المحترفين والعمال المتفانين لضمان تحقيق ذلك</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -6990,7 +7010,7 @@
                                                                 <div class="fl-module fl-module-vamtam-heading fl-node-597119bf42870" data-node="597119bf42870">
                                                                     <div class="fl-module-content fl-node-content">
                                                                         <h2 class="vamtam-heading ">
-                                                                            <span class="vamtam-heading-text">We Handle Eveything For You.</span>
+                                                                            <span class="vamtam-heading-text">نحن نقوم بكل شئ لأجلك</span>
                                                                         </h2>
                                                                     </div>
                                                                 </div>
@@ -7095,7 +7115,7 @@
                                             <div class="fl-module-content fl-node-content">
                                                 <div class="vamtam-button-wrap vamtam-button-width-auto vamtam-button-has-icon" style="text-align:center">
                                                     <a href="/contacts" target="_self" class="vamtam-button accent1 hover-accent2 button-border icon-animation-disable" role="button" style="font-size:16px;line-height:18px;padding:16px 32px;">
-                                                        <span class="vamtam-button-text">Contact us</span>
+                                                        <span class="vamtam-button-text">تواصل معنا</span>
                                                     </a>
                                                 </div>
                                             </div>
@@ -7103,7 +7123,7 @@
                                                 <div class="fl-module-content fl-node-content">
                                                     <div class="fl-rich-text">
                                                         <p style="text-align: center;">
-                                                            <br/>Riyadh, Saudi Arabia </p>
+                                                            <br/>الرياض ،السعودية </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -7116,7 +7136,6 @@
                                                                     © 2023 <a style="font-size: 12px;" href="https://themeforest.net/item/landscaping-garden-landscaper-wordpress/20942637?s_rank=20">Shipping Company</a>
                                                                     by <a style="font-size: 12px;" href="http://martinhabeeb.rf.gd/" target="_blank" rel="noopener">Martin Habeeb</a>
                                                                     <br/>
-                                                                    Proudly powered by <a style="font-size: 12px;" href="https://wordpress.org/" target="_blank" rel="noopener">WordPress</a>
                                                                 </span>
                                                         </p>
                                                     </div>

@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#2a7d2e">
     <link rel="pingback" href="/xmlrpc.php"/>
-    <title>Contacts &#8211;el-batal inc.</title>
+    <title>تواصل معنا &#8211;شركة الرياض</title>
+    <link rel="icon" type="image/x-icon" href="/wp-content/uploads/icon.png">
     <style id="vamtam-theme-options">
         :root {
             --vamtam-site-max-width: 1260px;
@@ -6266,26 +6267,16 @@
 
     <div class="limit-wrapper header-maybe-limit-wrapper header-padding">
         <div class="header-contents">
-            <div class="first-row">
-                <div class="logo-wrapper">
-                    <div class="logo-tagline">
-                        <a href="/" title="Landscaping Garden" class="logo " style="min-width:0px">
-                            <img width="300" height="100" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20215%2058'%3E%3C/svg%3E" alt="Landscaping Garden" class="normal-logo" style="" data-lazy-src="/wp-content/uploads/2017/11/logo.png"/>
-                            <noscript>
-                                <img width="300" height="100" src="/wp-content/uploads/2017/11/logo.png" alt="Landscaping Garden" class="normal-logo" style=""/>
-                            </noscript>
-                            <img width="300" height="100" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20215%2058'%3E%3C/svg%3E" alt="Landscaping Garden" class="alternative-logo" style="" data-lazy-src="/wp-content/uploads/2017/11/logo.png"/>
-                            <noscript>
-                                <img width="300" height="100" src="/wp-content/uploads/2017/11/logo.png" alt="Landscaping Garden" class="alternative-logo" style=""/>
-                            </noscript>
-                        </a>
-                    </div>
-                    <div class="mobile-logo-additions">
-                        <button class="header-search icon vamtam-overlay-search-trigger">&#59701;</button>
-                        <div id="vamtam-megamenu-main-menu-toggle"></div>
-                    </div>
+
+            <div id="header-text">
+                <div>
+                    <a href="tel:+966539147257" target="_self" class="vamtam-button accent1 hover-accent2 button-solid" role="button">
+                        <span class="vamtam-button-text">اتصل بنا</span>
+                    </a>
                 </div>
             </div>
+
+
             <div class="second-row ">
                 <div id="menus">
                     <nav id="main-menu" class="">
@@ -6303,44 +6294,73 @@
                                 </div>
                                 <div class="mega-toggle-blocks-right"></div>
                             </div>
+
                             <ul id="mega-menu-menu-header" class="mega-menu max-mega-menu mega-menu-horizontal mega-no-js" data-event="hover_intent" data-effect="slide" data-effect-speed="200" data-effect-mobile="disabled" data-effect-speed-mobile="0" data-mobile-force-width="false" data-second-click="go" data-document-click="collapse" data-vertical-behaviour="accordion" data-breakpoint="900" data-unbind="true" data-mobile-state="collapse_all" data-hover-intent-timeout="300" data-hover-intent-interval="100">
-                                <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-13399' id='mega-menu-item-13399'>
-                                    <a class="mega-menu-link" href="/" aria-haspopup="true" aria-expanded="false" tabindex="0">
-                                        Home<span class="mega-indicator"></span>
+
+                                <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-current-menu-item mega-current_page_item mega-align-bottom-left mega-menu-flyout mega-menu-item-11418' id='mega-menu-item-11418'>
+                                    <a class="mega-menu-link" href="{{ url('/contacts')}}" tabindex="0">تواصل معنا</a>
+                                </li>
+                                <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page  mega-page_item mega-page-item-7780  mega-align-bottom-left mega-menu-flyout mega-menu-item-12372' id='mega-menu-item-12372'>
+                                    <a class="mega-menu-link" href="{{ url('/reviews')}}" aria-current="page" tabindex="0">المراجعات</a>
+                                </li>
+                                <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-11416' id='mega-menu-item-11416'>
+                                    <a class="mega-menu-link" href="{{ url('/services')}}" aria-haspopup="true" aria-expanded="false" tabindex="0">
+                                        خدماتنا<span class="mega-indicator"></span>
                                     </a>
                                 </li>
                                 <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-11414' id='mega-menu-item-11414'>
-                                    <a class="mega-menu-link" href="/about" aria-haspopup="true" aria-expanded="false" tabindex="0">
-                                        About<span class="mega-indicator"></span>
+                                    <a class="mega-menu-link" href="{{ url('/about')}}" aria-haspopup="true" aria-expanded="false" tabindex="0">
+                                        من نحن<span class="mega-indicator"></span>
                                     </a>
                                 </li>
-                                <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-11416' id='mega-menu-item-11416'>
-                                    <a class="mega-menu-link" href="/services" aria-haspopup="true" aria-expanded="false" tabindex="0">
-                                        Services<span class="mega-indicator"></span>
+                                <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page  mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-13399' id='mega-menu-item-13399'>
+                                    <a class="mega-menu-link" href="{{ url('/')}}" aria-haspopup="true" aria-expanded="false" tabindex="0">
+                                        الصفحة الرئيسيه <span class="mega-indicator"></span>
                                     </a>
                                 </li>
-                                <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page  mega-page_item mega-page-item-7780  mega-align-bottom-left mega-menu-flyout mega-menu-item-12372' id='mega-menu-item-12372'>
-                                    <a class="mega-menu-link" href="/reviews" aria-current="page" tabindex="0">Reviews</a>
-                                </li>
-                                <li class='mega-menu-item mega-menu-item-type-post_type mega-current-menu-item mega-menu-item-object-page mega-current_page_item mega-align-bottom-left mega-menu-flyout mega-menu-item-11418' id='mega-menu-item-11418'>
-                                    <a class="mega-menu-link" href="/contacts" tabindex="0">Contacts</a>
-                                </li>
+
+
+
                             </ul>
                         </div>
                     </nav>
                 </div>
             </div>
-            <div id="header-text">
-                <div>
-                    <a href="tel:966-53-749-0389" target="_self" class="vamtam-button accent1 hover-accent2 button-solid" role="button">
-                        <span class="vamtam-button-text">Call Us</span>
-                    </a>
+
+            <div class="first-row">
+                <div class="logo-wrapper">
+                    <div class="logo-tagline">
+                        <a href="{{ url('/')}}" title="Landscaping Garden" class="logo " style="min-width:0px">
+                            <img width="300" height="100"
+                                 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20215%2058'%3E%3C/svg%3E"
+                                 alt="Landscaping Garden" class="normal-logo" style=""
+                                 data-lazy-src="{{ asset('wp-content/uploads/2017/11/logo.png')}}"/>
+                            <noscript>
+                                <img width="300" height="100"
+                                     src="{{ asset('wp-content/uploads/2017/11/logo.png')}}"
+                                     alt="Landscaping Garden" class="normal-logo" style=""/>
+                            </noscript>
+                            <img width="300" height="100"
+                                 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20215%2058'%3E%3C/svg%3E"
+                                 alt="Landscaping Garden" class="alternative-logo" style=""
+                                 data-lazy-src="{{ asset('wp-content/uploads/2017/11/logo.png')}}"/>
+                            <noscript>
+                                <img width="300" height="100"
+                                     src="{{ asset('wp-content/uploads/2017/11/logo.png')}}"
+                                     alt="Landscaping Garden" class="alternative-logo" style=""/>
+                            </noscript>
+                        </a>
+                    </div>
+                    <div class="mobile-logo-additions">
+                        <button class="header-search icon vamtam-overlay-search-trigger">&#59701;</button>
+                        <div id="vamtam-megamenu-main-menu-toggle"></div>
+                    </div>
                 </div>
             </div>
+
         </div>
     </div>
 </header>
-
 <div id="page" class="main-container">
     <div id="main-content">
         <div id="sub-header" class="layout-full has-background has-background-image has-text-shadow">
@@ -6348,8 +6368,8 @@
                 <div class="text-shadow"></div>
                 <div class="limit-wrapper vamtam-box-outer-padding">
                     <div class="meta-header-inside">
-                        <header class="page-header layout-left-align " data-progressive-animation="page-title">
-                            <h1 style="color:#ffffff" itemprop="headline">Contacts
+                        <header class="page-header layout-right-align " data-progressive-animation="page-title">
+                            <h1 style="color:#ffffff" itemprop="headline">تواصل معنا
                             </h1>
                         </header>
                     </div>
@@ -6373,7 +6393,7 @@
                                                                 <div class="fl-module fl-module-vamtam-heading fl-node-5972231b53833" data-node="5972231b53833">
                                                                     <div class="fl-module-content fl-node-content">
                                                                         <h4 class="vamtam-heading ">
-                                                                            <span class="vamtam-heading-text">We Made It Easy For You.</span>
+                                                                            <span class="vamtam-heading-text">افضل خدمات نقل اثاث ومكيفات الأسبليت في الرياض</span>
                                                                         </h4>
                                                                     </div>
                                                                 </div>
@@ -6470,7 +6490,7 @@
                                     <div class="fl-module-content fl-node-content">
                                         <div class="vamtam-button-wrap vamtam-button-width-auto vamtam-button-has-icon" style="text-align:center">
                                             <a href="/contacts" target="_self" class="vamtam-button accent1 hover-accent2 button-border icon-animation-disable" role="button" style="font-size:16px;line-height:18px;padding:16px 32px;">
-                                                <span class="vamtam-button-text">Contact us</span>
+                                                <span class="vamtam-button-text">تواصل معنا</span>
                                             </a>
                                         </div>
                                     </div>
@@ -6478,7 +6498,7 @@
                                         <div class="fl-module-content fl-node-content">
                                             <div class="fl-rich-text">
                                                 <p style="text-align: center;">
-                                                    <br/>Riyadh, Saudi Arabia </p>
+                                                    <br/>الرياض، السعودية </p>
                                             </div>
                                         </div>
                                     </div>
@@ -6491,7 +6511,6 @@
                                                                     © 2023 <a style="font-size: 12px;" href="https://themeforest.net/item/landscaping-garden-landscaper-wordpress/20942637?s_rank=20">Shipping Company</a>
                                                                     by <a style="font-size: 12px;" href="http://martinhabeeb.rf.gd/" target="_blank" rel="noopener">Martin Habeeb</a>
                                                                     <br/>
-                                                                    Proudly powered by <a style="font-size: 12px;" href="https://wordpress.org/" target="_blank" rel="noopener">WordPress</a>
                                                                 </span>
                                                 </p>
                                             </div>

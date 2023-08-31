@@ -92,7 +92,20 @@ return [
             // 'encrypt' => env('DB_ENCRYPT', 'yes'),
             // 'trust_server_certificate' => env('DB_TRUST_SERVER_CERTIFICATE', 'false'),
         ],
+        'wordpress ' => [
+            'driver' => 'mysql',
+            'host' => env('DB_HOST', '127.0.0.1'),
+            'database' => 'elriyadhco',
+            'username' => 'elriyadhco',
+            'password' => 'kali',
+            'unix_socket' => env('DB_SOCKET', ''),
+            'charset' => 'utf8mb4',
+            'collation' => 'utf8mb4_unicode_ci',
+            'prefix' => 'wp_',
+            'strict' => false,
+            'engine' => null
 
+        ],
     ],
 
     /*

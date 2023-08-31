@@ -13,7 +13,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#2a7d2e">
     <link rel="pingback" href="/xmlrpc.php"/>
-    <title>Reviews &#8211;el-batal inc.</title>
+    <title>المراجعات &#8211;شركة الرياض</title>
+    <link rel="icon" type="image/x-icon" href="/wp-content/uploads/icon.png">
     <style id="vamtam-theme-options">
         :root {
             --vamtam-site-max-width: 1260px;
@@ -6275,26 +6276,16 @@
 
     <div class="limit-wrapper header-maybe-limit-wrapper header-padding">
         <div class="header-contents">
-            <div class="first-row">
-                <div class="logo-wrapper">
-                    <div class="logo-tagline">
-                        <a href="/" title="Landscaping Garden" class="logo " style="min-width:0px">
-                            <img width="300" height="100" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20215%2058'%3E%3C/svg%3E" alt="Landscaping Garden" class="normal-logo" style="" data-lazy-src="/wp-content/uploads/2017/11/logo.png"/>
-                            <noscript>
-                                <img width="300" height="100" src="/wp-content/uploads/2017/11/logo.png" alt="Landscaping Garden" class="normal-logo" style=""/>
-                            </noscript>
-                            <img width="300" height="100" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20215%2058'%3E%3C/svg%3E" alt="Landscaping Garden" class="alternative-logo" style="" data-lazy-src="/wp-content/uploads/2017/11/logo.png"/>
-                            <noscript>
-                                <img width="300" height="100" src="/wp-content/uploads/2017/11/logo.png" alt="Landscaping Garden" class="alternative-logo" style=""/>
-                            </noscript>
-                        </a>
-                    </div>
-                    <div class="mobile-logo-additions">
-                        <button class="header-search icon vamtam-overlay-search-trigger">&#59701;</button>
-                        <div id="vamtam-megamenu-main-menu-toggle"></div>
-                    </div>
+
+            <div id="header-text">
+                <div>
+                    <a href="tel:+966539147257" target="_self" class="vamtam-button accent1 hover-accent2 button-solid" role="button">
+                        <span class="vamtam-button-text">اتصل بنا</span>
+                    </a>
                 </div>
             </div>
+
+
             <div class="second-row ">
                 <div id="menus">
                     <nav id="main-menu" class="">
@@ -6312,44 +6303,73 @@
                                 </div>
                                 <div class="mega-toggle-blocks-right"></div>
                             </div>
+
                             <ul id="mega-menu-menu-header" class="mega-menu max-mega-menu mega-menu-horizontal mega-no-js" data-event="hover_intent" data-effect="slide" data-effect-speed="200" data-effect-mobile="disabled" data-effect-speed-mobile="0" data-mobile-force-width="false" data-second-click="go" data-document-click="collapse" data-vertical-behaviour="accordion" data-breakpoint="900" data-unbind="true" data-mobile-state="collapse_all" data-hover-intent-timeout="300" data-hover-intent-interval="100">
-                                <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-13399' id='mega-menu-item-13399'>
-                                    <a class="mega-menu-link" href="/" aria-haspopup="true" aria-expanded="false" tabindex="0">
-                                        Home<span class="mega-indicator"></span>
+
+                                <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-11418' id='mega-menu-item-11418'>
+                                    <a class="mega-menu-link" href="{{ url('/contacts')}}" tabindex="0">تواصل معنا</a>
+                                </li>
+                                <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page  mega-page_item mega-current-menu-item mega-current_page_item mega-page-item-7780  mega-align-bottom-left mega-menu-flyout mega-menu-item-12372' id='mega-menu-item-12372'>
+                                    <a class="mega-menu-link" href="{{ url('/reviews')}}" aria-current="page" tabindex="0">المراجعات</a>
+                                </li>
+                                <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-11416' id='mega-menu-item-11416'>
+                                    <a class="mega-menu-link" href="{{ url('/services')}}" aria-haspopup="true" aria-expanded="false" tabindex="0">
+                                        خدماتنا<span class="mega-indicator"></span>
                                     </a>
                                 </li>
                                 <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-11414' id='mega-menu-item-11414'>
-                                    <a class="mega-menu-link" href="/about" aria-haspopup="true" aria-expanded="false" tabindex="0">
-                                        About<span class="mega-indicator"></span>
+                                    <a class="mega-menu-link" href="{{ url('/about')}}" aria-haspopup="true" aria-expanded="false" tabindex="0">
+                                        من نحن<span class="mega-indicator"></span>
                                     </a>
                                 </li>
-                                <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-11416' id='mega-menu-item-11416'>
-                                    <a class="mega-menu-link" href="/services" aria-haspopup="true" aria-expanded="false" tabindex="0">
-                                        Services<span class="mega-indicator"></span>
+                                <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-13399' id='mega-menu-item-13399'>
+                                    <a class="mega-menu-link" href="{{ url('/')}}" aria-haspopup="true" aria-expanded="false" tabindex="0">
+                                        الصفحة الرئيسيه <span class="mega-indicator"></span>
                                     </a>
                                 </li>
-                                <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-current-menu-item mega-page_item mega-page-item-7780 mega-current_page_item mega-align-bottom-left mega-menu-flyout mega-menu-item-12372' id='mega-menu-item-12372'>
-                                    <a class="mega-menu-link" href="/reviews" aria-current="page" tabindex="0">Reviews</a>
-                                </li>
-                                <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-11418' id='mega-menu-item-11418'>
-                                    <a class="mega-menu-link" href="/contacts" tabindex="0">Contacts</a>
-                                </li>
+
+
+
                             </ul>
                         </div>
                     </nav>
                 </div>
             </div>
-            <div id="header-text">
-                <div>
-                    <a href="tel:966-53-749-0389" target="_self" class="vamtam-button accent1 hover-accent2 button-solid" role="button">
-                        <span class="vamtam-button-text">Call Us</span>
-                    </a>
+
+            <div class="first-row">
+                <div class="logo-wrapper">
+                    <div class="logo-tagline">
+                        <a href="{{ url('/')}}" title="Landscaping Garden" class="logo " style="min-width:0px">
+                            <img width="300" height="100"
+                                 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20215%2058'%3E%3C/svg%3E"
+                                 alt="Landscaping Garden" class="normal-logo" style=""
+                                 data-lazy-src="{{ asset('wp-content/uploads/2017/11/logo.png')}}"/>
+                            <noscript>
+                                <img width="300" height="100"
+                                     src="{{ asset('wp-content/uploads/2017/11/logo.png')}}"
+                                     alt="Landscaping Garden" class="normal-logo" style=""/>
+                            </noscript>
+                            <img width="300" height="100"
+                                 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20215%2058'%3E%3C/svg%3E"
+                                 alt="Landscaping Garden" class="alternative-logo" style=""
+                                 data-lazy-src="{{ asset('wp-content/uploads/2017/11/logo.png')}}"/>
+                            <noscript>
+                                <img width="300" height="100"
+                                     src="{{ asset('wp-content/uploads/2017/11/logo.png')}}"
+                                     alt="Landscaping Garden" class="alternative-logo" style=""/>
+                            </noscript>
+                        </a>
+                    </div>
+                    <div class="mobile-logo-additions">
+                        <button class="header-search icon vamtam-overlay-search-trigger">&#59701;</button>
+                        <div id="vamtam-megamenu-main-menu-toggle"></div>
+                    </div>
                 </div>
             </div>
+
         </div>
     </div>
 </header>
-
 
 <div id="page" class="main-container">
     <div id="main-content">
@@ -6358,11 +6378,11 @@
                 <div class="text-shadow"></div>
                 <div class="limit-wrapper vamtam-box-outer-padding">
                     <div class="meta-header-inside">
-                        <header class="page-header layout-left-align " data-progressive-animation="page-title">
-                            <h1 style="" itemprop="headline">Reviews
+                        <header class="page-header layout-right-align " data-progressive-animation="page-title">
+                            <h1 style="" itemprop="headline">المراجعات
                             </h1>
                             <div class="page-header-line"></div>
-                            <div class="desc" style="">Leave your wishes, comments and thoughts on this page!</div>
+                            <div class="desc" style="">اترك رغباتك وتعليقاتك وأفكارك على هذه الصفحة</div>
                         </header>
                     </div>
                 </div>
@@ -6411,13 +6431,13 @@
                                         <p class="comment-form-cookies-consent">
                                             <label for="wp-comment-cookies-consent">
                                                 <input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent"
-                                                       type="checkbox" value="yes"/>Save my name, email, and website in
-                                                this browser for the next time I comment.
+                                                       type="checkbox" value="yes"/>احفظ اسمي والبريد الإلكتروني والموقع الإلكتروني في
+                                                ذا المتصفح في المرة القادمة التي أعلق فيها
                                             </label>
                                         </p>
                                         <p class="form-submit">
                                             <input name="submit" type="submit" id="submit" class="submit"
-                                                   value="Add message"/>
+                                                   value="إرسال"/>
                                             <input type='hidden' name='post_ID' value='7780' id='comment_post_ID'/>
                                             <input type='hidden' name='parent' id='comment_parent' value='0'/>
                                         </p>
@@ -6428,7 +6448,7 @@
                             </div>
                             <h5 class="comments-title">
                                 <a href="/reviews/#comments">
-                                    20 <span class="comment-word">People wrote to us:</span>
+                                     <span class="comment-word">:عملاء كتبوا لنا</span>
                                 </a>
                             </h5>
                             <div id="comments-list" class="comments vamtam-comments-small vamtam-cubeportfolio cbp" data-columns="3" data-options="{&quot;layoutMode&quot;:&quot;grid&quot;,&quot;sortToPreventGaps&quot;:true,&quot;defaultFilter&quot;:&quot;*&quot;,&quot;animationType&quot;:&quot;quicksand&quot;,&quot;gapHorizontal&quot;:30,&quot;gapVertical&quot;:30,&quot;gridAdjustment&quot;:&quot;responsive&quot;,&quot;mediaQueries&quot;:[{&quot;width&quot;:855,&quot;cols&quot;:3},{&quot;width&quot;:570,&quot;cols&quot;:2},{&quot;width&quot;:285,&quot;cols&quot;:1}],&quot;displayType&quot;:&quot;bottomToTop&quot;,&quot;displayTypeSpeed&quot;:100}">
@@ -6470,171 +6490,6 @@
                                         </footer>
                                     </div>
                                 </div>
-                                <div id="comment-58" class="comment odd alt thread-odd thread-alt depth-1 cbp-item ">
-                                    <div class="comment-inner">
-                                        <span class='icon shortcode theme  use-hover' style=''>&#59709;</span>
-                                        <header class="comment-header">
-                                            <h3 class="comment-author-link">Michael Leunig</h3>
-                                        </header>
-                                        <p>Love one another and you will be happy. It &#8217;s as simple and as difficult as that.</p>
-                                        <footer class="comment-footer">
-                                            <div title="3:41 pm" class="comment-time">May 2, 2014</div>
-                                        </footer>
-                                    </div>
-                                </div>
-                                <div id="comment-57" class="comment even thread-even depth-1 cbp-item ">
-                                    <div class="comment-inner">
-                                        <span class='icon shortcode theme  use-hover' style=''>&#59709;</span>
-                                        <header class="comment-header">
-                                            <h3 class="comment-author-link">Anonymous</h3>
-                                        </header>
-                                        <p>
-                                            ove is like playing the piano.<br/>
-                                            First you must learn to play by the rules,<br/>
-                                            then you must forget the rules<br/>and play from your heart.
-                                        </p>
-                                        <footer class="comment-footer">
-                                            <div title="3:41 pm" class="comment-time">May 2, 2014</div>
-                                        </footer>
-                                    </div>
-                                </div>
-                                <div id="comment-56" class="comment odd alt thread-odd thread-alt depth-1 cbp-item ">
-                                    <div class="comment-inner">
-                                        <span class='icon shortcode theme  use-hover' style=''>&#59709;</span>
-                                        <header class="comment-header">
-                                            <h3 class="comment-author-link">Ralph Block</h3>
-                                        </header>
-                                        <p>You &#8217;re nothing short of my everything.</p>
-                                        <footer class="comment-footer">
-                                            <div title="3:40 pm" class="comment-time">May 2, 2014</div>
-                                        </footer>
-                                    </div>
-                                </div>
-                                <div id="comment-55" class="comment even thread-even depth-1 cbp-item ">
-                                    <div class="comment-inner">
-                                        <span class='icon shortcode theme  use-hover' style=''>&#59709;</span>
-                                        <header class="comment-header">
-                                            <h3 class="comment-author-link">George Sands</h3>
-                                        </header>
-                                        <p>
-                                            There is only one happiness in life,<br/>to love and be loved.
-                                        </p>
-                                        <footer class="comment-footer">
-                                            <div title="3:40 pm" class="comment-time">May 2, 2014</div>
-                                        </footer>
-                                    </div>
-                                </div>
-                                <div id="comment-54" class="comment odd alt thread-odd thread-alt depth-1 cbp-item ">
-                                    <div class="comment-inner">
-                                        <span class='icon shortcode theme  use-hover' style=''>&#59709;</span>
-                                        <header class="comment-header">
-                                            <h3 class="comment-author-link">Socrates</h3>
-                                        </header>
-                                        <p>My advice to you is get married: if you find a good wife you &#8217;ll be happy; if not, you &#8217;ll become a philosopher.</p>
-                                        <footer class="comment-footer">
-                                            <div title="3:39 pm" class="comment-time">May 2, 2014</div>
-                                        </footer>
-                                    </div>
-                                </div>
-                                <div id="comment-53" class="comment even thread-even depth-1 cbp-item ">
-                                    <div class="comment-inner">
-                                        <span class='icon shortcode theme  use-hover' style=''>&#59709;</span>
-                                        <header class="comment-header">
-                                            <h3 class="comment-author-link">Ellie Goulding</h3>
-                                        </header>
-                                        <p>I met Prince William at a musical festival and he let me know he was a fan of my music. But the invitation to sing at his wedding reception came completely out of the blue. The fact that Kate and William knew the words to my songs was very touching &#8230;</p>
-                                        <footer class="comment-footer">
-                                            <div title="3:39 pm" class="comment-time">May 2, 2014</div>
-                                        </footer>
-                                    </div>
-                                </div>
-                                <div id="comment-52" class="comment odd alt thread-odd thread-alt depth-1 cbp-item ">
-                                    <div class="comment-inner">
-                                        <span class='icon shortcode theme  use-hover' style=''>&#59709;</span>
-                                        <header class="comment-header">
-                                            <h3 class="comment-author-link">Jane Seymour</h3>
-                                        </header>
-                                        <p>I think a lot of people get so obsessed with the wedding and the expense of the wedding that they miss out on what the real purpose is. It’s not about a production number, it’s about a meaningful moment between two people that’s witnessed by people that they actually really know and care about.</p>
-                                        <footer class="comment-footer">
-                                            <div title="3:37 pm" class="comment-time">May 2, 2014</div>
-                                        </footer>
-                                    </div>
-                                </div>
-                                <div id="comment-51" class="comment byuser comment-author-admin bypostauthor even thread-even depth-1 cbp-item ">
-                                    <div class="comment-inner">
-                                        <span class='icon shortcode theme  use-hover' style=''>&#59709;</span>
-                                        <header class="comment-header">
-                                            <h3 class="comment-author-link">Gary Jones</h3>
-                                        </header>
-                                        <p>For years my wedding ring has done its job. It has led me not into temptation. It has reminded my husband numerous times at parties that it’s time to go home. It has been a source of relief to a dinner companion. It has been a status symbol in the maternity ward.</p>
-                                        <footer class="comment-footer">
-                                            <div title="3:36 pm" class="comment-time">May 2, 2014</div>
-                                        </footer>
-                                    </div>
-                                </div>
-                                <div id="comment-49" class="comment byuser comment-author-admin bypostauthor odd alt thread-odd thread-alt depth-1 cbp-item ">
-                                    <div class="comment-inner">
-                                        <span class='icon shortcode theme  use-hover' style=''>&#59709;</span>
-                                        <header class="comment-header">
-                                            <h3 class="comment-author-link">Jane Seymour</h3>
-                                        </header>
-                                        <p>I think a lot of people get so obsessed with the wedding and the expense of the wedding that they miss out on what the real purpose is. It &#8217;s not about a production number, it &#8217;s about a meaningful moment between two people that &#8217;s witnessed by people that they actually really know and care about.</p>
-                                        <footer class="comment-footer">
-                                            <div title="6:22 pm" class="comment-time">April 26, 2014</div>
-                                        </footer>
-                                    </div>
-                                </div>
-                                <div id="comment-48" class="comment byuser comment-author-admin bypostauthor even thread-even depth-1 cbp-item ">
-                                    <div class="comment-inner">
-                                        <span class='icon shortcode theme  use-hover' style=''>&#59709;</span>
-                                        <header class="comment-header">
-                                            <h3 class="comment-author-link">Groucho Marx</h3>
-                                        </header>
-                                        <p>I was married by a judge. I should have asked for a jury.</p>
-                                        <footer class="comment-footer">
-                                            <div title="6:22 pm" class="comment-time">April 26, 2014</div>
-                                        </footer>
-                                    </div>
-                                </div>
-                                <div id="comment-47" class="comment byuser comment-author-admin bypostauthor odd alt thread-odd thread-alt depth-1 cbp-item ">
-                                    <div class="comment-inner">
-                                        <span class='icon shortcode theme  use-hover' style=''>&#59709;</span>
-                                        <header class="comment-header">
-                                            <h3 class="comment-author-link">Gary Jones</h3>
-                                        </header>
-                                        <p>Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and &#8230;. Select a text frame, then chose &#8220;Sample Text &#8221;from the context menu after &#8230;</p>
-                                        <footer class="comment-footer">
-                                            <div title="6:21 pm" class="comment-time">April 26, 2014</div>
-                                        </footer>
-                                    </div>
-                                </div>
-                                <div id="comment-46" class="comment byuser comment-author-admin bypostauthor even thread-even depth-1 cbp-item ">
-                                    <div class="comment-inner">
-                                        <span class='icon shortcode theme  use-hover' style=''>&#59709;</span>
-                                        <header class="comment-header">
-                                            <h3 class="comment-author-link">John Mayer</h3>
-                                        </header>
-                                        <p>A man &#8217;s got two shots for jewelry: a wedding ring and a watch. The watch is a lot easier to get on and off than a wedding ring.</p>
-                                        <p>
-                                            <a href="https://www.youtube.com/watch?v=nSRCpertZn8" title="John Mayer - Who You Love ft. Katy Perry" target="_blank" rel="nofollow">John Mayer &#8211;Who You Love ft. Katy Perry</a>
-                                        </p>
-                                        <footer class="comment-footer">
-                                            <div title="6:21 pm" class="comment-time">April 26, 2014</div>
-                                        </footer>
-                                    </div>
-                                </div>
-                                <div id="comment-45" class="comment odd alt thread-odd thread-alt depth-1 cbp-item ">
-                                    <div class="comment-inner">
-                                        <span class='icon shortcode theme  use-hover' style=''>&#59709;</span>
-                                        <header class="comment-header">
-                                            <h3 class="comment-author-link">Ellie Goulding</h3>
-                                        </header>
-                                        <p>I met Prince William at a musical festival and he let me know he was a fan of my music. But the invitation to sing at his wedding reception came completely out of the blue. The fact that Kate and William knew the words to my songs was very touching.</p>
-                                        <footer class="comment-footer">
-                                            <div title="6:08 pm" class="comment-time">April 26, 2014</div>
-                                        </footer>
-                                    </div>
-                                </div>
                                 <div id="comment-44" class="comment even thread-even depth-1 cbp-item ">
                                     <div class="comment-inner">
                                         <span class='icon shortcode theme  use-hover' style=''>&#59709;</span>
@@ -6668,18 +6523,6 @@
                                         <p>One tradition I have with my friends is that when one of us gets married, we have a ton of fragrance oils and pretty bottles at the bachelorette party. Everyone puts a drop or two in a bottle for the bride and makes a wish, and the bride wears our creation on her wedding day.</p>
                                         <footer class="comment-footer">
                                             <div title="6:07 pm" class="comment-time">April 26, 2014</div>
-                                        </footer>
-                                    </div>
-                                </div>
-                                <div id="comment-41" class="comment odd alt thread-odd thread-alt depth-1 cbp-item ">
-                                    <div class="comment-inner">
-                                        <span class='icon shortcode theme  use-hover' style=''>&#59709;</span>
-                                        <header class="comment-header">
-                                            <h3 class="comment-author-link">Erma Bombeck</h3>
-                                        </header>
-                                        <p>For years my wedding ring has done its job. It has led me not into temptation. It has reminded my husband numerous times at parties that it &#8217;s time to go home. It has been a source of relief to a dinner companion. It has been a status symbol in the maternity ward.</p>
-                                        <footer class="comment-footer">
-                                            <div title="6:06 pm" class="comment-time">April 26, 2014</div>
                                         </footer>
                                     </div>
                                 </div>
@@ -6733,7 +6576,7 @@
                                             <div class="fl-module-content fl-node-content">
                                                 <div class="vamtam-button-wrap vamtam-button-width-auto vamtam-button-has-icon" style="text-align:center">
                                                     <a href="/contacts" target="_self" class="vamtam-button accent1 hover-accent2 button-border icon-animation-disable" role="button" style="font-size:16px;line-height:18px;padding:16px 32px;">
-                                                        <span class="vamtam-button-text">Contact us</span>
+                                                        <span class="vamtam-button-text">تواصل معنا</span>
                                                     </a>
                                                 </div>
                                             </div>
@@ -6741,7 +6584,7 @@
                                                 <div class="fl-module-content fl-node-content">
                                                     <div class="fl-rich-text">
                                                         <p style="text-align: center;">
-                                                            <br/>Riyadh, Saudi Arabia </p>
+                                                            <br/>الرياض ،السعودية </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -6754,7 +6597,6 @@
                                                                     © 2023 <a style="font-size: 12px;" href="https://themeforest.net/item/landscaping-garden-landscaper-wordpress/20942637?s_rank=20">Shipping Company</a>
                                                                     by <a style="font-size: 12px;" href="http://martinhabeeb.rf.gd/" target="_blank" rel="noopener">Martin Habeeb</a>
                                                                     <br/>
-                                                                    Proudly powered by <a style="font-size: 12px;" href="https://wordpress.org/" target="_blank" rel="noopener">WordPress</a>
                                                                 </span>
                                                         </p>
                                                     </div>

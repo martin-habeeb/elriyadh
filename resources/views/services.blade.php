@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#2a7d2e">
     <link rel="pingback" href="/xmlrpc.php"/>
-    <title>Services &#8211;el-batal inc.</title>
+    <title>خدماتنا &#8211;شركة الرياض</title>
+    <link rel="icon" type="image/x-icon" href="/wp-content/uploads/icon.png">
     <style id="vamtam-theme-options">
         :root {
             --vamtam-site-max-width: 1260px;
@@ -6579,26 +6580,16 @@
 
     <div class="limit-wrapper header-maybe-limit-wrapper header-padding">
         <div class="header-contents">
-            <div class="first-row">
-                <div class="logo-wrapper">
-                    <div class="logo-tagline">
-                        <a href="/" title="Landscaping Garden" class="logo " style="min-width:0px">
-                            <img width="300" height="100" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20215%2058'%3E%3C/svg%3E" alt="Landscaping Garden" class="normal-logo" style="" data-lazy-src="/wp-content/uploads/2017/11/logo.png"/>
-                            <noscript>
-                                <img width="300" height="100" src="/wp-content/uploads/2017/11/logo.png" alt="Landscaping Garden" class="normal-logo" style=""/>
-                            </noscript>
-                            <img width="300" height="100" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20215%2058'%3E%3C/svg%3E" alt="Landscaping Garden" class="alternative-logo" style="" data-lazy-src="/wp-content/uploads/2017/11/logo.png"/>
-                            <noscript>
-                                <img width="300" height="100" src="/wp-content/uploads/2017/11/logo.png" alt="Landscaping Garden" class="alternative-logo" style=""/>
-                            </noscript>
-                        </a>
-                    </div>
-                    <div class="mobile-logo-additions">
-                        <button class="header-search icon vamtam-overlay-search-trigger">&#59701;</button>
-                        <div id="vamtam-megamenu-main-menu-toggle"></div>
-                    </div>
+
+            <div id="header-text">
+                <div>
+                    <a href="tel:+966539147257" target="_self" class="vamtam-button accent1 hover-accent2 button-solid" role="button">
+                        <span class="vamtam-button-text">اتصل بنا</span>
+                    </a>
                 </div>
             </div>
+
+
             <div class="second-row ">
                 <div id="menus">
                     <nav id="main-menu" class="">
@@ -6616,44 +6607,73 @@
                                 </div>
                                 <div class="mega-toggle-blocks-right"></div>
                             </div>
+
                             <ul id="mega-menu-menu-header" class="mega-menu max-mega-menu mega-menu-horizontal mega-no-js" data-event="hover_intent" data-effect="slide" data-effect-speed="200" data-effect-mobile="disabled" data-effect-speed-mobile="0" data-mobile-force-width="false" data-second-click="go" data-document-click="collapse" data-vertical-behaviour="accordion" data-breakpoint="900" data-unbind="true" data-mobile-state="collapse_all" data-hover-intent-timeout="300" data-hover-intent-interval="100">
-                                <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-13399' id='mega-menu-item-13399'>
-                                    <a class="mega-menu-link" href="/" aria-haspopup="true" aria-expanded="false" tabindex="0">
-                                        Home<span class="mega-indicator"></span>
-                                    </a>
-                                </li>
-                                <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-current_page_item mega-align-bottom-left mega-menu-flyout mega-menu-item-11414' id='mega-menu-item-11414'>
-                                    <a class="mega-menu-link" href="/about" aria-haspopup="true" aria-expanded="false" tabindex="0">
-                                        About<span class="mega-indicator"></span>
-                                    </a>
-                                </li>
-                                <li class='mega-menu-item mega-menu-item-type-post_type mega-current-menu-item mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-11416' id='mega-menu-item-11416'>
-                                    <a class="mega-menu-link" href="/services" aria-haspopup="true" aria-expanded="false" tabindex="0">
-                                        Services<span class="mega-indicator"></span>
-                                    </a>
+
+                                <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-11418' id='mega-menu-item-11418'>
+                                    <a class="mega-menu-link" href="{{ url('/contacts')}}" tabindex="0">تواصل معنا</a>
                                 </li>
                                 <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page  mega-page_item mega-page-item-7780  mega-align-bottom-left mega-menu-flyout mega-menu-item-12372' id='mega-menu-item-12372'>
-                                    <a class="mega-menu-link" href="/reviews" aria-current="page" tabindex="0">Reviews</a>
+                                    <a class="mega-menu-link" href="{{ url('/reviews')}}" aria-current="page" tabindex="0">المراجعات</a>
                                 </li>
-                                <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-11418' id='mega-menu-item-11418'>
-                                    <a class="mega-menu-link" href="/contacts" tabindex="0">Contacts</a>
+                                <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-current-menu-item mega-current_page_item mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-11416' id='mega-menu-item-11416'>
+                                    <a class="mega-menu-link" href="{{ url('/services')}}" aria-haspopup="true" aria-expanded="false" tabindex="0">
+                                        خدماتنا<span class="mega-indicator"></span>
+                                    </a>
                                 </li>
+                                <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-11414' id='mega-menu-item-11414'>
+                                    <a class="mega-menu-link" href="{{ url('/about')}}" aria-haspopup="true" aria-expanded="false" tabindex="0">
+                                        من نحن<span class="mega-indicator"></span>
+                                    </a>
+                                </li>
+                                <li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page  mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-13399' id='mega-menu-item-13399'>
+                                    <a class="mega-menu-link" href="{{ url('/')}}" aria-haspopup="true" aria-expanded="false" tabindex="0">
+                                        الصفحة الرئيسيه <span class="mega-indicator"></span>
+                                    </a>
+                                </li>
+
+
+
                             </ul>
                         </div>
                     </nav>
                 </div>
             </div>
-            <div id="header-text">
-                <div>
-                    <a href="tel:966-53-749-0389" target="_self" class="vamtam-button accent1 hover-accent2 button-solid" role="button">
-                        <span class="vamtam-button-text">Call Us</span>
-                    </a>
+
+            <div class="first-row">
+                <div class="logo-wrapper">
+                    <div class="logo-tagline">
+                        <a href="{{ url('/')}}" title="Landscaping Garden" class="logo " style="min-width:0px">
+                            <img width="300" height="100"
+                                 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20215%2058'%3E%3C/svg%3E"
+                                 alt="Landscaping Garden" class="normal-logo" style=""
+                                 data-lazy-src="{{ asset('wp-content/uploads/2017/11/logo.png')}}"/>
+                            <noscript>
+                                <img width="300" height="100"
+                                     src="{{ asset('wp-content/uploads/2017/11/logo.png')}}"
+                                     alt="Landscaping Garden" class="normal-logo" style=""/>
+                            </noscript>
+                            <img width="300" height="100"
+                                 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20215%2058'%3E%3C/svg%3E"
+                                 alt="Landscaping Garden" class="alternative-logo" style=""
+                                 data-lazy-src="{{ asset('wp-content/uploads/2017/11/logo.png')}}"/>
+                            <noscript>
+                                <img width="300" height="100"
+                                     src="{{ asset('wp-content/uploads/2017/11/logo.png')}}"
+                                     alt="Landscaping Garden" class="alternative-logo" style=""/>
+                            </noscript>
+                        </a>
+                    </div>
+                    <div class="mobile-logo-additions">
+                        <button class="header-search icon vamtam-overlay-search-trigger">&#59701;</button>
+                        <div id="vamtam-megamenu-main-menu-toggle"></div>
+                    </div>
                 </div>
             </div>
+
         </div>
     </div>
 </header>
-
 
 <div id="page" class="main-container">
     <div id="main-content">
@@ -6662,7 +6682,7 @@
                 <div class="limit-wrapper vamtam-box-outer-padding">
                     <div class="meta-header-inside">
                         <header class="page-header layout-left-align " data-progressive-animation="page-title">
-                            <h1 style="" itemprop="headline">Services
+                            <h1 style="" itemprop="headline">خدماتنا
                             </h1>
                         </header>
                     </div>
@@ -6687,7 +6707,7 @@
                                                         <div class="fl-module-content fl-node-content">
                                                                     <span class="fl-icon-wrap">
                                                                         <span class="fl-icon">
-                                                                            <a href="/urban/" target="_self">
+                                                                            <a  target="_self">
                                                                                 <img src="/wp-content/uploads/icon-1.png">
                                                                             </a>
                                                                         </span>
@@ -6697,8 +6717,8 @@
                                                     <div class="fl-module fl-module-vamtam-heading fl-node-5973f878102c8" data-node="5973f878102c8">
                                                         <div class="fl-module-content fl-node-content">
                                                             <h2 class="vamtam-heading ">
-                                                                <a href="/urban/" title="Urban" target="_self">
-                                                                    <span class="vamtam-heading-text">Transport</span>
+                                                                <a title="نقل الأثاث" target="_self">
+                                                                    <span class="vamtam-heading-text">نقل </span>
                                                                 </a>
                                                             </h2>
                                                         </div>
@@ -6710,15 +6730,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="fl-module fl-module-vamtam-button fl-node-5973f8781034d" data-node="5973f8781034d">
-                                                        <div class="fl-module-content fl-node-content">
-                                                            <div class="vamtam-button-wrap vamtam-button-width-auto" style="text-align:center">
-                                                                <a href="/urban/" target="_self" class="vamtam-button accent1 hover-accent2 button-border icon-animation-disable" role="button" style="font-size:14px;line-height:16px;padding:16px 32px;">
-                                                                    <span class="vamtam-button-text">More</span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+
                                                 </div>
                                             </div>
                                         </div>
@@ -6735,7 +6747,7 @@
                                                         <div class="fl-module-content fl-node-content">
                                                                     <span class="fl-icon-wrap">
                                                                         <span class="fl-icon">
-                                                                            <a href="/gardens/" target="_self">
+                                                                            <a target="_self">
                                                                                 <img src="/wp-content/uploads/icon-2.png">
                                                                             </a>
                                                                         </span>
@@ -6745,8 +6757,8 @@
                                                     <div class="fl-module fl-module-vamtam-heading fl-node-595acb855f47c" data-node="595acb855f47c" data-progressive-animation="move-from-bottom" data-vamtam-animation-options="{&quot;type&quot;:&quot;immediate&quot;,&quot;origin&quot;:&quot;center center&quot;,&quot;exit&quot;:true,&quot;delay&quot;:0,&quot;mobile&quot;:false,&quot;pin&quot;:false,&quot;pinTrigger&quot;:&quot;&quot;}">
                                                         <div class="fl-module-content fl-node-content">
                                                             <h2 class="vamtam-heading ">
-                                                                <a href="/gardens/" title="Gardens" target="_self">
-                                                                    <span class="vamtam-heading-text">Packaging</span>
+                                                                <a  title="شحن الأثاث" target="_self">
+                                                                    <span class="vamtam-heading-text">شحن</span>
                                                                 </a>
                                                             </h2>
                                                         </div>
@@ -6758,15 +6770,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="fl-module fl-module-vamtam-button fl-node-5973f7d62e9ae" data-node="5973f7d62e9ae" data-progressive-animation="move-from-bottom" data-vamtam-animation-options="{&quot;type&quot;:&quot;immediate&quot;,&quot;origin&quot;:&quot;center center&quot;,&quot;exit&quot;:true,&quot;delay&quot;:0,&quot;mobile&quot;:false,&quot;pin&quot;:false,&quot;pinTrigger&quot;:&quot;&quot;}">
-                                                        <div class="fl-module-content fl-node-content">
-                                                            <div class="vamtam-button-wrap vamtam-button-width-auto" style="text-align:center">
-                                                                <a href="/gardens/" target="_self" class="vamtam-button accent1 hover-accent2 button-border icon-animation-disable" role="button" style="font-size:14px;line-height:16px;padding:16px 32px;">
-                                                                    <span class="vamtam-button-text">More</span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+
                                                 </div>
                                             </div>
                                             <div class="fl-col fl-node-5973f450ed93d fl-col-small" data-node="5973f450ed93d" data-progressive-animation="fade" data-vamtam-animation-options="{&quot;type&quot;:&quot;progressive&quot;,&quot;origin&quot;:&quot;center center&quot;,&quot;exit&quot;:false,&quot;delay&quot;:0,&quot;mobile&quot;:false,&quot;pin&quot;:false,&quot;pinTrigger&quot;:&quot;&quot;}">
@@ -6789,7 +6793,7 @@
                                                         <div class="fl-module-content fl-node-content">
                                                                     <span class="fl-icon-wrap">
                                                                         <span class="fl-icon">
-                                                                            <a href="/maintenance/" target="_self">
+                                                                            <a  target="_self">
                                                                                 <img src="/wp-content/uploads/ac.png" >
                                                                             </a>
                                                                         </span>
@@ -6799,8 +6803,8 @@
                                                     <div class="fl-module fl-module-vamtam-heading fl-node-5973fb44724e7" data-node="5973fb44724e7" data-progressive-animation="move-from-bottom" data-vamtam-animation-options="{&quot;type&quot;:&quot;immediate&quot;,&quot;origin&quot;:&quot;center center&quot;,&quot;exit&quot;:true,&quot;delay&quot;:0,&quot;mobile&quot;:false,&quot;pin&quot;:false,&quot;pinTrigger&quot;:&quot;&quot;}">
                                                         <div class="fl-module-content fl-node-content">
                                                             <h2 class="vamtam-heading ">
-                                                                <a href="/maintenance/" title="Maintenance" target="_self">
-                                                                    <span class="vamtam-heading-text">AC Installation</span>
+                                                                <a  title="Maintenance" target="_self">
+                                                                    <span class="vamtam-heading-text">فك وتركيب المكيفات</span>
                                                                 </a>
                                                             </h2>
                                                         </div>
@@ -6808,19 +6812,11 @@
                                                     <div class="fl-module fl-module-rich-text fl-node-5973fb4472524" data-node="5973fb4472524" data-progressive-animation="move-from-bottom" data-vamtam-animation-options="{&quot;type&quot;:&quot;immediate&quot;,&quot;origin&quot;:&quot;center center&quot;,&quot;exit&quot;:true,&quot;delay&quot;:0,&quot;mobile&quot;:false,&quot;pin&quot;:false,&quot;pinTrigger&quot;:&quot;&quot;}">
                                                         <div class="fl-module-content fl-node-content">
                                                             <div class="fl-rich-text">
-                                                                <p style="text-align: center;">Installing your AC with our perfect technicians and the latest equipment.</p>
+                                                                <p style="text-align: center;">فك أو تركيب المكيفات بسرعة وسهولة</p>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="fl-module fl-module-vamtam-button fl-node-5973fb4472542" data-node="5973fb4472542" data-progressive-animation="move-from-bottom" data-vamtam-animation-options="{&quot;type&quot;:&quot;immediate&quot;,&quot;origin&quot;:&quot;center center&quot;,&quot;exit&quot;:true,&quot;delay&quot;:0,&quot;mobile&quot;:false,&quot;pin&quot;:false,&quot;pinTrigger&quot;:&quot;&quot;}">
-                                                        <div class="fl-module-content fl-node-content">
-                                                            <div class="vamtam-button-wrap vamtam-button-width-auto" style="text-align:center">
-                                                                <a href="/maintenance/" target="_self" class="vamtam-button accent1 hover-accent2 button-border icon-animation-disable" role="button" style="font-size:14px;line-height:16px;padding:16px 32px;">
-                                                                    <span class="vamtam-button-text">More</span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+
                                                 </div>
                                             </div>
                                         </div>
@@ -6837,7 +6833,7 @@
                                                         <div class="fl-module-content fl-node-content">
                                                                     <span class="fl-icon-wrap">
                                                                         <span class="fl-icon">
-                                                                            <a href="/services/events-decoration/" target="_self">
+                                                                            <a  target="_self">
                                                                                 <img src="/wp-content/uploads/ac-1.png">
                                                                             </a>
                                                                         </span>
@@ -6847,8 +6843,8 @@
                                                     <div class="fl-module fl-module-vamtam-heading fl-node-5973f9eb4ecf7" data-node="5973f9eb4ecf7" data-progressive-animation="move-from-bottom" data-vamtam-animation-options="{&quot;type&quot;:&quot;immediate&quot;,&quot;origin&quot;:&quot;center center&quot;,&quot;exit&quot;:true,&quot;delay&quot;:0,&quot;mobile&quot;:false,&quot;pin&quot;:false,&quot;pinTrigger&quot;:&quot;&quot;}">
                                                         <div class="fl-module-content fl-node-content">
                                                             <h2 class="vamtam-heading ">
-                                                                <a href="/services/events-decoration/" title="Events" target="_self">
-                                                                    <span class="vamtam-heading-text">AC Maintenance</span>
+                                                                <a  target="_self">
+                                                                    <span class="vamtam-heading-text">صيانة المكيفات</span>
                                                                 </a>
                                                             </h2>
                                                         </div>
@@ -6856,19 +6852,11 @@
                                                     <div class="fl-module fl-module-rich-text fl-node-5973f9eb4ed58" data-node="5973f9eb4ed58" data-progressive-animation="move-from-bottom" data-vamtam-animation-options="{&quot;type&quot;:&quot;immediate&quot;,&quot;origin&quot;:&quot;center center&quot;,&quot;exit&quot;:true,&quot;delay&quot;:0,&quot;mobile&quot;:false,&quot;pin&quot;:false,&quot;pinTrigger&quot;:&quot;&quot;}">
                                                         <div class="fl-module-content fl-node-content">
                                                             <div class="fl-rich-text">
-                                                                <p style="text-align: center;">Maintaining and fixing all AC problems and .</p>
+                                                                <p style="text-align: center;">إصلاح جميع أعطال المكيفات الأسبليت</p>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="fl-module fl-module-vamtam-button fl-node-5973f9eb4edbb" data-node="5973f9eb4edbb" data-progressive-animation="move-from-bottom" data-vamtam-animation-options="{&quot;type&quot;:&quot;immediate&quot;,&quot;origin&quot;:&quot;center center&quot;,&quot;exit&quot;:true,&quot;delay&quot;:0,&quot;mobile&quot;:false,&quot;pin&quot;:false,&quot;pinTrigger&quot;:&quot;&quot;}">
-                                                        <div class="fl-module-content fl-node-content">
-                                                            <div class="vamtam-button-wrap vamtam-button-width-auto" style="text-align:center">
-                                                                <a href="/services/events-decoration/" target="_self" class="vamtam-button accent1 hover-accent2 button-border icon-animation-disable" role="button" style="font-size:14px;line-height:16px;padding:16px 32px;">
-                                                                    <span class="vamtam-button-text">More</span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+
                                                 </div>
                                             </div>
                                             <div class="fl-col fl-node-5973f9eb4eec8 fl-col-small" data-node="5973f9eb4eec8" data-progressive-animation="fade" data-vamtam-animation-options="{&quot;type&quot;:&quot;progressive&quot;,&quot;origin&quot;:&quot;center center&quot;,&quot;exit&quot;:false,&quot;delay&quot;:0,&quot;mobile&quot;:false,&quot;pin&quot;:false,&quot;pinTrigger&quot;:&quot;&quot;}">
@@ -6890,7 +6878,7 @@
                                                     <div class="fl-module fl-module-vamtam-heading fl-node-59747a884ed41" data-node="59747a884ed41" data-progressive-animation="move-from-bottom" data-vamtam-animation-options="{&quot;type&quot;:&quot;immediate&quot;,&quot;origin&quot;:&quot;center center&quot;,&quot;exit&quot;:true,&quot;delay&quot;:0,&quot;mobile&quot;:false,&quot;pin&quot;:false,&quot;pinTrigger&quot;:&quot;&quot;}">
                                                         <div class="fl-module-content fl-node-content">
                                                             <h4 class="vamtam-heading ">
-                                                                <span class="vamtam-heading-text">We are nice people with a lot of experience.</span>
+                                                                <span class="vamtam-heading-text">فريق خبير في نقل الأثاث</span>
                                                             </h4>
                                                         </div>
                                                     </div>
@@ -6913,14 +6901,14 @@
                                                                 <div class="fl-module fl-module-vamtam-heading fl-node-5973fcadb38ef" data-node="5973fcadb38ef">
                                                                     <div class="fl-module-content fl-node-content">
                                                                         <h4 class="vamtam-heading ">
-                                                                            <span class="vamtam-heading-text">Safe and Fast shipping service.</span>
+                                                                            <span class="vamtam-heading-text">خدمة نقل أثاث تتميز بالسرعة والسهولة</span>
                                                                         </h4>
                                                                     </div>
                                                                 </div>
                                                                 <div class="fl-module fl-module-vamtam-heading fl-node-5973fcadb3967" data-node="5973fcadb3967">
                                                                     <div class="fl-module-content fl-node-content">
                                                                         <h4 class="vamtam-heading ">
-                                                                            <span class="vamtam-heading-text">We made it easy for you.</span>
+                                                                            <span class="vamtam-heading-text">لقد أصبح النقل اسهل مع شركة الرياض</span>
                                                                         </h4>
                                                                     </div>
                                                                 </div>
@@ -7036,7 +7024,6 @@
                                                                     © 2023 <a style="font-size: 12px;" href="https://themeforest.net/item/landscaping-garden-landscaper-wordpress/20942637?s_rank=20">Shipping Company</a>
                                                                     by <a style="font-size: 12px;" href="http://martinhabeeb.rf.gd/" target="_blank" rel="noopener">Martin Habeeb</a>
                                                                     <br/>
-                                                                    Proudly powered by <a style="font-size: 12px;" href="https://wordpress.org/" target="_blank" rel="noopener">WordPress</a>
                                                                 </span>
                                             </p>
                                         </div>
