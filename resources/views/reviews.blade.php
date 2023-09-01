@@ -6452,41 +6452,18 @@
                                 </a>
                             </h5>
                             <div id="comments-list" class="comments vamtam-comments-small vamtam-cubeportfolio cbp" data-columns="3" data-options="{&quot;layoutMode&quot;:&quot;grid&quot;,&quot;sortToPreventGaps&quot;:true,&quot;defaultFilter&quot;:&quot;*&quot;,&quot;animationType&quot;:&quot;quicksand&quot;,&quot;gapHorizontal&quot;:30,&quot;gapVertical&quot;:30,&quot;gridAdjustment&quot;:&quot;responsive&quot;,&quot;mediaQueries&quot;:[{&quot;width&quot;:855,&quot;cols&quot;:3},{&quot;width&quot;:570,&quot;cols&quot;:2},{&quot;width&quot;:285,&quot;cols&quot;:1}],&quot;displayType&quot;:&quot;bottomToTop&quot;,&quot;displayTypeSpeed&quot;:100}">
-                                <div id="comment-61" class="comment even thread-even depth-1 cbp-item ">
-                                    <div class="comment-inner">
-                                        <span class='icon shortcode theme  use-hover' style=''>&#59709;</span>
-                                        <header class="comment-header">
-                                            <h3 class="comment-author-link">Antonio Hurtado de Mendoza</h3>
-                                        </header>
-                                        <p>
-                                            Think not because you are now wed<br/>That all your courtship &#8217;s at an end.
-                                        </p>
-                                        <footer class="comment-footer">
-                                            <div title="3:42 pm" class="comment-time">May 2, 2014</div>
-                                        </footer>
-                                    </div>
-                                </div>
-                                <div id="comment-60" class="comment odd alt thread-odd thread-alt depth-1 cbp-item ">
-                                    <div class="comment-inner">
-                                        <span class='icon shortcode theme  use-hover' style=''>&#59709;</span>
-                                        <header class="comment-header">
-                                            <h3 class="comment-author-link">Thomas Lovell Beddoes</h3>
-                                        </header>
-                                        <p>Tell me how many beads there are In a silver chain Of evening rain, Unravelled from the tumbling main, And threading the eye of a yellow star: &#8211;So many times do I love again.</p>
-                                        <footer class="comment-footer">
-                                            <div title="3:42 pm" class="comment-time">May 2, 2014</div>
-                                        </footer>
-                                    </div>
-                                </div>
+
                                 <div id="comment-59" class="comment even thread-even depth-1 cbp-item ">
                                     <div class="comment-inner">
                                         <span class='icon shortcode theme  use-hover' style=''>&#59709;</span>
                                         <header class="comment-header">
-                                            <h3 class="comment-author-link">Maxwell Anderson</h3>
+                                            <h3 class="comment-author-link">Samer Rady</h3>
                                         </header>
-                                        <p>If two stand shoulder to shoulder against the gods, Happy together, the gods themselves are helpless Against them while they stand so.</p>
+                                        <p>مثال في الحرص علي راضي العاميل وسهوله وسرعه التوصيل التعامل كان اكثر من رائع .. مبهر
+
+                                        </p>
                                         <footer class="comment-footer">
-                                            <div title="3:41 pm" class="comment-time">May 2, 2014</div>
+                                            <div title="3:41 pm" class="comment-time">May 2, 2022</div>
                                         </footer>
                                     </div>
                                 </div>
@@ -6494,11 +6471,15 @@
                                     <div class="comment-inner">
                                         <span class='icon shortcode theme  use-hover' style=''>&#59709;</span>
                                         <header class="comment-header">
-                                            <h3 class="comment-author-link">Jane Seymour</h3>
+                                            <h3 class="comment-author-link"> Khadija Mohammad
+
+                                            </h3>
                                         </header>
-                                        <p>I think a lot of people get so obsessed with the wedding and the expense of the wedding that they miss out on what the real purpose is. It &#8217;s not about a production number, it &#8217;s about a meaningful moment between two people that &#8217;s witnessed by people that they actually really know and care about.</p>
+                                        <p>الخدمه مرره حلووه واكثر شئ اعجبني سرعه الاستجابه والعماله الصراحه اكثر من رائعه والسعر كان مناسب شكرا شركة قمم الرياض
+
+                                        </p>
                                         <footer class="comment-footer">
-                                            <div title="6:08 pm" class="comment-time">April 26, 2014</div>
+                                            <div title="6:08 pm" class="comment-time">April 26, 2022</div>
                                         </footer>
                                     </div>
                                 </div>
@@ -6506,11 +6487,13 @@
                                     <div class="comment-inner">
                                         <span class='icon shortcode theme  use-hover' style=''>&#59709;</span>
                                         <header class="comment-header">
-                                            <h3 class="comment-author-link">John Mayer</h3>
+                                            <h3 class="comment-author-link">Ghadeer Nasher</h3>
                                         </header>
-                                        <p>A man &#8217;s got two shots for jewelry: a wedding ring and a watch. The watch is a lot easier to get on and off than a wedding ring.</p>
+                                        <p>موقع امتاز في الفتره الاخيره كثيرا عن السابق دئما متطور ويوفر خدمات نقل باسعار جيده وبعضها ب خصومات رائعه تجربتي حتي الان جميله وموفقه معهم
+
+                                        </p>
                                         <footer class="comment-footer">
-                                            <div title="6:07 pm" class="comment-time">April 26, 2014</div>
+                                            <div title="6:07 pm" class="comment-time">April 26, 2022</div>
                                         </footer>
                                     </div>
                                 </div>
@@ -6518,11 +6501,11 @@
                                     <div class="comment-inner">
                                         <span class='icon shortcode theme  use-hover' style=''>&#59709;</span>
                                         <header class="comment-header">
-                                            <h3 class="comment-author-link">Jennifer Aniston</h3>
+                                            <h3 class="comment-author-link">ابو عميره</h3>
                                         </header>
-                                        <p>One tradition I have with my friends is that when one of us gets married, we have a ton of fragrance oils and pretty bottles at the bachelorette party. Everyone puts a drop or two in a bottle for the bride and makes a wish, and the bride wears our creation on her wedding day.</p>
+                                        <p>مشاالله فريق نقل العفش سريع ومحترف والسعر جيد جداً</p>
                                         <footer class="comment-footer">
-                                            <div title="6:07 pm" class="comment-time">April 26, 2014</div>
+                                            <div title="6:07 pm" class="comment-time">April 26, 2022</div>
                                         </footer>
                                     </div>
                                 </div>

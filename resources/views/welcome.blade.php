@@ -12,7 +12,7 @@
 
 
 
-        <title>شرطة الرياض </title>
+        <title>شركة الرياض </title>
         <link rel="icon" type="image/x-icon" href="/wp-content/uploads/icon.png">
 
 
@@ -6413,21 +6413,21 @@
                                               data-frame_0="tp:600;" data-frame_1="tp:600;sR:10;"
                                               data-frame_999="o:0;tp:600;st:w;sR:8690;sA:9000;" style="z-index:5;">
                                         <rs-layer id="slider-72-slide-227-layer-4" data-type="image" data-rsp_ch="on"
-                                                  data-xy="x:c;xo:-7px,-2px,-2px,140px;y:b;yo:-15px,17px,17px,40px;"
+                                                  data-xy="x:c;xo:-7px,-2px,20px,150px;y:b;yo:150px,17px,17px,40px;"
                                                   data-pos="a" data-text="l:22;a:inherit;"
                                                   data-dim="w:['99','99','99','99'];h:['100','100','100','100'];"
                                                   data-frame_0="sX:0.8;sY:0.8;tp:600;"
-                                                  data-frame_1="tp:600;e:power4.inOut;st:200;sp:2000;sR:190;"
+                                                  data-frame_1="tp:600;e:power4.inOut;st:400;sp:2000;sR:190;"
                                                   data-frame_999="st:w;sR:6800;auto:true;" style="z-index:8;">
 
                                         </rs-layer>
                                         <rs-layer id="slider-72-slide-227-layer-3" data-type="text" data-rsp_ch="on"
                                                   data-xy="x:r;y:m,m,m,b;" data-pos="a"
-                                                  data-text="s:70,70,60,60;l:86,86,76,76;fw:700;a:inherit;"
+                                                  data-text="s:70,90,90,60;l:86,86,76,76;fw:700;a:inherit;"
                                                   data-frame_0="x:-100%;o:1;tp:600;" data-frame_0_mask="u:t;"
-                                                  data-frame_1="tp:600;st:410;sp:1500;sR:400;" data-frame_1_mask="u:t;"
+                                                  data-frame_1="tp:700;st:510;sp:1500;sR:400;" data-frame_1_mask="u:t;"
                                                   data-frame_999="st:w;sR:7090;auto:true;" data-frame_999_mask="u:t;"
-                                                  style="z-index:7;font-family:'Montserrat';">نقل الأثاث في جميع أنحاءالرياض
+                                                  style="z-index:7;font-family:'Montserrat';">نقل الأثاث في جميع أنحاء الرياض
                                         </rs-layer>
                                         <rs-layer id="slider-72-slide-227-layer-1" data-type="text" data-rsp_ch="on"
                                                   data-xy="y:m,m,m,t;" data-pos="a"
